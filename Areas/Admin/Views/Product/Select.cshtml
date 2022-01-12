@@ -1,0 +1,53 @@
+﻿@model IList<Product>
+@{
+    ViewData["Title"] = "Product Edit";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>This page edits product Item</p>
+
+<a asp-action="Create">Create new Product Item</a>
+
+@{
+    if (Model != null && Model.Count > 0)
+    {
+        <table class="table">
+            <thead>
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Name</th>
+                <th scope="col">Price</th>
+                <th scope="col">Info</th>
+                <th scope="col">Image Source</th>
+                <th scope="col">Edit</th>
+                <th scope="col">Delete</th>
+            </tr>
+            </thead>
+            <tbody>
+            @{
+                for (int i = 0; i < Model.Count; ++i)
+                {
+                    <tr>
+                        <th scope="row">@Model[i].ID</th>
+                        <td>@Model[i].Info</td>
+                        <td>@Model[i].Price</td>
+                        <td>@Model[i].Name</td>
+                        <td>@Model[i].ImageSource</td>
+                        <td><a asp-action="Edit" asp-route-ID="@Model[i].ID">Edit</a></td>
+                        <td><a asp-action="Delete" asp-route-ID="@Model[i].ID" onclick=" return confirmDelete()">Delete</a></td>
+                    </tr>
+                }
+            }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p>Products are empty.</p>
+    }
+}
+
+@section Scripts
+{
+    <script src="~/js/alerts.js"></script>
+}

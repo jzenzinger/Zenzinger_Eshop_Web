@@ -1,0 +1,36 @@
+﻿@using Zenzinger_Eshop_Web.Areas.Admin.Controllers
+@model Product
+@{
+    if (String.IsNullOrWhiteSpace(ViewBag.Action) == false)
+    {
+        <form asp-action="@ViewBag.Action" method="post" enctype="multipart/form-data">
+            @{
+                if (ViewBag.Action == nameof(ProductController.Edit))
+                {
+                    <input type="hidden" asp-for="ID" class="form-control" />
+                }
+            }
+            <div class="form-group">
+                <label asp-for="Image">Image Source</label>
+                <input asp-for="Image" class="form-control-file" placeholder="Enter Image Source">
+            </div>
+            <div class="form-group">
+                <label asp-for="ImageAlt">Image Alt</label>
+                <input asp-for="ImageAlt" type="text" class="form-control" placeholder="Enter Image Alt">
+            </div>
+            <div class="form-group">
+                <label asp-for="Price">Price</label>
+                <input asp-for="Price" type="text" class="form-control" placeholder="Enter Price">
+            </div>
+            <div class="form-group">
+                <label asp-for="Info">Name</label>
+                <input asp-for="Info" type="text" class="form-control" placeholder="Enter Product Name">
+            </div>
+            <div class="form-group">
+                <label asp-for="Name">Info</label>
+                <input asp-for="Name" type="text" class="form-control" placeholder="Enter Product Info">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    }
+}

@@ -1,0 +1,1187 @@
+2022-01-11T20:48:43.5111382+01:00  [INF] Entity Framework Core "5.0.11" initialized '"EshopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.27-mysql " (9958f5bb)
+2022-01-11T20:48:44.0556044+01:00  [INF] Executed DbCommand ("55"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM information_schema.tables
+WHERE table_type = 'BASE TABLE' AND table_schema = 'Zenzinger_Eshop'" (0723d8ff)
+2022-01-11T20:48:44.2659637+01:00  [INF] Executed DbCommand ("21"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM `CarouselItem` AS `c`" (0723d8ff)
+2022-01-11T20:48:44.2826920+01:00  [INF] Executed DbCommand ("10"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM `Product` AS `p`" (0723d8ff)
+2022-01-11T20:48:44.3112608+01:00  [INF] User profile is available. Using '"C:\Users\nxf77256\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2022-01-11T20:48:44.4446947+01:00  [INF] Executed DbCommand ("28"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `a`.`Id`, `a`.`ConcurrencyStamp`, `a`.`Name`, `a`.`NormalizedName`
+FROM `AspNetRoles` AS `a`
+WHERE `a`.`NormalizedName` = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2022-01-11T20:48:44.5125175+01:00  [WRN] Role "(null)" validation failed: "DuplicateRoleName". (60d773c7)
+2022-01-11T20:48:44.5258335+01:00  [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `a`.`Id`, `a`.`ConcurrencyStamp`, `a`.`Name`, `a`.`NormalizedName`
+FROM `AspNetRoles` AS `a`
+WHERE `a`.`NormalizedName` = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2022-01-11T20:48:44.5264013+01:00  [WRN] Role "(null)" validation failed: "DuplicateRoleName". (60d773c7)
+2022-01-11T20:48:44.5289813+01:00  [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `a`.`Id`, `a`.`ConcurrencyStamp`, `a`.`Name`, `a`.`NormalizedName`
+FROM `AspNetRoles` AS `a`
+WHERE `a`.`NormalizedName` = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2022-01-11T20:48:44.5292085+01:00  [WRN] Role "(null)" validation failed: "DuplicateRoleName". (60d773c7)
+2022-01-11T20:48:44.5566737+01:00  [INF] Executed DbCommand ("18"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `a`.`Id`, `a`.`AccessFailedCount`, `a`.`ConcurrencyStamp`, `a`.`Email`, `a`.`EmailConfirmed`, `a`.`FirstName`, `a`.`LastName`, `a`.`LockoutEnabled`, `a`.`LockoutEnd`, `a`.`NormalizedEmail`, `a`.`NormalizedUserName`, `a`.`PasswordHash`, `a`.`PhoneNumber`, `a`.`PhoneNumberConfirmed`, `a`.`SecurityStamp`, `a`.`TwoFactorEnabled`, `a`.`UserName`
+FROM `AspNetUsers` AS `a`
+WHERE `a`.`NormalizedUserName` = @__normalizedUserName_0
+LIMIT 1" (0723d8ff)
+2022-01-11T20:48:44.6115648+01:00  [INF] Executed DbCommand ("0"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `a`.`Id`, `a`.`AccessFailedCount`, `a`.`ConcurrencyStamp`, `a`.`Email`, `a`.`EmailConfirmed`, `a`.`FirstName`, `a`.`LastName`, `a`.`LockoutEnabled`, `a`.`LockoutEnd`, `a`.`NormalizedEmail`, `a`.`NormalizedUserName`, `a`.`PasswordHash`, `a`.`PhoneNumber`, `a`.`PhoneNumberConfirmed`, `a`.`SecurityStamp`, `a`.`TwoFactorEnabled`, `a`.`UserName`
+FROM `AspNetUsers` AS `a`
+WHERE `a`.`NormalizedUserName` = @__normalizedUserName_0
+LIMIT 1" (0723d8ff)
+2022-01-11T20:48:44.8685931+01:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2022-01-11T20:48:44.8686197+01:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2022-01-11T20:48:44.8687948+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-01-11T20:48:44.8688209+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-01-11T20:48:44.8688424+01:00  [INF] Content root path: "C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web" (b5d60022)
+2022-01-11T20:48:45.7336876+01:00 0HMEL7DGCR8F0:00000001 [INF] Request starting HTTP/2 GET https://localhost:5001/ - - (ca22a1cb)
+2022-01-11T20:48:45.8024819+01:00 0HMEL7DGCR8F0:00000001 [INF] Executing endpoint '"Zenzinger_Eshop_Web.Controllers.HomeController.Index (Zenzinger_Eshop_Web)"' (500cc934)
+2022-01-11T20:48:45.8200538+01:00 0HMEL7DGCR8F0:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Zenzinger_Eshop_Web.Controllers.HomeController" ("Zenzinger_Eshop_Web"). (122b2fdf)
+2022-01-11T20:48:45.8237900+01:00 0HMEL7DGCR8F0:00000001 [INF] Loading Home Index (432c29eb)
+2022-01-11T20:48:45.8277857+01:00 0HMEL7DGCR8F0:00000001 [INF] Entity Framework Core "5.0.11" initialized '"EshopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.27-mysql " (9958f5bb)
+2022-01-11T20:48:45.8345913+01:00 0HMEL7DGCR8F0:00000001 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `c`.`id`, `c`.`ImageAlt`, `c`.`ImageSource`
+FROM `CarouselItem` AS `c`" (0723d8ff)
+2022-01-11T20:48:45.8485729+01:00 0HMEL7DGCR8F0:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `p`.`ID`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Info`, `p`.`Name`, `p`.`Price`
+FROM `Product` AS `p`" (0723d8ff)
+2022-01-11T20:48:45.9029622+01:00 0HMEL7DGCR8F0:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2022-01-11T20:48:46.0477860+01:00 0HMEL7DGCR8F0:00000001 [INF] Executed ViewResult - view "Index" executed in 147.8985ms. (f66409e9)
+2022-01-11T20:48:46.0481588+01:00 0HMEL7DGCR8F0:00000001 [INF] Executed action "Zenzinger_Eshop_Web.Controllers.HomeController.Index (Zenzinger_Eshop_Web)" in 227.6866ms (afa2e885)
+2022-01-11T20:48:46.0482094+01:00 0HMEL7DGCR8F0:00000001 [INF] Executed endpoint '"Zenzinger_Eshop_Web.Controllers.HomeController.Index (Zenzinger_Eshop_Web)"' (99874f2b)
+2022-01-11T20:48:46.0557760+01:00 0HMEL7DGCR8F0:00000001 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - text/html;+charset=utf-8 324.0635ms (791a596a)
+2022-01-11T20:48:46.0742128+01:00 0HMEL7DGCR8F0:00000003 [INF] Request starting HTTP/2 GET https://localhost:5001/css/site.css - - (ca22a1cb)
+2022-01-11T20:48:46.0755759+01:00 0HMEL7DGCR8F0:00000005 [INF] Request starting HTTP/2 GET https://localhost:5001/img/Products/p-7.jpeg - - (ca22a1cb)
+2022-01-11T20:48:46.0779203+01:00 0HMEL7DGCR8F0:00000007 [INF] Request starting HTTP/2 GET https://localhost:5001/img/Products/p-8.jfif - - (ca22a1cb)
+2022-01-11T20:48:46.0822974+01:00 0HMEL7DGCR8F0:00000007 [INF] The file "/img/Products/p-8.jfif" was not modified (f1f8d725)
+2022-01-11T20:48:46.0822974+01:00 0HMEL7DGCR8F0:00000003 [INF] The file "/css/site.css" was not modified (f1f8d725)
+2022-01-11T20:48:46.0823549+01:00 0HMEL7DGCR8F0:00000005 [INF] The file "/img/Products/p-7.jpeg" was not modified (f1f8d725)
+2022-01-11T20:48:46.0836055+01:00 0HMEL7DGCR8F0:00000003 [INF] Request finished HTTP/2 GET https://localhost:5001/css/site.css - - - 304 - text/css 9.5484ms (791a596a)
+2022-01-11T20:48:46.0836056+01:00 0HMEL7DGCR8F0:00000007 [INF] Request finished HTTP/2 GET https://localhost:5001/img/Products/p-8.jfif - - - 304 - image/pjpeg 5.6481ms (791a596a)
+2022-01-11T20:48:46.0836056+01:00 0HMEL7DGCR8F0:00000005 [INF] Request finished HTTP/2 GET https://localhost:5001/img/Products/p-7.jpeg - - - 304 - image/jpeg 8.0078ms (791a596a)
+2022-01-11T20:48:48.8859056+01:00 0HMEL7DGCR8F0:00000009 [INF] Request starting HTTP/2 GET https://localhost:5001/Security/Account/Login - - (ca22a1cb)
+2022-01-11T20:48:48.8890023+01:00 0HMEL7DGCR8F0:00000009 [INF] Executing endpoint '"Zenzinger_Eshop_Web.Areas.Security.Controllers.AccountController.Login (Zenzinger_Eshop_Web)"' (500cc934)
+2022-01-11T20:48:48.8905376+01:00 0HMEL7DGCR8F0:00000009 [INF] Route matched with "{area = \"Security\", action = \"Login\", controller = \"Account\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login()" on controller "Zenzinger_Eshop_Web.Areas.Security.Controllers.AccountController" ("Zenzinger_Eshop_Web"). (122b2fdf)
+2022-01-11T20:48:48.8932742+01:00 0HMEL7DGCR8F0:00000009 [INF] Executing ViewResult, running view "Login". (c83d0e25)
+2022-01-11T20:48:48.9375906+01:00 0HMEL7DGCR8F0:00000009 [INF] Executed ViewResult - view "Login" executed in 45.378ms. (f66409e9)
+2022-01-11T20:48:48.9377067+01:00 0HMEL7DGCR8F0:00000009 [INF] Executed action "Zenzinger_Eshop_Web.Areas.Security.Controllers.AccountController.Login (Zenzinger_Eshop_Web)" in 47.1264ms (afa2e885)
+2022-01-11T20:48:48.9377429+01:00 0HMEL7DGCR8F0:00000009 [INF] Executed endpoint '"Zenzinger_Eshop_Web.Areas.Security.Controllers.AccountController.Login (Zenzinger_Eshop_Web)"' (99874f2b)
+2022-01-11T20:48:48.9379590+01:00 0HMEL7DGCR8F0:00000009 [INF] Request finished HTTP/2 GET https://localhost:5001/Security/Account/Login - - - 200 - text/html;+charset=utf-8 52.1056ms (791a596a)
+2022-01-11T20:48:52.1456594+01:00 0HMEL7DGCR8F0:0000000B [INF] Request starting HTTP/2 GET https://localhost:5001/Security/Account/Register - - (ca22a1cb)
+2022-01-11T20:48:52.1531021+01:00 0HMEL7DGCR8F0:0000000B [INF] Executing endpoint '"Zenzinger_Eshop_Web.Areas.Security.Controllers.AccountController.Register (Zenzinger_Eshop_Web)"' (500cc934)
+2022-01-11T20:48:52.1556586+01:00 0HMEL7DGCR8F0:0000000B [INF] Route matched with "{area = \"Security\", action = \"Register\", controller = \"Account\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Register()" on controller "Zenzinger_Eshop_Web.Areas.Security.Controllers.AccountController" ("Zenzinger_Eshop_Web"). (122b2fdf)
+2022-01-11T20:48:52.1598197+01:00 0HMEL7DGCR8F0:0000000B [INF] Executing ViewResult, running view "Register". (c83d0e25)
+2022-01-11T20:48:52.1862360+01:00 0HMEL7DGCR8F0:0000000B [INF] Executed ViewResult - view "Register" executed in 27.4728ms. (f66409e9)
+2022-01-11T20:48:52.1863297+01:00 0HMEL7DGCR8F0:0000000B [INF] Executed action "Zenzinger_Eshop_Web.Areas.Security.Controllers.AccountController.Register (Zenzinger_Eshop_Web)" in 30.6096ms (afa2e885)
+2022-01-11T20:48:52.1863523+01:00 0HMEL7DGCR8F0:0000000B [INF] Executed endpoint '"Zenzinger_Eshop_Web.Areas.Security.Controllers.AccountController.Register (Zenzinger_Eshop_Web)"' (99874f2b)
+2022-01-11T20:48:52.1864434+01:00 0HMEL7DGCR8F0:0000000B [INF] Request finished HTTP/2 GET https://localhost:5001/Security/Account/Register - - - 200 - text/html;+charset=utf-8 40.9383ms (791a596a)
+2022-01-11T20:49:26.5632580+01:00 0HMEL7DGCR8F0:0000000D [INF] Request starting HTTP/2 POST https://localhost:5001/Security/Account/Register application/x-www-form-urlencoded 331 (ca22a1cb)
+2022-01-11T20:49:26.5637046+01:00 0HMEL7DGCR8F0:0000000D [INF] Executing endpoint '"Zenzinger_Eshop_Web.Areas.Security.Controllers.AccountController.Register (Zenzinger_Eshop_Web)"' (500cc934)
+2022-01-11T20:49:26.5793851+01:00 0HMEL7DGCR8F0:0000000D [INF] Route matched with "{area = \"Security\", action = \"Register\", controller = \"Account\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Zenzinger_Eshop_Web.Models.ViewModels.RegisterViewModel)" on controller "Zenzinger_Eshop_Web.Areas.Security.Controllers.AccountController" ("Zenzinger_Eshop_Web"). (122b2fdf)
+2022-01-11T20:49:26.6121059+01:00 0HMEL7DGCR8F0:0000000D [INF] Executing ViewResult, running view "Register". (c83d0e25)
+2022-01-11T20:49:26.6136676+01:00 0HMEL7DGCR8F0:0000000D [INF] Executed ViewResult - view "Register" executed in 1.5962ms. (f66409e9)
+2022-01-11T20:49:26.6137151+01:00 0HMEL7DGCR8F0:0000000D [INF] Executed action "Zenzinger_Eshop_Web.Areas.Security.Controllers.AccountController.Register (Zenzinger_Eshop_Web)" in 34.3007ms (afa2e885)
+2022-01-11T20:49:26.6137305+01:00 0HMEL7DGCR8F0:0000000D [INF] Executed endpoint '"Zenzinger_Eshop_Web.Areas.Security.Controllers.AccountController.Register (Zenzinger_Eshop_Web)"' (99874f2b)
+2022-01-11T20:49:26.6138459+01:00 0HMEL7DGCR8F0:0000000D [INF] Request finished HTTP/2 POST https://localhost:5001/Security/Account/Register application/x-www-form-urlencoded 331 - 200 - text/html;+charset=utf-8 50.6522ms (791a596a)
+2022-01-11T20:49:36.5945620+01:00 0HMEL7DGCR8F0:0000000F [INF] Request starting HTTP/2 POST https://localhost:5001/Security/Account/Register application/x-www-form-urlencoded 329 (ca22a1cb)
+2022-01-11T20:49:36.5948283+01:00 0HMEL7DGCR8F0:0000000F [INF] Executing endpoint '"Zenzinger_Eshop_Web.Areas.Security.Controllers.AccountController.Register (Zenzinger_Eshop_Web)"' (500cc934)
+2022-01-11T20:49:36.5949613+01:00 0HMEL7DGCR8F0:0000000F [INF] Route matched with "{area = \"Security\", action = \"Register\", controller = \"Account\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Zenzinger_Eshop_Web.Models.ViewModels.RegisterViewModel)" on controller "Zenzinger_Eshop_Web.Areas.Security.Controllers.AccountController" ("Zenzinger_Eshop_Web"). (122b2fdf)
+2022-01-11T20:49:36.6476511+01:00 0HMEL7DGCR8F0:0000000F [INF] Entity Framework Core "5.0.11" initialized '"EshopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.27-mysql " (9958f5bb)
+2022-01-11T20:49:36.6503573+01:00 0HMEL7DGCR8F0:0000000F [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `a`.`Id`, `a`.`AccessFailedCount`, `a`.`ConcurrencyStamp`, `a`.`Email`, `a`.`EmailConfirmed`, `a`.`FirstName`, `a`.`LastName`, `a`.`LockoutEnabled`, `a`.`LockoutEnd`, `a`.`NormalizedEmail`, `a`.`NormalizedUserName`, `a`.`PasswordHash`, `a`.`PhoneNumber`, `a`.`PhoneNumberConfirmed`, `a`.`SecurityStamp`, `a`.`TwoFactorEnabled`, `a`.`UserName`
+FROM `AspNetUsers` AS `a`
+WHERE `a`.`NormalizedUserName` = @__normalizedUserName_0
+LIMIT 1" (0723d8ff)
+2022-01-11T20:49:36.6634739+01:00 0HMEL7DGCR8F0:0000000F [INF] Executed DbCommand ("2"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `a`.`Id`, `a`.`AccessFailedCount`, `a`.`ConcurrencyStamp`, `a`.`Email`, `a`.`EmailConfirmed`, `a`.`FirstName`, `a`.`LastName`, `a`.`LockoutEnabled`, `a`.`LockoutEnd`, `a`.`NormalizedEmail`, `a`.`NormalizedUserName`, `a`.`PasswordHash`, `a`.`PhoneNumber`, `a`.`PhoneNumberConfirmed`, `a`.`SecurityStamp`, `a`.`TwoFactorEnabled`, `a`.`UserName`
+FROM `AspNetUsers` AS `a`
+WHERE `a`.`NormalizedEmail` = @__normalizedEmail_0
+LIMIT 2" (0723d8ff)
+2022-01-11T20:49:36.8215222+01:00 0HMEL7DGCR8F0:0000000F [INF] Executed DbCommand ("9"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTimeOffset), @p8='?' (Size = 256), @p9='?' (Size = 256), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 4000), @p14='?' (DbType = Boolean), @p15='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO `AspNetUsers` (`AccessFailedCount`, `ConcurrencyStamp`, `Email`, `EmailConfirmed`, `FirstName`, `LastName`, `LockoutEnabled`, `LockoutEnd`, `NormalizedEmail`, `NormalizedUserName`, `PasswordHash`, `PhoneNumber`, `PhoneNumberConfirmed`, `SecurityStamp`, `TwoFactorEnabled`, `UserName`)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);
+SELECT `Id`
+FROM `AspNetUsers`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();" (0723d8ff)
+2022-01-11T20:49:36.8731182+01:00 0HMEL7DGCR8F0:0000000F [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedRoleName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `a`.`Id`, `a`.`ConcurrencyStamp`, `a`.`Name`, `a`.`NormalizedName`
+FROM `AspNetRoles` AS `a`
+WHERE `a`.`NormalizedName` = @__normalizedRoleName_0
+LIMIT 2" (0723d8ff)
+2022-01-11T20:49:36.8999427+01:00 0HMEL7DGCR8F0:0000000F [INF] Executed DbCommand ("6"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `a`.`UserId`, `a`.`RoleId`
+FROM `AspNetUserRoles` AS `a`
+WHERE (`a`.`UserId` = @__p_0) AND (`a`.`RoleId` = @__p_1)
+LIMIT 1" (0723d8ff)
+2022-01-11T20:49:36.9042747+01:00 0HMEL7DGCR8F0:0000000F [INF] Executed DbCommand ("0"ms) [Parameters=["@__normalizedRoleName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `a`.`Id`, `a`.`ConcurrencyStamp`, `a`.`Name`, `a`.`NormalizedName`
+FROM `AspNetRoles` AS `a`
+WHERE `a`.`NormalizedName` = @__normalizedRoleName_0
+LIMIT 2" (0723d8ff)
+2022-01-11T20:49:36.9203242+01:00 0HMEL7DGCR8F0:0000000F [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `a`.`Id`, `a`.`AccessFailedCount`, `a`.`ConcurrencyStamp`, `a`.`Email`, `a`.`EmailConfirmed`, `a`.`FirstName`, `a`.`LastName`, `a`.`LockoutEnabled`, `a`.`LockoutEnd`, `a`.`NormalizedEmail`, `a`.`NormalizedUserName`, `a`.`PasswordHash`, `a`.`PhoneNumber`, `a`.`PhoneNumberConfirmed`, `a`.`SecurityStamp`, `a`.`TwoFactorEnabled`, `a`.`UserName`
+FROM `AspNetUsers` AS `a`
+WHERE `a`.`NormalizedUserName` = @__normalizedUserName_0
+LIMIT 1" (0723d8ff)
+2022-01-11T20:49:36.9232866+01:00 0HMEL7DGCR8F0:0000000F [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `a`.`Id`, `a`.`AccessFailedCount`, `a`.`ConcurrencyStamp`, `a`.`Email`, `a`.`EmailConfirmed`, `a`.`FirstName`, `a`.`LastName`, `a`.`LockoutEnabled`, `a`.`LockoutEnd`, `a`.`NormalizedEmail`, `a`.`NormalizedUserName`, `a`.`PasswordHash`, `a`.`PhoneNumber`, `a`.`PhoneNumberConfirmed`, `a`.`SecurityStamp`, `a`.`TwoFactorEnabled`, `a`.`UserName`
+FROM `AspNetUsers` AS `a`
+WHERE `a`.`NormalizedEmail` = @__normalizedEmail_0
+LIMIT 2" (0723d8ff)
+2022-01-11T20:49:36.9449978+01:00 0HMEL7DGCR8F0:0000000F [INF] Executed DbCommand ("3"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO `AspNetUserRoles` (`RoleId`, `UserId`)
+VALUES (@p0, @p1);" (0723d8ff)
+2022-01-11T20:49:36.9513258+01:00 0HMEL7DGCR8F0:0000000F [INF] Executed DbCommand ("3"ms) [Parameters=["@p16='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p17='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTimeOffset), @p8='?' (Size = 256), @p9='?' (Size = 256), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 4000), @p14='?' (DbType = Boolean), @p15='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""UPDATE `AspNetUsers` SET `AccessFailedCount` = @p0, `ConcurrencyStamp` = @p1, `Email` = @p2, `EmailConfirmed` = @p3, `FirstName` = @p4, `LastName` = @p5, `LockoutEnabled` = @p6, `LockoutEnd` = @p7, `NormalizedEmail` = @p8, `NormalizedUserName` = @p9, `PasswordHash` = @p10, `PhoneNumber` = @p11, `PhoneNumberConfirmed` = @p12, `SecurityStamp` = @p13, `TwoFactorEnabled` = @p14, `UserName` = @p15
+WHERE `Id` = @p16 AND `ConcurrencyStamp` = @p17;
+SELECT ROW_COUNT();" (0723d8ff)
+2022-01-11T20:49:36.9625552+01:00 0HMEL7DGCR8F0:0000000F [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `a`.`Id`, `a`.`AccessFailedCount`, `a`.`ConcurrencyStamp`, `a`.`Email`, `a`.`EmailConfirmed`, `a`.`FirstName`, `a`.`LastName`, `a`.`LockoutEnabled`, `a`.`LockoutEnd`, `a`.`NormalizedEmail`, `a`.`NormalizedUserName`, `a`.`PasswordHash`, `a`.`PhoneNumber`, `a`.`PhoneNumberConfirmed`, `a`.`SecurityStamp`, `a`.`TwoFactorEnabled`, `a`.`UserName`
+FROM `AspNetUsers` AS `a`
+WHERE `a`.`NormalizedUserName` = @__normalizedUserName_0
+LIMIT 1" (0723d8ff)
+2022-01-11T20:49:37.0381220+01:00 0HMEL7DGCR8F0:0000000F [INF] Executed DbCommand ("5"ms) [Parameters=["@__user_Id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `a`.`Id`, `a`.`ClaimType`, `a`.`ClaimValue`, `a`.`UserId`
+FROM `AspNetUserClaims` AS `a`
+WHERE `a`.`UserId` = @__user_Id_0" (0723d8ff)
+2022-01-11T20:49:37.0652917+01:00 0HMEL7DGCR8F0:0000000F [INF] Executed DbCommand ("1"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `a0`.`Name`
+FROM `AspNetUserRoles` AS `a`
+INNER JOIN `AspNetRoles` AS `a0` ON `a`.`RoleId` = `a0`.`Id`
+WHERE `a`.`UserId` = @__userId_0" (0723d8ff)
+2022-01-11T20:49:37.0686680+01:00 0HMEL7DGCR8F0:0000000F [INF] Executed DbCommand ("0"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `a`.`Id`, `a`.`ConcurrencyStamp`, `a`.`Name`, `a`.`NormalizedName`
+FROM `AspNetRoles` AS `a`
+WHERE `a`.`NormalizedName` = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2022-01-11T20:49:37.0804339+01:00 0HMEL7DGCR8F0:0000000F [INF] Executed DbCommand ("6"ms) [Parameters=["@__role_Id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `a`.`ClaimType`, `a`.`ClaimValue`
+FROM `AspNetRoleClaims` AS `a`
+WHERE `a`.`RoleId` = @__role_Id_0" (0723d8ff)
+2022-01-11T20:49:37.0888374+01:00 0HMEL7DGCR8F0:0000000F [INF] AuthenticationScheme: "Identity.Application" signed in. (c66dd7e7)
+2022-01-11T20:49:37.0987051+01:00 0HMEL7DGCR8F0:0000000F [INF] Executing RedirectResult, redirecting to "/". (d98d540e)
+2022-01-11T20:49:37.1006275+01:00 0HMEL7DGCR8F0:0000000F [INF] Executed action "Zenzinger_Eshop_Web.Areas.Security.Controllers.AccountController.Register (Zenzinger_Eshop_Web)" in 505.6256ms (afa2e885)
+2022-01-11T20:49:37.1013234+01:00 0HMEL7DGCR8F0:0000000F [INF] Executed endpoint '"Zenzinger_Eshop_Web.Areas.Security.Controllers.AccountController.Register (Zenzinger_Eshop_Web)"' (99874f2b)
+2022-01-11T20:49:37.1051130+01:00 0HMEL7DGCR8F0:0000000F [INF] Request finished HTTP/2 POST https://localhost:5001/Security/Account/Register application/x-www-form-urlencoded 329 - 302 0 - 510.5627ms (791a596a)
+2022-01-11T20:49:37.1079248+01:00 0HMEL7DGCR8F0:00000011 [INF] Request starting HTTP/2 GET https://localhost:5001/ - - (ca22a1cb)
+2022-01-11T20:49:37.1110139+01:00 0HMEL7DGCR8F0:00000011 [INF] Executing endpoint '"Zenzinger_Eshop_Web.Controllers.HomeController.Index (Zenzinger_Eshop_Web)"' (500cc934)
+2022-01-11T20:49:37.1110981+01:00 0HMEL7DGCR8F0:00000011 [INF] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Zenzinger_Eshop_Web.Controllers.HomeController" ("Zenzinger_Eshop_Web"). (122b2fdf)
+2022-01-11T20:49:37.1112169+01:00 0HMEL7DGCR8F0:00000011 [INF] Loading Home Index (432c29eb)
+2022-01-11T20:49:37.1114054+01:00 0HMEL7DGCR8F0:00000011 [INF] Entity Framework Core "5.0.11" initialized '"EshopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.27-mysql " (9958f5bb)
+2022-01-11T20:49:37.1127916+01:00 0HMEL7DGCR8F0:00000011 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `c`.`id`, `c`.`ImageAlt`, `c`.`ImageSource`
+FROM `CarouselItem` AS `c`" (0723d8ff)
+2022-01-11T20:49:37.1141068+01:00 0HMEL7DGCR8F0:00000011 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `p`.`ID`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Info`, `p`.`Name`, `p`.`Price`
+FROM `Product` AS `p`" (0723d8ff)
+2022-01-11T20:49:37.1143655+01:00 0HMEL7DGCR8F0:00000011 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2022-01-11T20:49:37.1174101+01:00 0HMEL7DGCR8F0:00000011 [INF] Executed ViewResult - view "Index" executed in 3.0567ms. (f66409e9)
+2022-01-11T20:49:37.1174684+01:00 0HMEL7DGCR8F0:00000011 [INF] Executed action "Zenzinger_Eshop_Web.Controllers.HomeController.Index (Zenzinger_Eshop_Web)" in 6.3252ms (afa2e885)
+2022-01-11T20:49:37.1174921+01:00 0HMEL7DGCR8F0:00000011 [INF] Executed endpoint '"Zenzinger_Eshop_Web.Controllers.HomeController.Index (Zenzinger_Eshop_Web)"' (99874f2b)
+2022-01-11T20:49:37.1176328+01:00 0HMEL7DGCR8F0:00000011 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - text/html;+charset=utf-8 9.7186ms (791a596a)
+2022-01-11T20:49:43.7221382+01:00 0HMEL7DGCR8F0:00000013 [INF] Request starting HTTP/2 GET https://localhost:5001/Product/Detail/2 - - (ca22a1cb)
+2022-01-11T20:49:43.7239136+01:00 0HMEL7DGCR8F0:00000013 [INF] Executing endpoint '"Zenzinger_Eshop_Web.Controllers.ProductController.Detail (Zenzinger_Eshop_Web)"' (500cc934)
+2022-01-11T20:49:43.7266821+01:00 0HMEL7DGCR8F0:00000013 [INF] Route matched with "{action = \"Detail\", controller = \"Product\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Detail(Int32)" on controller "Zenzinger_Eshop_Web.Controllers.ProductController" ("Zenzinger_Eshop_Web"). (122b2fdf)
+2022-01-11T20:49:43.7295263+01:00 0HMEL7DGCR8F0:00000013 [INF] Entity Framework Core "5.0.11" initialized '"EshopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.27-mysql " (9958f5bb)
+2022-01-11T20:49:43.7377170+01:00 0HMEL7DGCR8F0:00000013 [INF] Executed DbCommand ("1"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `p`.`ID`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Info`, `p`.`Name`, `p`.`Price`
+FROM `Product` AS `p`
+WHERE `p`.`ID` = @__id_0
+LIMIT 1" (0723d8ff)
+2022-01-11T20:49:43.7390763+01:00 0HMEL7DGCR8F0:00000013 [INF] Executing ViewResult, running view "Detail". (c83d0e25)
+2022-01-11T20:49:43.7529932+01:00 0HMEL7DGCR8F0:00000013 [INF] Executed ViewResult - view "Detail" executed in 14.9855ms. (f66409e9)
+2022-01-11T20:49:43.7530359+01:00 0HMEL7DGCR8F0:00000013 [INF] Executed action "Zenzinger_Eshop_Web.Controllers.ProductController.Detail (Zenzinger_Eshop_Web)" in 26.3133ms (afa2e885)
+2022-01-11T20:49:43.7530759+01:00 0HMEL7DGCR8F0:00000013 [INF] Executed endpoint '"Zenzinger_Eshop_Web.Controllers.ProductController.Detail (Zenzinger_Eshop_Web)"' (99874f2b)
+2022-01-11T20:49:43.7532261+01:00 0HMEL7DGCR8F0:00000013 [INF] Request finished HTTP/2 GET https://localhost:5001/Product/Detail/2 - - - 200 - text/html;+charset=utf-8 31.1408ms (791a596a)
+2022-01-11T20:49:45.9674961+01:00 0HMEL7DGCR8F0:00000015 [INF] Request starting HTTP/2 POST https://localhost:5001/Customer/CustomerOrderNotCart/AddOrderItemsToSession application/x-www-form-urlencoded;+charset=UTF-8 11 (ca22a1cb)
+2022-01-11T20:49:45.9861700+01:00 0HMEL7DGCR8F0:00000015 [INF] Authorization was successful. (0d575a54)
+2022-01-11T20:49:45.9869898+01:00 0HMEL7DGCR8F0:00000015 [INF] Executing endpoint '"Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrderNotCartController.AddOrderItemsToSession (Zenzinger_Eshop_Web)"' (500cc934)
+2022-01-11T20:49:45.9884536+01:00 0HMEL7DGCR8F0:00000015 [INF] Route matched with "{area = \"Customer\", action = \"AddOrderItemsToSession\", controller = \"CustomerOrderNotCart\"}". Executing controller action with signature "Double AddOrderItemsToSession(System.Nullable`1[System.Int32])" on controller "Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrderNotCartController" ("Zenzinger_Eshop_Web"). (122b2fdf)
+2022-01-11T20:49:45.9926035+01:00 0HMEL7DGCR8F0:00000015 [INF] Entity Framework Core "5.0.11" initialized '"EshopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.27-mysql " (9958f5bb)
+2022-01-11T20:49:45.9971650+01:00 0HMEL7DGCR8F0:00000015 [INF] Executed DbCommand ("1"ms) [Parameters=["@__productId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `p`.`ID`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Info`, `p`.`Name`, `p`.`Price`
+FROM `Product` AS `p`
+WHERE `p`.`ID` = @__productId_0
+LIMIT 1" (0723d8ff)
+2022-01-11T20:49:46.1469787+01:00 0HMEL7DGCR8F0:00000015 [INF] Executing "ObjectResult", writing value of type '"System.Double"'. (605b4265)
+2022-01-11T20:49:46.1625057+01:00 0HMEL7DGCR8F0:00000015 [INF] Executed action "Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrderNotCartController.AddOrderItemsToSession (Zenzinger_Eshop_Web)" in 174.0013ms (afa2e885)
+2022-01-11T20:49:46.1625628+01:00 0HMEL7DGCR8F0:00000015 [INF] Executed endpoint '"Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrderNotCartController.AddOrderItemsToSession (Zenzinger_Eshop_Web)"' (99874f2b)
+2022-01-11T20:49:46.1635042+01:00 0HMEL7DGCR8F0:00000015 [INF] Session started; Key:"6d39dd20-7025-82be-104f-ce4bb44e3c58", Id:"9ce5cc68-c8c8-cf9c-c168-d8f743e1845f" (1d7cf8c0)
+2022-01-11T20:49:46.1639475+01:00 0HMEL7DGCR8F0:00000015 [INF] Request finished HTTP/2 POST https://localhost:5001/Customer/CustomerOrderNotCart/AddOrderItemsToSession application/x-www-form-urlencoded;+charset=UTF-8 11 - 200 - application/json;+charset=utf-8 196.5666ms (791a596a)
+2022-01-11T20:49:51.4870581+01:00 0HMEL7DGCR8F0:00000017 [INF] Request starting HTTP/2 GET https://localhost:5001/ - - (ca22a1cb)
+2022-01-11T20:49:51.4885784+01:00 0HMEL7DGCR8F0:00000017 [INF] Executing endpoint '"Zenzinger_Eshop_Web.Controllers.HomeController.Index (Zenzinger_Eshop_Web)"' (500cc934)
+2022-01-11T20:49:51.4888406+01:00 0HMEL7DGCR8F0:00000017 [INF] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Zenzinger_Eshop_Web.Controllers.HomeController" ("Zenzinger_Eshop_Web"). (122b2fdf)
+2022-01-11T20:49:51.4890792+01:00 0HMEL7DGCR8F0:00000017 [INF] Loading Home Index (432c29eb)
+2022-01-11T20:49:51.4898897+01:00 0HMEL7DGCR8F0:00000017 [INF] Entity Framework Core "5.0.11" initialized '"EshopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.27-mysql " (9958f5bb)
+2022-01-11T20:49:51.4938144+01:00 0HMEL7DGCR8F0:00000017 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `c`.`id`, `c`.`ImageAlt`, `c`.`ImageSource`
+FROM `CarouselItem` AS `c`" (0723d8ff)
+2022-01-11T20:49:51.4963233+01:00 0HMEL7DGCR8F0:00000017 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `p`.`ID`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Info`, `p`.`Name`, `p`.`Price`
+FROM `Product` AS `p`" (0723d8ff)
+2022-01-11T20:49:51.4967172+01:00 0HMEL7DGCR8F0:00000017 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2022-01-11T20:49:51.4987820+01:00 0HMEL7DGCR8F0:00000017 [INF] Executed ViewResult - view "Index" executed in 2.1632ms. (f66409e9)
+2022-01-11T20:49:51.4988390+01:00 0HMEL7DGCR8F0:00000017 [INF] Executed action "Zenzinger_Eshop_Web.Controllers.HomeController.Index (Zenzinger_Eshop_Web)" in 9.9553ms (afa2e885)
+2022-01-11T20:49:51.4988636+01:00 0HMEL7DGCR8F0:00000017 [INF] Executed endpoint '"Zenzinger_Eshop_Web.Controllers.HomeController.Index (Zenzinger_Eshop_Web)"' (99874f2b)
+2022-01-11T20:49:51.4989952+01:00 0HMEL7DGCR8F0:00000017 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - text/html;+charset=utf-8 11.9854ms (791a596a)
+2022-01-11T20:49:53.9385582+01:00 0HMEL7DGCR8F0:00000019 [INF] Request starting HTTP/2 GET https://localhost:5001/Product/Detail/4 - - (ca22a1cb)
+2022-01-11T20:49:53.9400059+01:00 0HMEL7DGCR8F0:00000019 [INF] Executing endpoint '"Zenzinger_Eshop_Web.Controllers.ProductController.Detail (Zenzinger_Eshop_Web)"' (500cc934)
+2022-01-11T20:49:53.9402863+01:00 0HMEL7DGCR8F0:00000019 [INF] Route matched with "{action = \"Detail\", controller = \"Product\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Detail(Int32)" on controller "Zenzinger_Eshop_Web.Controllers.ProductController" ("Zenzinger_Eshop_Web"). (122b2fdf)
+2022-01-11T20:49:53.9412802+01:00 0HMEL7DGCR8F0:00000019 [INF] Entity Framework Core "5.0.11" initialized '"EshopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.27-mysql " (9958f5bb)
+2022-01-11T20:49:53.9445490+01:00 0HMEL7DGCR8F0:00000019 [INF] Executed DbCommand ("1"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `p`.`ID`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Info`, `p`.`Name`, `p`.`Price`
+FROM `Product` AS `p`
+WHERE `p`.`ID` = @__id_0
+LIMIT 1" (0723d8ff)
+2022-01-11T20:49:53.9449515+01:00 0HMEL7DGCR8F0:00000019 [INF] Executing ViewResult, running view "Detail". (c83d0e25)
+2022-01-11T20:49:53.9461499+01:00 0HMEL7DGCR8F0:00000019 [INF] Executed ViewResult - view "Detail" executed in 1.2167ms. (f66409e9)
+2022-01-11T20:49:53.9462630+01:00 0HMEL7DGCR8F0:00000019 [INF] Executed action "Zenzinger_Eshop_Web.Controllers.ProductController.Detail (Zenzinger_Eshop_Web)" in 5.8064ms (afa2e885)
+2022-01-11T20:49:53.9463038+01:00 0HMEL7DGCR8F0:00000019 [INF] Executed endpoint '"Zenzinger_Eshop_Web.Controllers.ProductController.Detail (Zenzinger_Eshop_Web)"' (99874f2b)
+2022-01-11T20:49:53.9465126+01:00 0HMEL7DGCR8F0:00000019 [INF] Request finished HTTP/2 GET https://localhost:5001/Product/Detail/4 - - - 200 - text/html;+charset=utf-8 7.9207ms (791a596a)
+2022-01-11T20:49:55.8035251+01:00 0HMEL7DGCR8F0:0000001B [INF] Request starting HTTP/2 POST https://localhost:5001/Customer/CustomerOrderNotCart/AddOrderItemsToSession application/x-www-form-urlencoded;+charset=UTF-8 11 (ca22a1cb)
+2022-01-11T20:49:55.8103081+01:00 0HMEL7DGCR8F0:0000001B [INF] Authorization was successful. (0d575a54)
+2022-01-11T20:49:55.8104192+01:00 0HMEL7DGCR8F0:0000001B [INF] Executing endpoint '"Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrderNotCartController.AddOrderItemsToSession (Zenzinger_Eshop_Web)"' (500cc934)
+2022-01-11T20:49:55.8105250+01:00 0HMEL7DGCR8F0:0000001B [INF] Route matched with "{area = \"Customer\", action = \"AddOrderItemsToSession\", controller = \"CustomerOrderNotCart\"}". Executing controller action with signature "Double AddOrderItemsToSession(System.Nullable`1[System.Int32])" on controller "Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrderNotCartController" ("Zenzinger_Eshop_Web"). (122b2fdf)
+2022-01-11T20:49:55.8111175+01:00 0HMEL7DGCR8F0:0000001B [INF] Entity Framework Core "5.0.11" initialized '"EshopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.27-mysql " (9958f5bb)
+2022-01-11T20:49:55.8127633+01:00 0HMEL7DGCR8F0:0000001B [INF] Executed DbCommand ("0"ms) [Parameters=["@__productId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `p`.`ID`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Info`, `p`.`Name`, `p`.`Price`
+FROM `Product` AS `p`
+WHERE `p`.`ID` = @__productId_0
+LIMIT 1" (0723d8ff)
+2022-01-11T20:49:55.8555352+01:00 0HMEL7DGCR8F0:0000001B [INF] Executing "ObjectResult", writing value of type '"System.Double"'. (605b4265)
+2022-01-11T20:49:55.8558808+01:00 0HMEL7DGCR8F0:0000001B [INF] Executed action "Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrderNotCartController.AddOrderItemsToSession (Zenzinger_Eshop_Web)" in 45.3281ms (afa2e885)
+2022-01-11T20:49:55.8559276+01:00 0HMEL7DGCR8F0:0000001B [INF] Executed endpoint '"Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrderNotCartController.AddOrderItemsToSession (Zenzinger_Eshop_Web)"' (99874f2b)
+2022-01-11T20:49:55.8565293+01:00 0HMEL7DGCR8F0:0000001B [INF] Request finished HTTP/2 POST https://localhost:5001/Customer/CustomerOrderNotCart/AddOrderItemsToSession application/x-www-form-urlencoded;+charset=UTF-8 11 - 200 - application/json;+charset=utf-8 53.0019ms (791a596a)
+2022-01-11T20:49:57.6195806+01:00 0HMEL7DGCR8F0:0000001D [INF] Request starting HTTP/2 GET https://localhost:5001/ - - (ca22a1cb)
+2022-01-11T20:49:57.6207416+01:00 0HMEL7DGCR8F0:0000001D [INF] Executing endpoint '"Zenzinger_Eshop_Web.Controllers.HomeController.Index (Zenzinger_Eshop_Web)"' (500cc934)
+2022-01-11T20:49:57.6209693+01:00 0HMEL7DGCR8F0:0000001D [INF] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Zenzinger_Eshop_Web.Controllers.HomeController" ("Zenzinger_Eshop_Web"). (122b2fdf)
+2022-01-11T20:49:57.6212280+01:00 0HMEL7DGCR8F0:0000001D [INF] Loading Home Index (432c29eb)
+2022-01-11T20:49:57.6217027+01:00 0HMEL7DGCR8F0:0000001D [INF] Entity Framework Core "5.0.11" initialized '"EshopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.27-mysql " (9958f5bb)
+2022-01-11T20:49:57.6243303+01:00 0HMEL7DGCR8F0:0000001D [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `c`.`id`, `c`.`ImageAlt`, `c`.`ImageSource`
+FROM `CarouselItem` AS `c`" (0723d8ff)
+2022-01-11T20:49:57.6265823+01:00 0HMEL7DGCR8F0:0000001D [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `p`.`ID`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Info`, `p`.`Name`, `p`.`Price`
+FROM `Product` AS `p`" (0723d8ff)
+2022-01-11T20:49:57.6268840+01:00 0HMEL7DGCR8F0:0000001D [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2022-01-11T20:49:57.6278489+01:00 0HMEL7DGCR8F0:0000001D [INF] Executed ViewResult - view "Index" executed in 1.0161ms. (f66409e9)
+2022-01-11T20:49:57.6279081+01:00 0HMEL7DGCR8F0:0000001D [INF] Executed action "Zenzinger_Eshop_Web.Controllers.HomeController.Index (Zenzinger_Eshop_Web)" in 6.8991ms (afa2e885)
+2022-01-11T20:49:57.6279280+01:00 0HMEL7DGCR8F0:0000001D [INF] Executed endpoint '"Zenzinger_Eshop_Web.Controllers.HomeController.Index (Zenzinger_Eshop_Web)"' (99874f2b)
+2022-01-11T20:49:57.6281028+01:00 0HMEL7DGCR8F0:0000001D [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - text/html;+charset=utf-8 8.5327ms (791a596a)
+2022-01-11T20:50:00.8726034+01:00 0HMEL7DGCR8F0:0000001F [INF] Request starting HTTP/2 GET https://localhost:5001/Product/Detail/6 - - (ca22a1cb)
+2022-01-11T20:50:00.8736199+01:00 0HMEL7DGCR8F0:0000001F [INF] Executing endpoint '"Zenzinger_Eshop_Web.Controllers.ProductController.Detail (Zenzinger_Eshop_Web)"' (500cc934)
+2022-01-11T20:50:00.8737881+01:00 0HMEL7DGCR8F0:0000001F [INF] Route matched with "{action = \"Detail\", controller = \"Product\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Detail(Int32)" on controller "Zenzinger_Eshop_Web.Controllers.ProductController" ("Zenzinger_Eshop_Web"). (122b2fdf)
+2022-01-11T20:50:00.8747327+01:00 0HMEL7DGCR8F0:0000001F [INF] Entity Framework Core "5.0.11" initialized '"EshopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.27-mysql " (9958f5bb)
+2022-01-11T20:50:00.8775381+01:00 0HMEL7DGCR8F0:0000001F [INF] Executed DbCommand ("1"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `p`.`ID`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Info`, `p`.`Name`, `p`.`Price`
+FROM `Product` AS `p`
+WHERE `p`.`ID` = @__id_0
+LIMIT 1" (0723d8ff)
+2022-01-11T20:50:00.8778704+01:00 0HMEL7DGCR8F0:0000001F [INF] Executing ViewResult, running view "Detail". (c83d0e25)
+2022-01-11T20:50:00.8796968+01:00 0HMEL7DGCR8F0:0000001F [INF] Executed ViewResult - view "Detail" executed in 1.8421ms. (f66409e9)
+2022-01-11T20:50:00.8798040+01:00 0HMEL7DGCR8F0:0000001F [INF] Executed action "Zenzinger_Eshop_Web.Controllers.ProductController.Detail (Zenzinger_Eshop_Web)" in 5.983ms (afa2e885)
+2022-01-11T20:50:00.8798333+01:00 0HMEL7DGCR8F0:0000001F [INF] Executed endpoint '"Zenzinger_Eshop_Web.Controllers.ProductController.Detail (Zenzinger_Eshop_Web)"' (99874f2b)
+2022-01-11T20:50:00.8800062+01:00 0HMEL7DGCR8F0:0000001F [INF] Request finished HTTP/2 GET https://localhost:5001/Product/Detail/6 - - - 200 - text/html;+charset=utf-8 7.3966ms (791a596a)
+2022-01-11T20:50:02.9004277+01:00 0HMEL7DGCR8F0:00000021 [INF] Request starting HTTP/2 POST https://localhost:5001/Customer/CustomerOrderNotCart/AddOrderItemsToSession application/x-www-form-urlencoded;+charset=UTF-8 11 (ca22a1cb)
+2022-01-11T20:50:02.9029781+01:00 0HMEL7DGCR8F0:00000021 [INF] Authorization was successful. (0d575a54)
+2022-01-11T20:50:02.9034544+01:00 0HMEL7DGCR8F0:00000021 [INF] Executing endpoint '"Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrderNotCartController.AddOrderItemsToSession (Zenzinger_Eshop_Web)"' (500cc934)
+2022-01-11T20:50:02.9036289+01:00 0HMEL7DGCR8F0:00000021 [INF] Route matched with "{area = \"Customer\", action = \"AddOrderItemsToSession\", controller = \"CustomerOrderNotCart\"}". Executing controller action with signature "Double AddOrderItemsToSession(System.Nullable`1[System.Int32])" on controller "Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrderNotCartController" ("Zenzinger_Eshop_Web"). (122b2fdf)
+2022-01-11T20:50:02.9049316+01:00 0HMEL7DGCR8F0:00000021 [INF] Entity Framework Core "5.0.11" initialized '"EshopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.27-mysql " (9958f5bb)
+2022-01-11T20:50:02.9082595+01:00 0HMEL7DGCR8F0:00000021 [INF] Executed DbCommand ("1"ms) [Parameters=["@__productId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `p`.`ID`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Info`, `p`.`Name`, `p`.`Price`
+FROM `Product` AS `p`
+WHERE `p`.`ID` = @__productId_0
+LIMIT 1" (0723d8ff)
+2022-01-11T20:50:02.9095190+01:00 0HMEL7DGCR8F0:00000021 [INF] Executing "ObjectResult", writing value of type '"System.Double"'. (605b4265)
+2022-01-11T20:50:02.9099325+01:00 0HMEL7DGCR8F0:00000021 [INF] Executed action "Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrderNotCartController.AddOrderItemsToSession (Zenzinger_Eshop_Web)" in 6.2439ms (afa2e885)
+2022-01-11T20:50:02.9100365+01:00 0HMEL7DGCR8F0:00000021 [INF] Executed endpoint '"Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrderNotCartController.AddOrderItemsToSession (Zenzinger_Eshop_Web)"' (99874f2b)
+2022-01-11T20:50:02.9104067+01:00 0HMEL7DGCR8F0:00000021 [INF] Request finished HTTP/2 POST https://localhost:5001/Customer/CustomerOrderNotCart/AddOrderItemsToSession application/x-www-form-urlencoded;+charset=UTF-8 11 - 200 - application/json;+charset=utf-8 10.0520ms (791a596a)
+2022-01-11T20:50:06.7797381+01:00 0HMEL7DGCR8F0:00000023 [INF] Request starting HTTP/2 GET https://localhost:5001/ - - (ca22a1cb)
+2022-01-11T20:50:06.7807694+01:00 0HMEL7DGCR8F0:00000023 [INF] Executing endpoint '"Zenzinger_Eshop_Web.Controllers.HomeController.Index (Zenzinger_Eshop_Web)"' (500cc934)
+2022-01-11T20:50:06.7811382+01:00 0HMEL7DGCR8F0:00000023 [INF] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Zenzinger_Eshop_Web.Controllers.HomeController" ("Zenzinger_Eshop_Web"). (122b2fdf)
+2022-01-11T20:50:06.7812960+01:00 0HMEL7DGCR8F0:00000023 [INF] Loading Home Index (432c29eb)
+2022-01-11T20:50:06.7817246+01:00 0HMEL7DGCR8F0:00000023 [INF] Entity Framework Core "5.0.11" initialized '"EshopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.27-mysql " (9958f5bb)
+2022-01-11T20:50:06.7846116+01:00 0HMEL7DGCR8F0:00000023 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `c`.`id`, `c`.`ImageAlt`, `c`.`ImageSource`
+FROM `CarouselItem` AS `c`" (0723d8ff)
+2022-01-11T20:50:06.7879145+01:00 0HMEL7DGCR8F0:00000023 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `p`.`ID`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Info`, `p`.`Name`, `p`.`Price`
+FROM `Product` AS `p`" (0723d8ff)
+2022-01-11T20:50:06.7882699+01:00 0HMEL7DGCR8F0:00000023 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2022-01-11T20:50:06.7896473+01:00 0HMEL7DGCR8F0:00000023 [INF] Executed ViewResult - view "Index" executed in 1.3946ms. (f66409e9)
+2022-01-11T20:50:06.7897239+01:00 0HMEL7DGCR8F0:00000023 [INF] Executed action "Zenzinger_Eshop_Web.Controllers.HomeController.Index (Zenzinger_Eshop_Web)" in 8.5357ms (afa2e885)
+2022-01-11T20:50:06.7898583+01:00 0HMEL7DGCR8F0:00000023 [INF] Executed endpoint '"Zenzinger_Eshop_Web.Controllers.HomeController.Index (Zenzinger_Eshop_Web)"' (99874f2b)
+2022-01-11T20:50:06.7900560+01:00 0HMEL7DGCR8F0:00000023 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - text/html;+charset=utf-8 10.3167ms (791a596a)
+2022-01-11T20:50:09.5120828+01:00 0HMEL7DGCR8F0:00000025 [INF] Request starting HTTP/2 GET https://localhost:5001/Product/Detail/7 - - (ca22a1cb)
+2022-01-11T20:50:09.5130797+01:00 0HMEL7DGCR8F0:00000025 [INF] Executing endpoint '"Zenzinger_Eshop_Web.Controllers.ProductController.Detail (Zenzinger_Eshop_Web)"' (500cc934)
+2022-01-11T20:50:09.5132461+01:00 0HMEL7DGCR8F0:00000025 [INF] Route matched with "{action = \"Detail\", controller = \"Product\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Detail(Int32)" on controller "Zenzinger_Eshop_Web.Controllers.ProductController" ("Zenzinger_Eshop_Web"). (122b2fdf)
+2022-01-11T20:50:09.5138810+01:00 0HMEL7DGCR8F0:00000025 [INF] Entity Framework Core "5.0.11" initialized '"EshopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.27-mysql " (9958f5bb)
+2022-01-11T20:50:09.5172034+01:00 0HMEL7DGCR8F0:00000025 [INF] Executed DbCommand ("1"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `p`.`ID`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Info`, `p`.`Name`, `p`.`Price`
+FROM `Product` AS `p`
+WHERE `p`.`ID` = @__id_0
+LIMIT 1" (0723d8ff)
+2022-01-11T20:50:09.5174840+01:00 0HMEL7DGCR8F0:00000025 [INF] Executing ViewResult, running view "Detail". (c83d0e25)
+2022-01-11T20:50:09.5185025+01:00 0HMEL7DGCR8F0:00000025 [INF] Executed ViewResult - view "Detail" executed in 1.0411ms. (f66409e9)
+2022-01-11T20:50:09.5186163+01:00 0HMEL7DGCR8F0:00000025 [INF] Executed action "Zenzinger_Eshop_Web.Controllers.ProductController.Detail (Zenzinger_Eshop_Web)" in 5.3298ms (afa2e885)
+2022-01-11T20:50:09.5186717+01:00 0HMEL7DGCR8F0:00000025 [INF] Executed endpoint '"Zenzinger_Eshop_Web.Controllers.ProductController.Detail (Zenzinger_Eshop_Web)"' (99874f2b)
+2022-01-11T20:50:09.5188705+01:00 0HMEL7DGCR8F0:00000025 [INF] Request finished HTTP/2 GET https://localhost:5001/Product/Detail/7 - - - 200 - text/html;+charset=utf-8 6.7950ms (791a596a)
+2022-01-11T20:50:11.4033338+01:00 0HMEL7DGCR8F0:00000027 [INF] Request starting HTTP/2 POST https://localhost:5001/Customer/CustomerOrderNotCart/AddOrderItemsToSession application/x-www-form-urlencoded;+charset=UTF-8 11 (ca22a1cb)
+2022-01-11T20:50:11.4055068+01:00 0HMEL7DGCR8F0:00000027 [INF] Authorization was successful. (0d575a54)
+2022-01-11T20:50:11.4056855+01:00 0HMEL7DGCR8F0:00000027 [INF] Executing endpoint '"Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrderNotCartController.AddOrderItemsToSession (Zenzinger_Eshop_Web)"' (500cc934)
+2022-01-11T20:50:11.4060407+01:00 0HMEL7DGCR8F0:00000027 [INF] Route matched with "{area = \"Customer\", action = \"AddOrderItemsToSession\", controller = \"CustomerOrderNotCart\"}". Executing controller action with signature "Double AddOrderItemsToSession(System.Nullable`1[System.Int32])" on controller "Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrderNotCartController" ("Zenzinger_Eshop_Web"). (122b2fdf)
+2022-01-11T20:50:11.4079306+01:00 0HMEL7DGCR8F0:00000027 [INF] Entity Framework Core "5.0.11" initialized '"EshopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.27-mysql " (9958f5bb)
+2022-01-11T20:50:11.4126080+01:00 0HMEL7DGCR8F0:00000027 [INF] Executed DbCommand ("2"ms) [Parameters=["@__productId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `p`.`ID`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Info`, `p`.`Name`, `p`.`Price`
+FROM `Product` AS `p`
+WHERE `p`.`ID` = @__productId_0
+LIMIT 1" (0723d8ff)
+2022-01-11T20:50:11.4133425+01:00 0HMEL7DGCR8F0:00000027 [INF] Executing "ObjectResult", writing value of type '"System.Double"'. (605b4265)
+2022-01-11T20:50:11.4135746+01:00 0HMEL7DGCR8F0:00000027 [INF] Executed action "Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrderNotCartController.AddOrderItemsToSession (Zenzinger_Eshop_Web)" in 7.4551ms (afa2e885)
+2022-01-11T20:50:11.4136141+01:00 0HMEL7DGCR8F0:00000027 [INF] Executed endpoint '"Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrderNotCartController.AddOrderItemsToSession (Zenzinger_Eshop_Web)"' (99874f2b)
+2022-01-11T20:50:11.4139184+01:00 0HMEL7DGCR8F0:00000027 [INF] Request finished HTTP/2 POST https://localhost:5001/Customer/CustomerOrderNotCart/AddOrderItemsToSession application/x-www-form-urlencoded;+charset=UTF-8 11 - 200 - application/json;+charset=utf-8 10.6734ms (791a596a)
+2022-01-11T20:50:15.1505434+01:00 0HMEL7DGCR8F0:00000029 [INF] Request starting HTTP/2 GET https://localhost:5001/Customer/CustomerOrders - - (ca22a1cb)
+2022-01-11T20:50:15.1511679+01:00 0HMEL7DGCR8F0:00000029 [INF] Authorization was successful. (0d575a54)
+2022-01-11T20:50:15.1512173+01:00 0HMEL7DGCR8F0:00000029 [INF] Executing endpoint '"Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrdersController.Index (Zenzinger_Eshop_Web)"' (500cc934)
+2022-01-11T20:50:15.1553289+01:00 0HMEL7DGCR8F0:00000029 [INF] Route matched with "{area = \"Customer\", action = \"Index\", controller = \"CustomerOrders\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrdersController" ("Zenzinger_Eshop_Web"). (122b2fdf)
+2022-01-11T20:50:15.1602521+01:00 0HMEL7DGCR8F0:00000029 [INF] Entity Framework Core "5.0.11" initialized '"EshopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.27-mysql " (9958f5bb)
+2022-01-11T20:50:15.1680163+01:00 0HMEL7DGCR8F0:00000029 [INF] Executed DbCommand ("1"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `a`.`Id`, `a`.`AccessFailedCount`, `a`.`ConcurrencyStamp`, `a`.`Email`, `a`.`EmailConfirmed`, `a`.`FirstName`, `a`.`LastName`, `a`.`LockoutEnabled`, `a`.`LockoutEnd`, `a`.`NormalizedEmail`, `a`.`NormalizedUserName`, `a`.`PasswordHash`, `a`.`PhoneNumber`, `a`.`PhoneNumberConfirmed`, `a`.`SecurityStamp`, `a`.`TwoFactorEnabled`, `a`.`UserName`
+FROM `AspNetUsers` AS `a`
+WHERE `a`.`Id` = @__p_0
+LIMIT 1" (0723d8ff)
+2022-01-11T20:50:15.2633694+01:00 0HMEL7DGCR8F0:00000029 [INF] Executed DbCommand ("16"ms) [Parameters=["@__currentUser_Id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `o`.`Id`, `o`.`DateTimeCreated`, `o`.`OrderNumber`, `o`.`TotalPrice`, `o`.`UserId`, `a`.`Id`, `a`.`AccessFailedCount`, `a`.`ConcurrencyStamp`, `a`.`Email`, `a`.`EmailConfirmed`, `a`.`FirstName`, `a`.`LastName`, `a`.`LockoutEnabled`, `a`.`LockoutEnd`, `a`.`NormalizedEmail`, `a`.`NormalizedUserName`, `a`.`PasswordHash`, `a`.`PhoneNumber`, `a`.`PhoneNumberConfirmed`, `a`.`SecurityStamp`, `a`.`TwoFactorEnabled`, `a`.`UserName`, `t`.`Id`, `t`.`Amount`, `t`.`OrderId`, `t`.`Price`, `t`.`ProductId`, `t`.`ID0`, `t`.`ImageAlt`, `t`.`ImageSource`, `t`.`Info`, `t`.`Name`, `t`.`Price0`
+FROM `Order` AS `o`
+INNER JOIN `AspNetUsers` AS `a` ON `o`.`UserId` = `a`.`Id`
+LEFT JOIN (
+    SELECT `o0`.`Id`, `o0`.`Amount`, `o0`.`OrderId`, `o0`.`Price`, `o0`.`ProductId`, `p`.`ID` AS `ID0`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Info`, `p`.`Name`, `p`.`Price` AS `Price0`
+    FROM `OrderItem` AS `o0`
+    INNER JOIN `Product` AS `p` ON `o0`.`ProductId` = `p`.`ID`
+) AS `t` ON `o`.`Id` = `t`.`OrderId`
+WHERE `o`.`UserId` = @__currentUser_Id_0
+ORDER BY `o`.`Id`, `a`.`Id`, `t`.`Id`, `t`.`ID0`" (0723d8ff)
+2022-01-11T20:50:15.2649130+01:00 0HMEL7DGCR8F0:00000029 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2022-01-11T20:50:15.2712395+01:00 0HMEL7DGCR8F0:00000029 [INF] Executed ViewResult - view "Index" executed in 7.2786ms. (f66409e9)
+2022-01-11T20:50:15.2713233+01:00 0HMEL7DGCR8F0:00000029 [INF] Executed action "Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrdersController.Index (Zenzinger_Eshop_Web)" in 115.9558ms (afa2e885)
+2022-01-11T20:50:15.2713500+01:00 0HMEL7DGCR8F0:00000029 [INF] Executed endpoint '"Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrdersController.Index (Zenzinger_Eshop_Web)"' (99874f2b)
+2022-01-11T20:50:15.3121551+01:00 0HMEL7DGCR8F0:00000029 [INF] Request finished HTTP/2 GET https://localhost:5001/Customer/CustomerOrders - - - 200 - text/html;+charset=utf-8 121.9585ms (791a596a)
+2022-01-11T20:50:18.1732656+01:00 0HMEL7DGCR8F0:0000002B [INF] Request starting HTTP/2 GET https://localhost:5001/Customer/CustomerOrderNotCart/ApproveOrderInSession - - (ca22a1cb)
+2022-01-11T20:50:18.1741084+01:00 0HMEL7DGCR8F0:0000002B [INF] Authorization was successful. (0d575a54)
+2022-01-11T20:50:18.1741576+01:00 0HMEL7DGCR8F0:0000002B [INF] Executing endpoint '"Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrderNotCartController.ApproveOrderInSession (Zenzinger_Eshop_Web)"' (500cc934)
+2022-01-11T20:50:18.1779228+01:00 0HMEL7DGCR8F0:0000002B [INF] Route matched with "{area = \"Customer\", action = \"ApproveOrderInSession\", controller = \"CustomerOrderNotCart\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ApproveOrderInSession()" on controller "Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrderNotCartController" ("Zenzinger_Eshop_Web"). (122b2fdf)
+2022-01-11T20:50:18.1806777+01:00 0HMEL7DGCR8F0:0000002B [INF] Entity Framework Core "5.0.11" initialized '"EshopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.27-mysql " (9958f5bb)
+2022-01-11T20:50:18.1837698+01:00 0HMEL7DGCR8F0:0000002B [INF] Executed DbCommand ("1"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `a`.`Id`, `a`.`AccessFailedCount`, `a`.`ConcurrencyStamp`, `a`.`Email`, `a`.`EmailConfirmed`, `a`.`FirstName`, `a`.`LastName`, `a`.`LockoutEnabled`, `a`.`LockoutEnd`, `a`.`NormalizedEmail`, `a`.`NormalizedUserName`, `a`.`PasswordHash`, `a`.`PhoneNumber`, `a`.`PhoneNumberConfirmed`, `a`.`SecurityStamp`, `a`.`TwoFactorEnabled`, `a`.`UserName`
+FROM `AspNetUsers` AS `a`
+WHERE `a`.`Id` = @__p_0
+LIMIT 1" (0723d8ff)
+2022-01-11T20:50:18.2586296+01:00 0HMEL7DGCR8F0:0000002B [INF] Executed DbCommand ("12"ms) [Parameters=["@p0='?' (Size = 25), @p1='?' (DbType = Double), @p2='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO `Order` (`OrderNumber`, `TotalPrice`, `UserId`)
+VALUES (@p0, @p1, @p2);
+SELECT `Id`, `DateTimeCreated`
+FROM `Order`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();" (0723d8ff)
+2022-01-11T20:50:18.2770888+01:00 0HMEL7DGCR8F0:0000002B [INF] Executed DbCommand ("7"ms) [Parameters=["@p3='?' (DbType = Int32), @p4='?' (DbType = Int32), @p5='?' (DbType = Double), @p6='?' (DbType = Int32), @p7='?' (DbType = Int32), @p8='?' (DbType = Int32), @p9='?' (DbType = Double), @p10='?' (DbType = Int32), @p11='?' (DbType = Int32), @p12='?' (DbType = Int32), @p13='?' (DbType = Double), @p14='?' (DbType = Int32), @p15='?' (DbType = Int32), @p16='?' (DbType = Int32), @p17='?' (DbType = Double), @p18='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO `OrderItem` (`Amount`, `OrderId`, `Price`, `ProductId`)
+VALUES (@p3, @p4, @p5, @p6);
+SELECT `Id`
+FROM `OrderItem`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();
+
+INSERT INTO `OrderItem` (`Amount`, `OrderId`, `Price`, `ProductId`)
+VALUES (@p7, @p8, @p9, @p10);
+SELECT `Id`
+FROM `OrderItem`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();
+
+INSERT INTO `OrderItem` (`Amount`, `OrderId`, `Price`, `ProductId`)
+VALUES (@p11, @p12, @p13, @p14);
+SELECT `Id`
+FROM `OrderItem`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();
+
+INSERT INTO `OrderItem` (`Amount`, `OrderId`, `Price`, `ProductId`)
+VALUES (@p15, @p16, @p17, @p18);
+SELECT `Id`
+FROM `OrderItem`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();" (0723d8ff)
+2022-01-11T20:50:18.2864426+01:00 0HMEL7DGCR8F0:0000002B [INF] Executing RedirectResult, redirecting to "/Customer/CustomerOrders". (d98d540e)
+2022-01-11T20:50:18.2865179+01:00 0HMEL7DGCR8F0:0000002B [INF] Executed action "Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrderNotCartController.ApproveOrderInSession (Zenzinger_Eshop_Web)" in 108.5589ms (afa2e885)
+2022-01-11T20:50:18.2865402+01:00 0HMEL7DGCR8F0:0000002B [INF] Executed endpoint '"Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrderNotCartController.ApproveOrderInSession (Zenzinger_Eshop_Web)"' (99874f2b)
+2022-01-11T20:50:18.2867362+01:00 0HMEL7DGCR8F0:0000002B [INF] Request finished HTTP/2 GET https://localhost:5001/Customer/CustomerOrderNotCart/ApproveOrderInSession - - - 302 0 - 113.4480ms (791a596a)
+2022-01-11T20:50:18.2891578+01:00 0HMEL7DGCR8F0:0000002D [INF] Request starting HTTP/2 GET https://localhost:5001/Customer/CustomerOrders - - (ca22a1cb)
+2022-01-11T20:50:18.2897700+01:00 0HMEL7DGCR8F0:0000002D [INF] Authorization was successful. (0d575a54)
+2022-01-11T20:50:18.2898190+01:00 0HMEL7DGCR8F0:0000002D [INF] Executing endpoint '"Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrdersController.Index (Zenzinger_Eshop_Web)"' (500cc934)
+2022-01-11T20:50:18.2899038+01:00 0HMEL7DGCR8F0:0000002D [INF] Route matched with "{area = \"Customer\", action = \"Index\", controller = \"CustomerOrders\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrdersController" ("Zenzinger_Eshop_Web"). (122b2fdf)
+2022-01-11T20:50:18.2902025+01:00 0HMEL7DGCR8F0:0000002D [INF] Entity Framework Core "5.0.11" initialized '"EshopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.27-mysql " (9958f5bb)
+2022-01-11T20:50:18.2923696+01:00 0HMEL7DGCR8F0:0000002D [INF] Executed DbCommand ("0"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `a`.`Id`, `a`.`AccessFailedCount`, `a`.`ConcurrencyStamp`, `a`.`Email`, `a`.`EmailConfirmed`, `a`.`FirstName`, `a`.`LastName`, `a`.`LockoutEnabled`, `a`.`LockoutEnd`, `a`.`NormalizedEmail`, `a`.`NormalizedUserName`, `a`.`PasswordHash`, `a`.`PhoneNumber`, `a`.`PhoneNumberConfirmed`, `a`.`SecurityStamp`, `a`.`TwoFactorEnabled`, `a`.`UserName`
+FROM `AspNetUsers` AS `a`
+WHERE `a`.`Id` = @__p_0
+LIMIT 1" (0723d8ff)
+2022-01-11T20:50:18.2940165+01:00 0HMEL7DGCR8F0:0000002D [INF] Executed DbCommand ("1"ms) [Parameters=["@__currentUser_Id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `o`.`Id`, `o`.`DateTimeCreated`, `o`.`OrderNumber`, `o`.`TotalPrice`, `o`.`UserId`, `a`.`Id`, `a`.`AccessFailedCount`, `a`.`ConcurrencyStamp`, `a`.`Email`, `a`.`EmailConfirmed`, `a`.`FirstName`, `a`.`LastName`, `a`.`LockoutEnabled`, `a`.`LockoutEnd`, `a`.`NormalizedEmail`, `a`.`NormalizedUserName`, `a`.`PasswordHash`, `a`.`PhoneNumber`, `a`.`PhoneNumberConfirmed`, `a`.`SecurityStamp`, `a`.`TwoFactorEnabled`, `a`.`UserName`, `t`.`Id`, `t`.`Amount`, `t`.`OrderId`, `t`.`Price`, `t`.`ProductId`, `t`.`ID0`, `t`.`ImageAlt`, `t`.`ImageSource`, `t`.`Info`, `t`.`Name`, `t`.`Price0`
+FROM `Order` AS `o`
+INNER JOIN `AspNetUsers` AS `a` ON `o`.`UserId` = `a`.`Id`
+LEFT JOIN (
+    SELECT `o0`.`Id`, `o0`.`Amount`, `o0`.`OrderId`, `o0`.`Price`, `o0`.`ProductId`, `p`.`ID` AS `ID0`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Info`, `p`.`Name`, `p`.`Price` AS `Price0`
+    FROM `OrderItem` AS `o0`
+    INNER JOIN `Product` AS `p` ON `o0`.`ProductId` = `p`.`ID`
+) AS `t` ON `o`.`Id` = `t`.`OrderId`
+WHERE `o`.`UserId` = @__currentUser_Id_0
+ORDER BY `o`.`Id`, `a`.`Id`, `t`.`Id`, `t`.`ID0`" (0723d8ff)
+2022-01-11T20:50:18.3004912+01:00 0HMEL7DGCR8F0:0000002D [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2022-01-11T20:50:18.3037422+01:00 0HMEL7DGCR8F0:0000002D [INF] Executed ViewResult - view "Index" executed in 3.2673ms. (f66409e9)
+2022-01-11T20:50:18.3037799+01:00 0HMEL7DGCR8F0:0000002D [INF] Executed action "Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrdersController.Index (Zenzinger_Eshop_Web)" in 13.8625ms (afa2e885)
+2022-01-11T20:50:18.3037948+01:00 0HMEL7DGCR8F0:0000002D [INF] Executed endpoint '"Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrdersController.Index (Zenzinger_Eshop_Web)"' (99874f2b)
+2022-01-11T20:50:18.3038664+01:00 0HMEL7DGCR8F0:0000002D [INF] Request finished HTTP/2 GET https://localhost:5001/Customer/CustomerOrders - - - 200 - text/html;+charset=utf-8 14.7173ms (791a596a)
+2022-01-11T20:50:37.2353550+01:00 0HMEL7DGCR8F0:0000002F [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - - (ca22a1cb)
+2022-01-11T20:50:37.2663330+01:00 0HMEL7DGCR8F0:0000002F [INF] Sending file. Request path: '"/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"'. Physical path: '"C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map"' (27b0a520)
+2022-01-11T20:50:37.2664818+01:00 0HMEL7DGCR8F0:0000002F [INF] Request finished HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - - - 200 311949 text/plain 31.1110ms (791a596a)
+2022-01-11T20:50:37.2758366+01:00 0HMEL7DGCR8F0:00000031 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css.map - - (ca22a1cb)
+2022-01-11T20:50:37.2960711+01:00 0HMEL7DGCR8F0:00000031 [INF] Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.min.css.map"'. Physical path: '"C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map"' (27b0a520)
+2022-01-11T20:50:37.2961472+01:00 0HMEL7DGCR8F0:00000031 [INF] Request finished HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css.map - - - 200 625953 text/plain 20.3095ms (791a596a)
+2022-01-11T20:51:16.5657450+01:00  [INF] Application is shutting down... (90f52c38)
+2022-01-11T20:51:24.5050482+01:00  [INF] Entity Framework Core "5.0.11" initialized '"EshopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.27-mysql " (9958f5bb)
+2022-01-11T20:51:24.8344448+01:00  [INF] Executed DbCommand ("13"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM information_schema.tables
+WHERE table_type = 'BASE TABLE' AND table_schema = 'Zenzinger_Eshop'" (0723d8ff)
+2022-01-11T20:51:25.0239069+01:00  [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM `CarouselItem` AS `c`" (0723d8ff)
+2022-01-11T20:51:25.0348187+01:00  [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM `Product` AS `p`" (0723d8ff)
+2022-01-11T20:51:25.0536215+01:00  [INF] User profile is available. Using '"C:\Users\nxf77256\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2022-01-11T20:51:25.1946009+01:00  [INF] Executed DbCommand ("19"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `a`.`Id`, `a`.`ConcurrencyStamp`, `a`.`Name`, `a`.`NormalizedName`
+FROM `AspNetRoles` AS `a`
+WHERE `a`.`NormalizedName` = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2022-01-11T20:51:25.2641174+01:00  [WRN] Role "(null)" validation failed: "DuplicateRoleName". (60d773c7)
+2022-01-11T20:51:25.2841639+01:00  [INF] Executed DbCommand ("5"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `a`.`Id`, `a`.`ConcurrencyStamp`, `a`.`Name`, `a`.`NormalizedName`
+FROM `AspNetRoles` AS `a`
+WHERE `a`.`NormalizedName` = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2022-01-11T20:51:25.2888511+01:00  [WRN] Role "(null)" validation failed: "DuplicateRoleName". (60d773c7)
+2022-01-11T20:51:25.2927974+01:00  [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `a`.`Id`, `a`.`ConcurrencyStamp`, `a`.`Name`, `a`.`NormalizedName`
+FROM `AspNetRoles` AS `a`
+WHERE `a`.`NormalizedName` = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2022-01-11T20:51:25.2930601+01:00  [WRN] Role "(null)" validation failed: "DuplicateRoleName". (60d773c7)
+2022-01-11T20:51:25.3053595+01:00  [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `a`.`Id`, `a`.`AccessFailedCount`, `a`.`ConcurrencyStamp`, `a`.`Email`, `a`.`EmailConfirmed`, `a`.`FirstName`, `a`.`LastName`, `a`.`LockoutEnabled`, `a`.`LockoutEnd`, `a`.`NormalizedEmail`, `a`.`NormalizedUserName`, `a`.`PasswordHash`, `a`.`PhoneNumber`, `a`.`PhoneNumberConfirmed`, `a`.`SecurityStamp`, `a`.`TwoFactorEnabled`, `a`.`UserName`
+FROM `AspNetUsers` AS `a`
+WHERE `a`.`NormalizedUserName` = @__normalizedUserName_0
+LIMIT 1" (0723d8ff)
+2022-01-11T20:51:25.3693272+01:00  [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `a`.`Id`, `a`.`AccessFailedCount`, `a`.`ConcurrencyStamp`, `a`.`Email`, `a`.`EmailConfirmed`, `a`.`FirstName`, `a`.`LastName`, `a`.`LockoutEnabled`, `a`.`LockoutEnd`, `a`.`NormalizedEmail`, `a`.`NormalizedUserName`, `a`.`PasswordHash`, `a`.`PhoneNumber`, `a`.`PhoneNumberConfirmed`, `a`.`SecurityStamp`, `a`.`TwoFactorEnabled`, `a`.`UserName`
+FROM `AspNetUsers` AS `a`
+WHERE `a`.`NormalizedUserName` = @__normalizedUserName_0
+LIMIT 1" (0723d8ff)
+2022-01-11T20:51:25.5320912+01:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2022-01-11T20:51:25.5321228+01:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2022-01-11T20:51:25.5322439+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-01-11T20:51:25.5322738+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-01-11T20:51:25.5322916+01:00  [INF] Content root path: "C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web" (b5d60022)
+2022-01-11T20:51:26.0101326+01:00 0HMEL7F06RF32:00000001 [INF] Request starting HTTP/2 GET https://localhost:5001/ - - (ca22a1cb)
+2022-01-11T20:51:26.0843602+01:00 0HMEL7F06RF32:00000001 [INF] Executing endpoint '"Zenzinger_Eshop_Web.Controllers.HomeController.Index (Zenzinger_Eshop_Web)"' (500cc934)
+2022-01-11T20:51:26.1023582+01:00 0HMEL7F06RF32:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Zenzinger_Eshop_Web.Controllers.HomeController" ("Zenzinger_Eshop_Web"). (122b2fdf)
+2022-01-11T20:51:26.1042826+01:00 0HMEL7F06RF32:00000001 [INF] Loading Home Index (432c29eb)
+2022-01-11T20:51:26.1061203+01:00 0HMEL7F06RF32:00000001 [INF] Entity Framework Core "5.0.11" initialized '"EshopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.27-mysql " (9958f5bb)
+2022-01-11T20:51:26.1172834+01:00 0HMEL7F06RF32:00000001 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `c`.`id`, `c`.`ImageAlt`, `c`.`ImageSource`
+FROM `CarouselItem` AS `c`" (0723d8ff)
+2022-01-11T20:51:26.1320502+01:00 0HMEL7F06RF32:00000001 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `p`.`ID`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Info`, `p`.`Name`, `p`.`Price`
+FROM `Product` AS `p`" (0723d8ff)
+2022-01-11T20:51:26.1824544+01:00 0HMEL7F06RF32:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2022-01-11T20:51:26.2709782+01:00 0HMEL7F06RF32:00000001 [INF] Accessing expired session, Key:"6d39dd20-7025-82be-104f-ce4bb44e3c58" (08c5a9e7)
+2022-01-11T20:51:26.3031092+01:00 0HMEL7F06RF32:00000001 [INF] Executed ViewResult - view "Index" executed in 120.2205ms. (f66409e9)
+2022-01-11T20:51:26.3036596+01:00 0HMEL7F06RF32:00000001 [INF] Executed action "Zenzinger_Eshop_Web.Controllers.HomeController.Index (Zenzinger_Eshop_Web)" in 200.7877ms (afa2e885)
+2022-01-11T20:51:26.3037612+01:00 0HMEL7F06RF32:00000001 [INF] Executed endpoint '"Zenzinger_Eshop_Web.Controllers.HomeController.Index (Zenzinger_Eshop_Web)"' (99874f2b)
+2022-01-11T20:51:26.3156393+01:00 0HMEL7F06RF32:00000001 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - text/html;+charset=utf-8 308.8521ms (791a596a)
+2022-01-11T20:51:29.6180876+01:00 0HMEL7F06RF32:00000003 [INF] Request starting HTTP/2 GET https://localhost:5001/Customer/CustomerOrders - - (ca22a1cb)
+2022-01-11T20:51:29.6370117+01:00 0HMEL7F06RF32:00000003 [INF] Authorization was successful. (0d575a54)
+2022-01-11T20:51:29.6375979+01:00 0HMEL7F06RF32:00000003 [INF] Executing endpoint '"Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrdersController.Index (Zenzinger_Eshop_Web)"' (500cc934)
+2022-01-11T20:51:29.6429356+01:00 0HMEL7F06RF32:00000003 [INF] Route matched with "{area = \"Customer\", action = \"Index\", controller = \"CustomerOrders\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrdersController" ("Zenzinger_Eshop_Web"). (122b2fdf)
+2022-01-11T20:51:29.6789202+01:00 0HMEL7F06RF32:00000003 [INF] Entity Framework Core "5.0.11" initialized '"EshopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.27-mysql " (9958f5bb)
+2022-01-11T20:51:29.7038690+01:00 0HMEL7F06RF32:00000003 [INF] Executed DbCommand ("2"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `a`.`Id`, `a`.`AccessFailedCount`, `a`.`ConcurrencyStamp`, `a`.`Email`, `a`.`EmailConfirmed`, `a`.`FirstName`, `a`.`LastName`, `a`.`LockoutEnabled`, `a`.`LockoutEnd`, `a`.`NormalizedEmail`, `a`.`NormalizedUserName`, `a`.`PasswordHash`, `a`.`PhoneNumber`, `a`.`PhoneNumberConfirmed`, `a`.`SecurityStamp`, `a`.`TwoFactorEnabled`, `a`.`UserName`
+FROM `AspNetUsers` AS `a`
+WHERE `a`.`Id` = @__p_0
+LIMIT 1" (0723d8ff)
+2022-01-11T20:51:29.8341478+01:00 0HMEL7F06RF32:00000003 [INF] Executed DbCommand ("1"ms) [Parameters=["@__currentUser_Id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `o`.`Id`, `o`.`DateTimeCreated`, `o`.`OrderNumber`, `o`.`TotalPrice`, `o`.`UserId`, `a`.`Id`, `a`.`AccessFailedCount`, `a`.`ConcurrencyStamp`, `a`.`Email`, `a`.`EmailConfirmed`, `a`.`FirstName`, `a`.`LastName`, `a`.`LockoutEnabled`, `a`.`LockoutEnd`, `a`.`NormalizedEmail`, `a`.`NormalizedUserName`, `a`.`PasswordHash`, `a`.`PhoneNumber`, `a`.`PhoneNumberConfirmed`, `a`.`SecurityStamp`, `a`.`TwoFactorEnabled`, `a`.`UserName`, `t`.`Id`, `t`.`Amount`, `t`.`OrderId`, `t`.`Price`, `t`.`ProductId`, `t`.`ID0`, `t`.`ImageAlt`, `t`.`ImageSource`, `t`.`Info`, `t`.`Name`, `t`.`Price0`
+FROM `Order` AS `o`
+INNER JOIN `AspNetUsers` AS `a` ON `o`.`UserId` = `a`.`Id`
+LEFT JOIN (
+    SELECT `o0`.`Id`, `o0`.`Amount`, `o0`.`OrderId`, `o0`.`Price`, `o0`.`ProductId`, `p`.`ID` AS `ID0`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Info`, `p`.`Name`, `p`.`Price` AS `Price0`
+    FROM `OrderItem` AS `o0`
+    INNER JOIN `Product` AS `p` ON `o0`.`ProductId` = `p`.`ID`
+) AS `t` ON `o`.`Id` = `t`.`OrderId`
+WHERE `o`.`UserId` = @__currentUser_Id_0
+ORDER BY `o`.`Id`, `a`.`Id`, `t`.`Id`, `t`.`ID0`" (0723d8ff)
+2022-01-11T20:51:29.8853370+01:00 0HMEL7F06RF32:00000003 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2022-01-11T20:51:29.8967171+01:00 0HMEL7F06RF32:00000003 [INF] Accessing expired session, Key:"6d39dd20-7025-82be-104f-ce4bb44e3c58" (08c5a9e7)
+2022-01-11T20:51:29.8972256+01:00 0HMEL7F06RF32:00000003 [INF] Executed ViewResult - view "Index" executed in 12.7999ms. (f66409e9)
+2022-01-11T20:51:29.8991807+01:00 0HMEL7F06RF32:00000003 [INF] Executed action "Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrdersController.Index (Zenzinger_Eshop_Web)" in 256.1433ms (afa2e885)
+2022-01-11T20:51:29.9002525+01:00 0HMEL7F06RF32:00000003 [INF] Executed endpoint '"Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrdersController.Index (Zenzinger_Eshop_Web)"' (99874f2b)
+2022-01-11T20:51:29.9073763+01:00 0HMEL7F06RF32:00000003 [INF] Request finished HTTP/2 GET https://localhost:5001/Customer/CustomerOrders - - - 200 - text/html;+charset=utf-8 289.3352ms (791a596a)
+2022-01-11T20:51:46.1660971+01:00 0HMEL7F06RF32:00000005 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - - (ca22a1cb)
+2022-01-11T20:51:46.1969004+01:00 0HMEL7F06RF32:00000005 [INF] Sending file. Request path: '"/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"'. Physical path: '"C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map"' (27b0a520)
+2022-01-11T20:51:46.1971927+01:00 0HMEL7F06RF32:00000005 [INF] Request finished HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - - - 200 311949 text/plain 31.0887ms (791a596a)
+2022-01-11T20:51:46.2026955+01:00 0HMEL7F06RF32:00000007 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css.map - - (ca22a1cb)
+2022-01-11T20:51:46.2124939+01:00 0HMEL7F06RF32:00000007 [INF] Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.min.css.map"'. Physical path: '"C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map"' (27b0a520)
+2022-01-11T20:51:46.2128100+01:00 0HMEL7F06RF32:00000007 [INF] Request finished HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css.map - - - 200 625953 text/plain 10.0401ms (791a596a)
+2022-01-11T20:54:52.2459956+01:00  [INF] Application is shutting down... (90f52c38)
+2022-01-11T20:54:59.8259427+01:00  [INF] Entity Framework Core "5.0.11" initialized '"EshopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.27-mysql " (9958f5bb)
+2022-01-11T20:55:00.3306334+01:00  [INF] Executed DbCommand ("24"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM information_schema.tables
+WHERE table_type = 'BASE TABLE' AND table_schema = 'Zenzinger_Eshop'" (0723d8ff)
+2022-01-11T20:55:00.5288659+01:00  [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM `CarouselItem` AS `c`" (0723d8ff)
+2022-01-11T20:55:00.5378973+01:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM `Product` AS `p`" (0723d8ff)
+2022-01-11T20:55:00.5562603+01:00  [INF] User profile is available. Using '"C:\Users\nxf77256\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2022-01-11T20:55:00.6893912+01:00  [INF] Executed DbCommand ("18"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `a`.`Id`, `a`.`ConcurrencyStamp`, `a`.`Name`, `a`.`NormalizedName`
+FROM `AspNetRoles` AS `a`
+WHERE `a`.`NormalizedName` = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2022-01-11T20:55:00.7458903+01:00  [WRN] Role "(null)" validation failed: "DuplicateRoleName". (60d773c7)
+2022-01-11T20:55:00.7647478+01:00  [INF] Executed DbCommand ("4"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `a`.`Id`, `a`.`ConcurrencyStamp`, `a`.`Name`, `a`.`NormalizedName`
+FROM `AspNetRoles` AS `a`
+WHERE `a`.`NormalizedName` = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2022-01-11T20:55:00.7689868+01:00  [WRN] Role "(null)" validation failed: "DuplicateRoleName". (60d773c7)
+2022-01-11T20:55:00.7727763+01:00  [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `a`.`Id`, `a`.`ConcurrencyStamp`, `a`.`Name`, `a`.`NormalizedName`
+FROM `AspNetRoles` AS `a`
+WHERE `a`.`NormalizedName` = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2022-01-11T20:55:00.7729895+01:00  [WRN] Role "(null)" validation failed: "DuplicateRoleName". (60d773c7)
+2022-01-11T20:55:00.7841572+01:00  [INF] Executed DbCommand ("2"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `a`.`Id`, `a`.`AccessFailedCount`, `a`.`ConcurrencyStamp`, `a`.`Email`, `a`.`EmailConfirmed`, `a`.`FirstName`, `a`.`LastName`, `a`.`LockoutEnabled`, `a`.`LockoutEnd`, `a`.`NormalizedEmail`, `a`.`NormalizedUserName`, `a`.`PasswordHash`, `a`.`PhoneNumber`, `a`.`PhoneNumberConfirmed`, `a`.`SecurityStamp`, `a`.`TwoFactorEnabled`, `a`.`UserName`
+FROM `AspNetUsers` AS `a`
+WHERE `a`.`NormalizedUserName` = @__normalizedUserName_0
+LIMIT 1" (0723d8ff)
+2022-01-11T20:55:00.8361869+01:00  [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `a`.`Id`, `a`.`AccessFailedCount`, `a`.`ConcurrencyStamp`, `a`.`Email`, `a`.`EmailConfirmed`, `a`.`FirstName`, `a`.`LastName`, `a`.`LockoutEnabled`, `a`.`LockoutEnd`, `a`.`NormalizedEmail`, `a`.`NormalizedUserName`, `a`.`PasswordHash`, `a`.`PhoneNumber`, `a`.`PhoneNumberConfirmed`, `a`.`SecurityStamp`, `a`.`TwoFactorEnabled`, `a`.`UserName`
+FROM `AspNetUsers` AS `a`
+WHERE `a`.`NormalizedUserName` = @__normalizedUserName_0
+LIMIT 1" (0723d8ff)
+2022-01-11T20:55:00.9981069+01:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2022-01-11T20:55:00.9981323+01:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2022-01-11T20:55:00.9982596+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-01-11T20:55:00.9982810+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-01-11T20:55:00.9983045+01:00  [INF] Content root path: "C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web" (b5d60022)
+2022-01-11T20:55:01.5744747+01:00 0HMEL7H0ENH5N:00000001 [INF] Request starting HTTP/2 GET https://localhost:5001/ - - (ca22a1cb)
+2022-01-11T20:55:01.6357623+01:00 0HMEL7H0ENH5N:00000001 [INF] Executing endpoint '"Zenzinger_Eshop_Web.Controllers.HomeController.Index (Zenzinger_Eshop_Web)"' (500cc934)
+2022-01-11T20:55:01.6512954+01:00 0HMEL7H0ENH5N:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Zenzinger_Eshop_Web.Controllers.HomeController" ("Zenzinger_Eshop_Web"). (122b2fdf)
+2022-01-11T20:55:01.6531581+01:00 0HMEL7H0ENH5N:00000001 [INF] Loading Home Index (432c29eb)
+2022-01-11T20:55:01.6547459+01:00 0HMEL7H0ENH5N:00000001 [INF] Entity Framework Core "5.0.11" initialized '"EshopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.27-mysql " (9958f5bb)
+2022-01-11T20:55:01.6612378+01:00 0HMEL7H0ENH5N:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `c`.`id`, `c`.`ImageAlt`, `c`.`ImageSource`
+FROM `CarouselItem` AS `c`" (0723d8ff)
+2022-01-11T20:55:01.6738300+01:00 0HMEL7H0ENH5N:00000001 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `p`.`ID`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Info`, `p`.`Name`, `p`.`Price`
+FROM `Product` AS `p`" (0723d8ff)
+2022-01-11T20:55:01.7103467+01:00 0HMEL7H0ENH5N:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2022-01-11T20:55:01.7993705+01:00 0HMEL7H0ENH5N:00000001 [INF] Accessing expired session, Key:"6d39dd20-7025-82be-104f-ce4bb44e3c58" (08c5a9e7)
+2022-01-11T20:55:01.8253075+01:00 0HMEL7H0ENH5N:00000001 [INF] Executed ViewResult - view "Index" executed in 113.654ms. (f66409e9)
+2022-01-11T20:55:01.8259953+01:00 0HMEL7H0ENH5N:00000001 [INF] Executed action "Zenzinger_Eshop_Web.Controllers.HomeController.Index (Zenzinger_Eshop_Web)" in 174.1598ms (afa2e885)
+2022-01-11T20:55:01.8262078+01:00 0HMEL7H0ENH5N:00000001 [INF] Executed endpoint '"Zenzinger_Eshop_Web.Controllers.HomeController.Index (Zenzinger_Eshop_Web)"' (99874f2b)
+2022-01-11T20:55:01.8335401+01:00 0HMEL7H0ENH5N:00000001 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - text/html;+charset=utf-8 261.4119ms (791a596a)
+2022-01-11T20:55:04.7153777+01:00 0HMEL7H0ENH5N:00000003 [INF] Request starting HTTP/2 GET https://localhost:5001/Customer/CustomerOrders - - (ca22a1cb)
+2022-01-11T20:55:04.7289460+01:00 0HMEL7H0ENH5N:00000003 [INF] Authorization was successful. (0d575a54)
+2022-01-11T20:55:04.7310367+01:00 0HMEL7H0ENH5N:00000003 [INF] Executing endpoint '"Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrdersController.Index (Zenzinger_Eshop_Web)"' (500cc934)
+2022-01-11T20:55:04.7362243+01:00 0HMEL7H0ENH5N:00000003 [INF] Route matched with "{area = \"Customer\", action = \"Index\", controller = \"CustomerOrders\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrdersController" ("Zenzinger_Eshop_Web"). (122b2fdf)
+2022-01-11T20:55:04.7706793+01:00 0HMEL7H0ENH5N:00000003 [INF] Entity Framework Core "5.0.11" initialized '"EshopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.27-mysql " (9958f5bb)
+2022-01-11T20:55:04.7957591+01:00 0HMEL7H0ENH5N:00000003 [INF] Executed DbCommand ("3"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `a`.`Id`, `a`.`AccessFailedCount`, `a`.`ConcurrencyStamp`, `a`.`Email`, `a`.`EmailConfirmed`, `a`.`FirstName`, `a`.`LastName`, `a`.`LockoutEnabled`, `a`.`LockoutEnd`, `a`.`NormalizedEmail`, `a`.`NormalizedUserName`, `a`.`PasswordHash`, `a`.`PhoneNumber`, `a`.`PhoneNumberConfirmed`, `a`.`SecurityStamp`, `a`.`TwoFactorEnabled`, `a`.`UserName`
+FROM `AspNetUsers` AS `a`
+WHERE `a`.`Id` = @__p_0
+LIMIT 1" (0723d8ff)
+2022-01-11T20:55:04.9312275+01:00 0HMEL7H0ENH5N:00000003 [INF] Executed DbCommand ("1"ms) [Parameters=["@__currentUser_Id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `o`.`Id`, `o`.`DateTimeCreated`, `o`.`OrderNumber`, `o`.`TotalPrice`, `o`.`UserId`, `a`.`Id`, `a`.`AccessFailedCount`, `a`.`ConcurrencyStamp`, `a`.`Email`, `a`.`EmailConfirmed`, `a`.`FirstName`, `a`.`LastName`, `a`.`LockoutEnabled`, `a`.`LockoutEnd`, `a`.`NormalizedEmail`, `a`.`NormalizedUserName`, `a`.`PasswordHash`, `a`.`PhoneNumber`, `a`.`PhoneNumberConfirmed`, `a`.`SecurityStamp`, `a`.`TwoFactorEnabled`, `a`.`UserName`, `t`.`Id`, `t`.`Amount`, `t`.`OrderId`, `t`.`Price`, `t`.`ProductId`, `t`.`ID0`, `t`.`ImageAlt`, `t`.`ImageSource`, `t`.`Info`, `t`.`Name`, `t`.`Price0`
+FROM `Order` AS `o`
+INNER JOIN `AspNetUsers` AS `a` ON `o`.`UserId` = `a`.`Id`
+LEFT JOIN (
+    SELECT `o0`.`Id`, `o0`.`Amount`, `o0`.`OrderId`, `o0`.`Price`, `o0`.`ProductId`, `p`.`ID` AS `ID0`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Info`, `p`.`Name`, `p`.`Price` AS `Price0`
+    FROM `OrderItem` AS `o0`
+    INNER JOIN `Product` AS `p` ON `o0`.`ProductId` = `p`.`ID`
+) AS `t` ON `o`.`Id` = `t`.`OrderId`
+WHERE `o`.`UserId` = @__currentUser_Id_0
+ORDER BY `o`.`Id`, `a`.`Id`, `t`.`Id`, `t`.`ID0`" (0723d8ff)
+2022-01-11T20:55:05.0007458+01:00 0HMEL7H0ENH5N:00000003 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2022-01-11T20:55:05.0159173+01:00 0HMEL7H0ENH5N:00000003 [INF] Accessing expired session, Key:"6d39dd20-7025-82be-104f-ce4bb44e3c58" (08c5a9e7)
+2022-01-11T20:55:05.0165697+01:00 0HMEL7H0ENH5N:00000003 [INF] Executed ViewResult - view "Index" executed in 17.693ms. (f66409e9)
+2022-01-11T20:55:05.0183765+01:00 0HMEL7H0ENH5N:00000003 [INF] Executed action "Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrdersController.Index (Zenzinger_Eshop_Web)" in 282.0855ms (afa2e885)
+2022-01-11T20:55:05.0192397+01:00 0HMEL7H0ENH5N:00000003 [INF] Executed endpoint '"Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrdersController.Index (Zenzinger_Eshop_Web)"' (99874f2b)
+2022-01-11T20:55:05.0244968+01:00 0HMEL7H0ENH5N:00000003 [INF] Request finished HTTP/2 GET https://localhost:5001/Customer/CustomerOrders - - - 200 - text/html;+charset=utf-8 309.1366ms (791a596a)
+2022-01-11T20:55:37.8789542+01:00  [INF] Application is shutting down... (90f52c38)
+2022-01-11T20:55:45.0867543+01:00  [INF] Entity Framework Core "5.0.11" initialized '"EshopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.27-mysql " (9958f5bb)
+2022-01-11T20:55:45.5182356+01:00  [INF] Executed DbCommand ("13"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM information_schema.tables
+WHERE table_type = 'BASE TABLE' AND table_schema = 'Zenzinger_Eshop'" (0723d8ff)
+2022-01-11T20:55:45.7010313+01:00  [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM `CarouselItem` AS `c`" (0723d8ff)
+2022-01-11T20:55:45.7086537+01:00  [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM `Product` AS `p`" (0723d8ff)
+2022-01-11T20:55:45.7257205+01:00  [INF] User profile is available. Using '"C:\Users\nxf77256\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2022-01-11T20:55:45.8755394+01:00  [INF] Executed DbCommand ("17"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `a`.`Id`, `a`.`ConcurrencyStamp`, `a`.`Name`, `a`.`NormalizedName`
+FROM `AspNetRoles` AS `a`
+WHERE `a`.`NormalizedName` = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2022-01-11T20:55:45.9447909+01:00  [WRN] Role "(null)" validation failed: "DuplicateRoleName". (60d773c7)
+2022-01-11T20:55:45.9669115+01:00  [INF] Executed DbCommand ("5"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `a`.`Id`, `a`.`ConcurrencyStamp`, `a`.`Name`, `a`.`NormalizedName`
+FROM `AspNetRoles` AS `a`
+WHERE `a`.`NormalizedName` = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2022-01-11T20:55:45.9721231+01:00  [WRN] Role "(null)" validation failed: "DuplicateRoleName". (60d773c7)
+2022-01-11T20:55:45.9766700+01:00  [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `a`.`Id`, `a`.`ConcurrencyStamp`, `a`.`Name`, `a`.`NormalizedName`
+FROM `AspNetRoles` AS `a`
+WHERE `a`.`NormalizedName` = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2022-01-11T20:55:45.9770245+01:00  [WRN] Role "(null)" validation failed: "DuplicateRoleName". (60d773c7)
+2022-01-11T20:55:45.9912118+01:00  [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `a`.`Id`, `a`.`AccessFailedCount`, `a`.`ConcurrencyStamp`, `a`.`Email`, `a`.`EmailConfirmed`, `a`.`FirstName`, `a`.`LastName`, `a`.`LockoutEnabled`, `a`.`LockoutEnd`, `a`.`NormalizedEmail`, `a`.`NormalizedUserName`, `a`.`PasswordHash`, `a`.`PhoneNumber`, `a`.`PhoneNumberConfirmed`, `a`.`SecurityStamp`, `a`.`TwoFactorEnabled`, `a`.`UserName`
+FROM `AspNetUsers` AS `a`
+WHERE `a`.`NormalizedUserName` = @__normalizedUserName_0
+LIMIT 1" (0723d8ff)
+2022-01-11T20:55:46.0637889+01:00  [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `a`.`Id`, `a`.`AccessFailedCount`, `a`.`ConcurrencyStamp`, `a`.`Email`, `a`.`EmailConfirmed`, `a`.`FirstName`, `a`.`LastName`, `a`.`LockoutEnabled`, `a`.`LockoutEnd`, `a`.`NormalizedEmail`, `a`.`NormalizedUserName`, `a`.`PasswordHash`, `a`.`PhoneNumber`, `a`.`PhoneNumberConfirmed`, `a`.`SecurityStamp`, `a`.`TwoFactorEnabled`, `a`.`UserName`
+FROM `AspNetUsers` AS `a`
+WHERE `a`.`NormalizedUserName` = @__normalizedUserName_0
+LIMIT 1" (0723d8ff)
+2022-01-11T20:55:46.2845296+01:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2022-01-11T20:55:46.2845678+01:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2022-01-11T20:55:46.2846968+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-01-11T20:55:46.2847262+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-01-11T20:55:46.2847488+01:00  [INF] Content root path: "C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web" (b5d60022)
+2022-01-11T20:55:46.5005485+01:00 0HMEL7HDRB1SE:00000001 [INF] Request starting HTTP/2 GET https://localhost:5001/ - - (ca22a1cb)
+2022-01-11T20:55:46.5685771+01:00 0HMEL7HDRB1SE:00000001 [INF] Executing endpoint '"Zenzinger_Eshop_Web.Controllers.HomeController.Index (Zenzinger_Eshop_Web)"' (500cc934)
+2022-01-11T20:55:46.5854290+01:00 0HMEL7HDRB1SE:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Zenzinger_Eshop_Web.Controllers.HomeController" ("Zenzinger_Eshop_Web"). (122b2fdf)
+2022-01-11T20:55:46.5872449+01:00 0HMEL7HDRB1SE:00000001 [INF] Loading Home Index (432c29eb)
+2022-01-11T20:55:46.5887919+01:00 0HMEL7HDRB1SE:00000001 [INF] Entity Framework Core "5.0.11" initialized '"EshopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.27-mysql " (9958f5bb)
+2022-01-11T20:55:46.5985245+01:00 0HMEL7HDRB1SE:00000001 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `c`.`id`, `c`.`ImageAlt`, `c`.`ImageSource`
+FROM `CarouselItem` AS `c`" (0723d8ff)
+2022-01-11T20:55:46.6087587+01:00 0HMEL7HDRB1SE:00000001 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `p`.`ID`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Info`, `p`.`Name`, `p`.`Price`
+FROM `Product` AS `p`" (0723d8ff)
+2022-01-11T20:55:46.6492414+01:00 0HMEL7HDRB1SE:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2022-01-11T20:55:46.7330117+01:00 0HMEL7HDRB1SE:00000001 [INF] Accessing expired session, Key:"6d39dd20-7025-82be-104f-ce4bb44e3c58" (08c5a9e7)
+2022-01-11T20:55:46.7590368+01:00 0HMEL7HDRB1SE:00000001 [INF] Executed ViewResult - view "Index" executed in 111.4017ms. (f66409e9)
+2022-01-11T20:55:46.7595427+01:00 0HMEL7HDRB1SE:00000001 [INF] Executed action "Zenzinger_Eshop_Web.Controllers.HomeController.Index (Zenzinger_Eshop_Web)" in 173.6448ms (afa2e885)
+2022-01-11T20:55:46.7596338+01:00 0HMEL7HDRB1SE:00000001 [INF] Executed endpoint '"Zenzinger_Eshop_Web.Controllers.HomeController.Index (Zenzinger_Eshop_Web)"' (99874f2b)
+2022-01-11T20:55:46.7680931+01:00 0HMEL7HDRB1SE:00000001 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - text/html;+charset=utf-8 269.4379ms (791a596a)
+2022-01-11T20:55:49.2454885+01:00 0HMEL7HDRB1SE:00000003 [INF] Request starting HTTP/2 GET https://localhost:5001/Customer/CustomerOrders - - (ca22a1cb)
+2022-01-11T20:55:49.2654133+01:00 0HMEL7HDRB1SE:00000003 [INF] Authorization was successful. (0d575a54)
+2022-01-11T20:55:49.2660443+01:00 0HMEL7HDRB1SE:00000003 [INF] Executing endpoint '"Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrdersController.Index (Zenzinger_Eshop_Web)"' (500cc934)
+2022-01-11T20:55:49.2707059+01:00 0HMEL7HDRB1SE:00000003 [INF] Route matched with "{area = \"Customer\", action = \"Index\", controller = \"CustomerOrders\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrdersController" ("Zenzinger_Eshop_Web"). (122b2fdf)
+2022-01-11T20:55:49.3102780+01:00 0HMEL7HDRB1SE:00000003 [INF] Entity Framework Core "5.0.11" initialized '"EshopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.27-mysql " (9958f5bb)
+2022-01-11T20:55:49.3377997+01:00 0HMEL7HDRB1SE:00000003 [INF] Executed DbCommand ("3"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `a`.`Id`, `a`.`AccessFailedCount`, `a`.`ConcurrencyStamp`, `a`.`Email`, `a`.`EmailConfirmed`, `a`.`FirstName`, `a`.`LastName`, `a`.`LockoutEnabled`, `a`.`LockoutEnd`, `a`.`NormalizedEmail`, `a`.`NormalizedUserName`, `a`.`PasswordHash`, `a`.`PhoneNumber`, `a`.`PhoneNumberConfirmed`, `a`.`SecurityStamp`, `a`.`TwoFactorEnabled`, `a`.`UserName`
+FROM `AspNetUsers` AS `a`
+WHERE `a`.`Id` = @__p_0
+LIMIT 1" (0723d8ff)
+2022-01-11T20:55:49.4771423+01:00 0HMEL7HDRB1SE:00000003 [INF] Executed DbCommand ("1"ms) [Parameters=["@__currentUser_Id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `o`.`Id`, `o`.`DateTimeCreated`, `o`.`OrderNumber`, `o`.`TotalPrice`, `o`.`UserId`, `a`.`Id`, `a`.`AccessFailedCount`, `a`.`ConcurrencyStamp`, `a`.`Email`, `a`.`EmailConfirmed`, `a`.`FirstName`, `a`.`LastName`, `a`.`LockoutEnabled`, `a`.`LockoutEnd`, `a`.`NormalizedEmail`, `a`.`NormalizedUserName`, `a`.`PasswordHash`, `a`.`PhoneNumber`, `a`.`PhoneNumberConfirmed`, `a`.`SecurityStamp`, `a`.`TwoFactorEnabled`, `a`.`UserName`, `t`.`Id`, `t`.`Amount`, `t`.`OrderId`, `t`.`Price`, `t`.`ProductId`, `t`.`ID0`, `t`.`ImageAlt`, `t`.`ImageSource`, `t`.`Info`, `t`.`Name`, `t`.`Price0`
+FROM `Order` AS `o`
+INNER JOIN `AspNetUsers` AS `a` ON `o`.`UserId` = `a`.`Id`
+LEFT JOIN (
+    SELECT `o0`.`Id`, `o0`.`Amount`, `o0`.`OrderId`, `o0`.`Price`, `o0`.`ProductId`, `p`.`ID` AS `ID0`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Info`, `p`.`Name`, `p`.`Price` AS `Price0`
+    FROM `OrderItem` AS `o0`
+    INNER JOIN `Product` AS `p` ON `o0`.`ProductId` = `p`.`ID`
+) AS `t` ON `o`.`Id` = `t`.`OrderId`
+WHERE `o`.`UserId` = @__currentUser_Id_0
+ORDER BY `o`.`Id`, `a`.`Id`, `t`.`Id`, `t`.`ID0`" (0723d8ff)
+2022-01-11T20:55:49.5420950+01:00 0HMEL7HDRB1SE:00000003 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2022-01-11T20:55:49.5662489+01:00 0HMEL7HDRB1SE:00000003 [INF] Accessing expired session, Key:"6d39dd20-7025-82be-104f-ce4bb44e3c58" (08c5a9e7)
+2022-01-11T20:55:49.5670522+01:00 0HMEL7HDRB1SE:00000003 [INF] Executed ViewResult - view "Index" executed in 25.89ms. (f66409e9)
+2022-01-11T20:55:49.5694205+01:00 0HMEL7HDRB1SE:00000003 [INF] Executed action "Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrdersController.Index (Zenzinger_Eshop_Web)" in 298.6123ms (afa2e885)
+2022-01-11T20:55:49.5704927+01:00 0HMEL7HDRB1SE:00000003 [INF] Executed endpoint '"Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrdersController.Index (Zenzinger_Eshop_Web)"' (99874f2b)
+2022-01-11T20:55:49.5758398+01:00 0HMEL7HDRB1SE:00000003 [INF] Request finished HTTP/2 GET https://localhost:5001/Customer/CustomerOrders - - - 200 - text/html;+charset=utf-8 330.9413ms (791a596a)
+2022-01-11T20:56:06.8300889+01:00 0HMEL7HDRB1SE:00000005 [INF] Request starting HTTP/2 GET https://localhost:5001/ - - (ca22a1cb)
+2022-01-11T20:56:06.8436080+01:00 0HMEL7HDRB1SE:00000005 [INF] Executing endpoint '"Zenzinger_Eshop_Web.Controllers.HomeController.Index (Zenzinger_Eshop_Web)"' (500cc934)
+2022-01-11T20:56:06.8437567+01:00 0HMEL7HDRB1SE:00000005 [INF] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Zenzinger_Eshop_Web.Controllers.HomeController" ("Zenzinger_Eshop_Web"). (122b2fdf)
+2022-01-11T20:56:06.8438603+01:00 0HMEL7HDRB1SE:00000005 [INF] Loading Home Index (432c29eb)
+2022-01-11T20:56:06.8442606+01:00 0HMEL7HDRB1SE:00000005 [INF] Entity Framework Core "5.0.11" initialized '"EshopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.27-mysql " (9958f5bb)
+2022-01-11T20:56:06.8472892+01:00 0HMEL7HDRB1SE:00000005 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `c`.`id`, `c`.`ImageAlt`, `c`.`ImageSource`
+FROM `CarouselItem` AS `c`" (0723d8ff)
+2022-01-11T20:56:06.8488342+01:00 0HMEL7HDRB1SE:00000005 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `p`.`ID`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Info`, `p`.`Name`, `p`.`Price`
+FROM `Product` AS `p`" (0723d8ff)
+2022-01-11T20:56:06.8491169+01:00 0HMEL7HDRB1SE:00000005 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2022-01-11T20:56:06.8499413+01:00 0HMEL7HDRB1SE:00000005 [INF] Accessing expired session, Key:"6d39dd20-7025-82be-104f-ce4bb44e3c58" (08c5a9e7)
+2022-01-11T20:56:06.8503046+01:00 0HMEL7HDRB1SE:00000005 [INF] Executed ViewResult - view "Index" executed in 1.2184ms. (f66409e9)
+2022-01-11T20:56:06.8503504+01:00 0HMEL7HDRB1SE:00000005 [INF] Executed action "Zenzinger_Eshop_Web.Controllers.HomeController.Index (Zenzinger_Eshop_Web)" in 6.5759ms (afa2e885)
+2022-01-11T20:56:06.8503724+01:00 0HMEL7HDRB1SE:00000005 [INF] Executed endpoint '"Zenzinger_Eshop_Web.Controllers.HomeController.Index (Zenzinger_Eshop_Web)"' (99874f2b)
+2022-01-11T20:56:06.8504734+01:00 0HMEL7HDRB1SE:00000005 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - text/html;+charset=utf-8 20.4792ms (791a596a)
+2022-01-11T20:56:09.2360083+01:00 0HMEL7HDRB1SE:00000007 [INF] Request starting HTTP/2 GET https://localhost:5001/Product/Detail/5 - - (ca22a1cb)
+2022-01-11T20:56:09.2381944+01:00 0HMEL7HDRB1SE:00000007 [INF] Executing endpoint '"Zenzinger_Eshop_Web.Controllers.ProductController.Detail (Zenzinger_Eshop_Web)"' (500cc934)
+2022-01-11T20:56:09.2514612+01:00 0HMEL7HDRB1SE:00000007 [INF] Route matched with "{action = \"Detail\", controller = \"Product\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Detail(Int32)" on controller "Zenzinger_Eshop_Web.Controllers.ProductController" ("Zenzinger_Eshop_Web"). (122b2fdf)
+2022-01-11T20:56:09.2709745+01:00 0HMEL7HDRB1SE:00000007 [INF] Entity Framework Core "5.0.11" initialized '"EshopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.27-mysql " (9958f5bb)
+2022-01-11T20:56:09.2760479+01:00 0HMEL7HDRB1SE:00000007 [INF] Executed DbCommand ("0"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `p`.`ID`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Info`, `p`.`Name`, `p`.`Price`
+FROM `Product` AS `p`
+WHERE `p`.`ID` = @__id_0
+LIMIT 1" (0723d8ff)
+2022-01-11T20:56:09.2770511+01:00 0HMEL7HDRB1SE:00000007 [INF] Executing ViewResult, running view "Detail". (c83d0e25)
+2022-01-11T20:56:09.2866664+01:00 0HMEL7HDRB1SE:00000007 [INF] Accessing expired session, Key:"6d39dd20-7025-82be-104f-ce4bb44e3c58" (08c5a9e7)
+2022-01-11T20:56:09.2925918+01:00 0HMEL7HDRB1SE:00000007 [INF] Executed ViewResult - view "Detail" executed in 16.3022ms. (f66409e9)
+2022-01-11T20:56:09.2926842+01:00 0HMEL7HDRB1SE:00000007 [INF] Executed action "Zenzinger_Eshop_Web.Controllers.ProductController.Detail (Zenzinger_Eshop_Web)" in 41.1676ms (afa2e885)
+2022-01-11T20:56:09.2927127+01:00 0HMEL7HDRB1SE:00000007 [INF] Executed endpoint '"Zenzinger_Eshop_Web.Controllers.ProductController.Detail (Zenzinger_Eshop_Web)"' (99874f2b)
+2022-01-11T20:56:09.2928517+01:00 0HMEL7HDRB1SE:00000007 [INF] Request finished HTTP/2 GET https://localhost:5001/Product/Detail/5 - - - 200 - text/html;+charset=utf-8 56.8338ms (791a596a)
+2022-01-11T20:56:11.8252016+01:00 0HMEL7HDRB1SE:00000009 [INF] Request starting HTTP/2 POST https://localhost:5001/Customer/CustomerOrderNotCart/AddOrderItemsToSession application/x-www-form-urlencoded;+charset=UTF-8 11 (ca22a1cb)
+2022-01-11T20:56:11.8267443+01:00 0HMEL7HDRB1SE:00000009 [INF] Authorization was successful. (0d575a54)
+2022-01-11T20:56:11.8267923+01:00 0HMEL7HDRB1SE:00000009 [INF] Executing endpoint '"Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrderNotCartController.AddOrderItemsToSession (Zenzinger_Eshop_Web)"' (500cc934)
+2022-01-11T20:56:11.8278846+01:00 0HMEL7HDRB1SE:00000009 [INF] Route matched with "{area = \"Customer\", action = \"AddOrderItemsToSession\", controller = \"CustomerOrderNotCart\"}". Executing controller action with signature "Double AddOrderItemsToSession(System.Nullable`1[System.Int32])" on controller "Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrderNotCartController" ("Zenzinger_Eshop_Web"). (122b2fdf)
+2022-01-11T20:56:11.8361375+01:00 0HMEL7HDRB1SE:00000009 [INF] Accessing expired session, Key:"6d39dd20-7025-82be-104f-ce4bb44e3c58" (08c5a9e7)
+2022-01-11T20:56:11.8366935+01:00 0HMEL7HDRB1SE:00000009 [INF] Entity Framework Core "5.0.11" initialized '"EshopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.27-mysql " (9958f5bb)
+2022-01-11T20:56:11.8398617+01:00 0HMEL7HDRB1SE:00000009 [INF] Executed DbCommand ("0"ms) [Parameters=["@__productId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `p`.`ID`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Info`, `p`.`Name`, `p`.`Price`
+FROM `Product` AS `p`
+WHERE `p`.`ID` = @__productId_0
+LIMIT 1" (0723d8ff)
+2022-01-11T20:56:11.9457460+01:00 0HMEL7HDRB1SE:00000009 [INF] Executing "ObjectResult", writing value of type '"System.Double"'. (605b4265)
+2022-01-11T20:56:11.9553928+01:00 0HMEL7HDRB1SE:00000009 [INF] Executed action "Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrderNotCartController.AddOrderItemsToSession (Zenzinger_Eshop_Web)" in 127.4627ms (afa2e885)
+2022-01-11T20:56:11.9554506+01:00 0HMEL7HDRB1SE:00000009 [INF] Executed endpoint '"Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrderNotCartController.AddOrderItemsToSession (Zenzinger_Eshop_Web)"' (99874f2b)
+2022-01-11T20:56:11.9558456+01:00 0HMEL7HDRB1SE:00000009 [INF] Session started; Key:"6d39dd20-7025-82be-104f-ce4bb44e3c58", Id:"df42ca9a-17fd-1e83-3f33-7272e405a84e" (1d7cf8c0)
+2022-01-11T20:56:11.9564044+01:00 0HMEL7HDRB1SE:00000009 [INF] Request finished HTTP/2 POST https://localhost:5001/Customer/CustomerOrderNotCart/AddOrderItemsToSession application/x-www-form-urlencoded;+charset=UTF-8 11 - 200 - application/json;+charset=utf-8 131.1634ms (791a596a)
+2022-01-11T20:56:13.3073294+01:00 0HMEL7HDRB1SE:0000000B [INF] Request starting HTTP/2 GET https://localhost:5001/ - - (ca22a1cb)
+2022-01-11T20:56:13.3077666+01:00 0HMEL7HDRB1SE:0000000B [INF] Executing endpoint '"Zenzinger_Eshop_Web.Controllers.HomeController.Index (Zenzinger_Eshop_Web)"' (500cc934)
+2022-01-11T20:56:13.3078491+01:00 0HMEL7HDRB1SE:0000000B [INF] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Zenzinger_Eshop_Web.Controllers.HomeController" ("Zenzinger_Eshop_Web"). (122b2fdf)
+2022-01-11T20:56:13.3079050+01:00 0HMEL7HDRB1SE:0000000B [INF] Loading Home Index (432c29eb)
+2022-01-11T20:56:13.3082439+01:00 0HMEL7HDRB1SE:0000000B [INF] Entity Framework Core "5.0.11" initialized '"EshopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.27-mysql " (9958f5bb)
+2022-01-11T20:56:13.3099581+01:00 0HMEL7HDRB1SE:0000000B [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `c`.`id`, `c`.`ImageAlt`, `c`.`ImageSource`
+FROM `CarouselItem` AS `c`" (0723d8ff)
+2022-01-11T20:56:13.3122933+01:00 0HMEL7HDRB1SE:0000000B [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `p`.`ID`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Info`, `p`.`Name`, `p`.`Price`
+FROM `Product` AS `p`" (0723d8ff)
+2022-01-11T20:56:13.3127553+01:00 0HMEL7HDRB1SE:0000000B [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2022-01-11T20:56:13.3150387+01:00 0HMEL7HDRB1SE:0000000B [INF] Executed ViewResult - view "Index" executed in 2.3093ms. (f66409e9)
+2022-01-11T20:56:13.3151177+01:00 0HMEL7HDRB1SE:0000000B [INF] Executed action "Zenzinger_Eshop_Web.Controllers.HomeController.Index (Zenzinger_Eshop_Web)" in 7.252ms (afa2e885)
+2022-01-11T20:56:13.3151393+01:00 0HMEL7HDRB1SE:0000000B [INF] Executed endpoint '"Zenzinger_Eshop_Web.Controllers.HomeController.Index (Zenzinger_Eshop_Web)"' (99874f2b)
+2022-01-11T20:56:13.3152828+01:00 0HMEL7HDRB1SE:0000000B [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - text/html;+charset=utf-8 7.9460ms (791a596a)
+2022-01-11T20:56:16.6925805+01:00 0HMEL7HDRB1SE:0000000D [INF] Request starting HTTP/2 GET https://localhost:5001/Product/Detail/2 - - (ca22a1cb)
+2022-01-11T20:56:16.6942648+01:00 0HMEL7HDRB1SE:0000000D [INF] Executing endpoint '"Zenzinger_Eshop_Web.Controllers.ProductController.Detail (Zenzinger_Eshop_Web)"' (500cc934)
+2022-01-11T20:56:16.6946807+01:00 0HMEL7HDRB1SE:0000000D [INF] Route matched with "{action = \"Detail\", controller = \"Product\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Detail(Int32)" on controller "Zenzinger_Eshop_Web.Controllers.ProductController" ("Zenzinger_Eshop_Web"). (122b2fdf)
+2022-01-11T20:56:16.6963047+01:00 0HMEL7HDRB1SE:0000000D [INF] Entity Framework Core "5.0.11" initialized '"EshopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.27-mysql " (9958f5bb)
+2022-01-11T20:56:16.6998450+01:00 0HMEL7HDRB1SE:0000000D [INF] Executed DbCommand ("1"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `p`.`ID`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Info`, `p`.`Name`, `p`.`Price`
+FROM `Product` AS `p`
+WHERE `p`.`ID` = @__id_0
+LIMIT 1" (0723d8ff)
+2022-01-11T20:56:16.7002064+01:00 0HMEL7HDRB1SE:0000000D [INF] Executing ViewResult, running view "Detail". (c83d0e25)
+2022-01-11T20:56:16.7028899+01:00 0HMEL7HDRB1SE:0000000D [INF] Executed ViewResult - view "Detail" executed in 2.6001ms. (f66409e9)
+2022-01-11T20:56:16.7033487+01:00 0HMEL7HDRB1SE:0000000D [INF] Executed action "Zenzinger_Eshop_Web.Controllers.ProductController.Detail (Zenzinger_Eshop_Web)" in 8.2408ms (afa2e885)
+2022-01-11T20:56:16.7035499+01:00 0HMEL7HDRB1SE:0000000D [INF] Executed endpoint '"Zenzinger_Eshop_Web.Controllers.ProductController.Detail (Zenzinger_Eshop_Web)"' (99874f2b)
+2022-01-11T20:56:16.7041469+01:00 0HMEL7HDRB1SE:0000000D [INF] Request finished HTTP/2 GET https://localhost:5001/Product/Detail/2 - - - 200 - text/html;+charset=utf-8 11.5351ms (791a596a)
+2022-01-11T20:56:18.0552012+01:00 0HMEL7HDRB1SE:0000000F [INF] Request starting HTTP/2 POST https://localhost:5001/Customer/CustomerOrderNotCart/AddOrderItemsToSession application/x-www-form-urlencoded;+charset=UTF-8 11 (ca22a1cb)
+2022-01-11T20:56:18.0615014+01:00 0HMEL7HDRB1SE:0000000F [INF] Authorization was successful. (0d575a54)
+2022-01-11T20:56:18.0620920+01:00 0HMEL7HDRB1SE:0000000F [INF] Executing endpoint '"Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrderNotCartController.AddOrderItemsToSession (Zenzinger_Eshop_Web)"' (500cc934)
+2022-01-11T20:56:18.0623301+01:00 0HMEL7HDRB1SE:0000000F [INF] Route matched with "{area = \"Customer\", action = \"AddOrderItemsToSession\", controller = \"CustomerOrderNotCart\"}". Executing controller action with signature "Double AddOrderItemsToSession(System.Nullable`1[System.Int32])" on controller "Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrderNotCartController" ("Zenzinger_Eshop_Web"). (122b2fdf)
+2022-01-11T20:56:18.0648316+01:00 0HMEL7HDRB1SE:0000000F [INF] Entity Framework Core "5.0.11" initialized '"EshopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.27-mysql " (9958f5bb)
+2022-01-11T20:56:18.0674698+01:00 0HMEL7HDRB1SE:0000000F [INF] Executed DbCommand ("1"ms) [Parameters=["@__productId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `p`.`ID`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Info`, `p`.`Name`, `p`.`Price`
+FROM `Product` AS `p`
+WHERE `p`.`ID` = @__productId_0
+LIMIT 1" (0723d8ff)
+2022-01-11T20:56:18.1162528+01:00 0HMEL7HDRB1SE:0000000F [INF] Executing "ObjectResult", writing value of type '"System.Double"'. (605b4265)
+2022-01-11T20:56:18.1164661+01:00 0HMEL7HDRB1SE:0000000F [INF] Executed action "Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrderNotCartController.AddOrderItemsToSession (Zenzinger_Eshop_Web)" in 54.0901ms (afa2e885)
+2022-01-11T20:56:18.1164870+01:00 0HMEL7HDRB1SE:0000000F [INF] Executed endpoint '"Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrderNotCartController.AddOrderItemsToSession (Zenzinger_Eshop_Web)"' (99874f2b)
+2022-01-11T20:56:18.1166936+01:00 0HMEL7HDRB1SE:0000000F [INF] Request finished HTTP/2 POST https://localhost:5001/Customer/CustomerOrderNotCart/AddOrderItemsToSession application/x-www-form-urlencoded;+charset=UTF-8 11 - 200 - application/json;+charset=utf-8 61.6003ms (791a596a)
+2022-01-11T20:56:19.6861848+01:00 0HMEL7HDRB1SE:00000011 [INF] Request starting HTTP/2 GET https://localhost:5001/ - - (ca22a1cb)
+2022-01-11T20:56:19.6875409+01:00 0HMEL7HDRB1SE:00000011 [INF] Executing endpoint '"Zenzinger_Eshop_Web.Controllers.HomeController.Index (Zenzinger_Eshop_Web)"' (500cc934)
+2022-01-11T20:56:19.6876974+01:00 0HMEL7HDRB1SE:00000011 [INF] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Zenzinger_Eshop_Web.Controllers.HomeController" ("Zenzinger_Eshop_Web"). (122b2fdf)
+2022-01-11T20:56:19.6878225+01:00 0HMEL7HDRB1SE:00000011 [INF] Loading Home Index (432c29eb)
+2022-01-11T20:56:19.6882498+01:00 0HMEL7HDRB1SE:00000011 [INF] Entity Framework Core "5.0.11" initialized '"EshopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.27-mysql " (9958f5bb)
+2022-01-11T20:56:19.6913364+01:00 0HMEL7HDRB1SE:00000011 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `c`.`id`, `c`.`ImageAlt`, `c`.`ImageSource`
+FROM `CarouselItem` AS `c`" (0723d8ff)
+2022-01-11T20:56:19.6947967+01:00 0HMEL7HDRB1SE:00000011 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `p`.`ID`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Info`, `p`.`Name`, `p`.`Price`
+FROM `Product` AS `p`" (0723d8ff)
+2022-01-11T20:56:19.6951776+01:00 0HMEL7HDRB1SE:00000011 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2022-01-11T20:56:19.6965702+01:00 0HMEL7HDRB1SE:00000011 [INF] Executed ViewResult - view "Index" executed in 1.3822ms. (f66409e9)
+2022-01-11T20:56:19.6967216+01:00 0HMEL7HDRB1SE:00000011 [INF] Executed action "Zenzinger_Eshop_Web.Controllers.HomeController.Index (Zenzinger_Eshop_Web)" in 8.9623ms (afa2e885)
+2022-01-11T20:56:19.6968202+01:00 0HMEL7HDRB1SE:00000011 [INF] Executed endpoint '"Zenzinger_Eshop_Web.Controllers.HomeController.Index (Zenzinger_Eshop_Web)"' (99874f2b)
+2022-01-11T20:56:19.6973292+01:00 0HMEL7HDRB1SE:00000011 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - text/html;+charset=utf-8 11.0736ms (791a596a)
+2022-01-11T20:56:23.1028807+01:00 0HMEL7HDRB1SE:00000013 [INF] Request starting HTTP/2 GET https://localhost:5001/Product/Detail/7 - - (ca22a1cb)
+2022-01-11T20:56:23.1040778+01:00 0HMEL7HDRB1SE:00000013 [INF] Executing endpoint '"Zenzinger_Eshop_Web.Controllers.ProductController.Detail (Zenzinger_Eshop_Web)"' (500cc934)
+2022-01-11T20:56:23.1043917+01:00 0HMEL7HDRB1SE:00000013 [INF] Route matched with "{action = \"Detail\", controller = \"Product\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Detail(Int32)" on controller "Zenzinger_Eshop_Web.Controllers.ProductController" ("Zenzinger_Eshop_Web"). (122b2fdf)
+2022-01-11T20:56:23.1052839+01:00 0HMEL7HDRB1SE:00000013 [INF] Entity Framework Core "5.0.11" initialized '"EshopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.27-mysql " (9958f5bb)
+2022-01-11T20:56:23.1088024+01:00 0HMEL7HDRB1SE:00000013 [INF] Executed DbCommand ("1"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `p`.`ID`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Info`, `p`.`Name`, `p`.`Price`
+FROM `Product` AS `p`
+WHERE `p`.`ID` = @__id_0
+LIMIT 1" (0723d8ff)
+2022-01-11T20:56:23.1090377+01:00 0HMEL7HDRB1SE:00000013 [INF] Executing ViewResult, running view "Detail". (c83d0e25)
+2022-01-11T20:56:23.1108662+01:00 0HMEL7HDRB1SE:00000013 [INF] Executed ViewResult - view "Detail" executed in 1.8415ms. (f66409e9)
+2022-01-11T20:56:23.1109520+01:00 0HMEL7HDRB1SE:00000013 [INF] Executed action "Zenzinger_Eshop_Web.Controllers.ProductController.Detail (Zenzinger_Eshop_Web)" in 6.5056ms (afa2e885)
+2022-01-11T20:56:23.1110128+01:00 0HMEL7HDRB1SE:00000013 [INF] Executed endpoint '"Zenzinger_Eshop_Web.Controllers.ProductController.Detail (Zenzinger_Eshop_Web)"' (99874f2b)
+2022-01-11T20:56:23.1112437+01:00 0HMEL7HDRB1SE:00000013 [INF] Request finished HTTP/2 GET https://localhost:5001/Product/Detail/7 - - - 200 - text/html;+charset=utf-8 8.3349ms (791a596a)
+2022-01-11T20:56:28.5859291+01:00 0HMEL7HDRB1SE:00000015 [INF] Request starting HTTP/2 GET https://localhost:5001/Customer/CustomerOrderNotCart/ApproveOrderInSession - - (ca22a1cb)
+2022-01-11T20:56:28.5867754+01:00 0HMEL7HDRB1SE:00000015 [INF] Authorization was successful. (0d575a54)
+2022-01-11T20:56:28.5868988+01:00 0HMEL7HDRB1SE:00000015 [INF] Executing endpoint '"Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrderNotCartController.ApproveOrderInSession (Zenzinger_Eshop_Web)"' (500cc934)
+2022-01-11T20:56:28.5937277+01:00 0HMEL7HDRB1SE:00000015 [INF] Route matched with "{area = \"Customer\", action = \"ApproveOrderInSession\", controller = \"CustomerOrderNotCart\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ApproveOrderInSession()" on controller "Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrderNotCartController" ("Zenzinger_Eshop_Web"). (122b2fdf)
+2022-01-11T20:56:28.5981961+01:00 0HMEL7HDRB1SE:00000015 [INF] Entity Framework Core "5.0.11" initialized '"EshopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.27-mysql " (9958f5bb)
+2022-01-11T20:56:28.6006912+01:00 0HMEL7HDRB1SE:00000015 [INF] Executed DbCommand ("1"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `a`.`Id`, `a`.`AccessFailedCount`, `a`.`ConcurrencyStamp`, `a`.`Email`, `a`.`EmailConfirmed`, `a`.`FirstName`, `a`.`LastName`, `a`.`LockoutEnabled`, `a`.`LockoutEnd`, `a`.`NormalizedEmail`, `a`.`NormalizedUserName`, `a`.`PasswordHash`, `a`.`PhoneNumber`, `a`.`PhoneNumberConfirmed`, `a`.`SecurityStamp`, `a`.`TwoFactorEnabled`, `a`.`UserName`
+FROM `AspNetUsers` AS `a`
+WHERE `a`.`Id` = @__p_0
+LIMIT 1" (0723d8ff)
+2022-01-11T20:56:28.7750138+01:00 0HMEL7HDRB1SE:00000015 [INF] Executed DbCommand ("12"ms) [Parameters=["@p0='?' (Size = 25), @p1='?' (DbType = Double), @p2='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO `Order` (`OrderNumber`, `TotalPrice`, `UserId`)
+VALUES (@p0, @p1, @p2);
+SELECT `Id`, `DateTimeCreated`
+FROM `Order`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();" (0723d8ff)
+2022-01-11T20:56:28.8060292+01:00 0HMEL7HDRB1SE:00000015 [INF] Executed DbCommand ("1"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Double), @p3='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO `OrderItem` (`Amount`, `OrderId`, `Price`, `ProductId`)
+VALUES (@p0, @p1, @p2, @p3);
+SELECT `Id`
+FROM `OrderItem`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();" (0723d8ff)
+2022-01-11T20:56:28.8088956+01:00 0HMEL7HDRB1SE:00000015 [INF] Executed DbCommand ("1"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Double), @p3='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO `OrderItem` (`Amount`, `OrderId`, `Price`, `ProductId`)
+VALUES (@p0, @p1, @p2, @p3);
+SELECT `Id`
+FROM `OrderItem`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();" (0723d8ff)
+2022-01-11T20:56:28.8325921+01:00 0HMEL7HDRB1SE:00000015 [INF] Executing RedirectResult, redirecting to "/Customer/CustomerOrders". (d98d540e)
+2022-01-11T20:56:28.8327039+01:00 0HMEL7HDRB1SE:00000015 [INF] Executed action "Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrderNotCartController.ApproveOrderInSession (Zenzinger_Eshop_Web)" in 238.9323ms (afa2e885)
+2022-01-11T20:56:28.8327234+01:00 0HMEL7HDRB1SE:00000015 [INF] Executed endpoint '"Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrderNotCartController.ApproveOrderInSession (Zenzinger_Eshop_Web)"' (99874f2b)
+2022-01-11T20:56:28.8330014+01:00 0HMEL7HDRB1SE:00000015 [INF] Request finished HTTP/2 GET https://localhost:5001/Customer/CustomerOrderNotCart/ApproveOrderInSession - - - 302 0 - 247.0665ms (791a596a)
+2022-01-11T20:56:28.8357700+01:00 0HMEL7HDRB1SE:00000017 [INF] Request starting HTTP/2 GET https://localhost:5001/Customer/CustomerOrders - - (ca22a1cb)
+2022-01-11T20:56:28.8361286+01:00 0HMEL7HDRB1SE:00000017 [INF] Authorization was successful. (0d575a54)
+2022-01-11T20:56:28.8361484+01:00 0HMEL7HDRB1SE:00000017 [INF] Executing endpoint '"Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrdersController.Index (Zenzinger_Eshop_Web)"' (500cc934)
+2022-01-11T20:56:28.8362075+01:00 0HMEL7HDRB1SE:00000017 [INF] Route matched with "{area = \"Customer\", action = \"Index\", controller = \"CustomerOrders\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrdersController" ("Zenzinger_Eshop_Web"). (122b2fdf)
+2022-01-11T20:56:28.8364532+01:00 0HMEL7HDRB1SE:00000017 [INF] Entity Framework Core "5.0.11" initialized '"EshopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.27-mysql " (9958f5bb)
+2022-01-11T20:56:28.8385043+01:00 0HMEL7HDRB1SE:00000017 [INF] Executed DbCommand ("1"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `a`.`Id`, `a`.`AccessFailedCount`, `a`.`ConcurrencyStamp`, `a`.`Email`, `a`.`EmailConfirmed`, `a`.`FirstName`, `a`.`LastName`, `a`.`LockoutEnabled`, `a`.`LockoutEnd`, `a`.`NormalizedEmail`, `a`.`NormalizedUserName`, `a`.`PasswordHash`, `a`.`PhoneNumber`, `a`.`PhoneNumberConfirmed`, `a`.`SecurityStamp`, `a`.`TwoFactorEnabled`, `a`.`UserName`
+FROM `AspNetUsers` AS `a`
+WHERE `a`.`Id` = @__p_0
+LIMIT 1" (0723d8ff)
+2022-01-11T20:56:28.8404004+01:00 0HMEL7HDRB1SE:00000017 [INF] Executed DbCommand ("1"ms) [Parameters=["@__currentUser_Id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `o`.`Id`, `o`.`DateTimeCreated`, `o`.`OrderNumber`, `o`.`TotalPrice`, `o`.`UserId`, `a`.`Id`, `a`.`AccessFailedCount`, `a`.`ConcurrencyStamp`, `a`.`Email`, `a`.`EmailConfirmed`, `a`.`FirstName`, `a`.`LastName`, `a`.`LockoutEnabled`, `a`.`LockoutEnd`, `a`.`NormalizedEmail`, `a`.`NormalizedUserName`, `a`.`PasswordHash`, `a`.`PhoneNumber`, `a`.`PhoneNumberConfirmed`, `a`.`SecurityStamp`, `a`.`TwoFactorEnabled`, `a`.`UserName`, `t`.`Id`, `t`.`Amount`, `t`.`OrderId`, `t`.`Price`, `t`.`ProductId`, `t`.`ID0`, `t`.`ImageAlt`, `t`.`ImageSource`, `t`.`Info`, `t`.`Name`, `t`.`Price0`
+FROM `Order` AS `o`
+INNER JOIN `AspNetUsers` AS `a` ON `o`.`UserId` = `a`.`Id`
+LEFT JOIN (
+    SELECT `o0`.`Id`, `o0`.`Amount`, `o0`.`OrderId`, `o0`.`Price`, `o0`.`ProductId`, `p`.`ID` AS `ID0`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Info`, `p`.`Name`, `p`.`Price` AS `Price0`
+    FROM `OrderItem` AS `o0`
+    INNER JOIN `Product` AS `p` ON `o0`.`ProductId` = `p`.`ID`
+) AS `t` ON `o`.`Id` = `t`.`OrderId`
+WHERE `o`.`UserId` = @__currentUser_Id_0
+ORDER BY `o`.`Id`, `a`.`Id`, `t`.`Id`, `t`.`ID0`" (0723d8ff)
+2022-01-11T20:56:28.8410289+01:00 0HMEL7HDRB1SE:00000017 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2022-01-11T20:56:28.8416766+01:00 0HMEL7HDRB1SE:00000017 [INF] Executed ViewResult - view "Index" executed in 0.6663ms. (f66409e9)
+2022-01-11T20:56:28.8417332+01:00 0HMEL7HDRB1SE:00000017 [INF] Executed action "Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrdersController.Index (Zenzinger_Eshop_Web)" in 5.4798ms (afa2e885)
+2022-01-11T20:56:28.8417506+01:00 0HMEL7HDRB1SE:00000017 [INF] Executed endpoint '"Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrdersController.Index (Zenzinger_Eshop_Web)"' (99874f2b)
+2022-01-11T20:56:28.8418294+01:00 0HMEL7HDRB1SE:00000017 [INF] Request finished HTTP/2 GET https://localhost:5001/Customer/CustomerOrders - - - 200 - text/html;+charset=utf-8 6.0715ms (791a596a)
+2022-01-11T21:05:57.8223187+01:00 0HMEL7HDRB1SF:00000001 [INF] Request starting HTTP/2 GET https://localhost:5001/ - - (ca22a1cb)
+2022-01-11T21:05:57.8236373+01:00 0HMEL7HDRB1SF:00000001 [INF] Executing endpoint '"Zenzinger_Eshop_Web.Controllers.HomeController.Index (Zenzinger_Eshop_Web)"' (500cc934)
+2022-01-11T21:05:57.8237495+01:00 0HMEL7HDRB1SF:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Zenzinger_Eshop_Web.Controllers.HomeController" ("Zenzinger_Eshop_Web"). (122b2fdf)
+2022-01-11T21:05:57.8238366+01:00 0HMEL7HDRB1SF:00000001 [INF] Loading Home Index (432c29eb)
+2022-01-11T21:05:57.8241902+01:00 0HMEL7HDRB1SF:00000001 [INF] Entity Framework Core "5.0.11" initialized '"EshopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.27-mysql " (9958f5bb)
+2022-01-11T21:05:57.8433621+01:00 0HMEL7HDRB1SF:00000001 [INF] Executed DbCommand ("12"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `c`.`id`, `c`.`ImageAlt`, `c`.`ImageSource`
+FROM `CarouselItem` AS `c`" (0723d8ff)
+2022-01-11T21:05:57.8464670+01:00 0HMEL7HDRB1SF:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `p`.`ID`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Info`, `p`.`Name`, `p`.`Price`
+FROM `Product` AS `p`" (0723d8ff)
+2022-01-11T21:05:57.8466882+01:00 0HMEL7HDRB1SF:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2022-01-11T21:05:57.8548003+01:00 0HMEL7HDRB1SF:00000001 [INF] Executed ViewResult - view "Index" executed in 8.0909ms. (f66409e9)
+2022-01-11T21:05:57.8549189+01:00 0HMEL7HDRB1SF:00000001 [INF] Executed action "Zenzinger_Eshop_Web.Controllers.HomeController.Index (Zenzinger_Eshop_Web)" in 31.1393ms (afa2e885)
+2022-01-11T21:05:57.8549632+01:00 0HMEL7HDRB1SF:00000001 [INF] Executed endpoint '"Zenzinger_Eshop_Web.Controllers.HomeController.Index (Zenzinger_Eshop_Web)"' (99874f2b)
+2022-01-11T21:05:57.8552823+01:00 0HMEL7HDRB1SF:00000001 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - text/html;+charset=utf-8 32.9268ms (791a596a)
+2022-01-11T21:06:04.6231580+01:00 0HMEL7HDRB1SF:00000003 [INF] Request starting HTTP/2 GET https://localhost:5001/Customer/CustomerOrders - - (ca22a1cb)
+2022-01-11T21:06:04.6236223+01:00 0HMEL7HDRB1SF:00000003 [INF] Authorization was successful. (0d575a54)
+2022-01-11T21:06:04.6236492+01:00 0HMEL7HDRB1SF:00000003 [INF] Executing endpoint '"Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrdersController.Index (Zenzinger_Eshop_Web)"' (500cc934)
+2022-01-11T21:06:04.6237259+01:00 0HMEL7HDRB1SF:00000003 [INF] Route matched with "{area = \"Customer\", action = \"Index\", controller = \"CustomerOrders\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrdersController" ("Zenzinger_Eshop_Web"). (122b2fdf)
+2022-01-11T21:06:04.6240336+01:00 0HMEL7HDRB1SF:00000003 [INF] Entity Framework Core "5.0.11" initialized '"EshopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.27-mysql " (9958f5bb)
+2022-01-11T21:06:04.6382013+01:00 0HMEL7HDRB1SF:00000003 [INF] Executed DbCommand ("12"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `a`.`Id`, `a`.`AccessFailedCount`, `a`.`ConcurrencyStamp`, `a`.`Email`, `a`.`EmailConfirmed`, `a`.`FirstName`, `a`.`LastName`, `a`.`LockoutEnabled`, `a`.`LockoutEnd`, `a`.`NormalizedEmail`, `a`.`NormalizedUserName`, `a`.`PasswordHash`, `a`.`PhoneNumber`, `a`.`PhoneNumberConfirmed`, `a`.`SecurityStamp`, `a`.`TwoFactorEnabled`, `a`.`UserName`
+FROM `AspNetUsers` AS `a`
+WHERE `a`.`Id` = @__p_0
+LIMIT 1" (0723d8ff)
+2022-01-11T21:06:04.6432469+01:00 0HMEL7HDRB1SF:00000003 [INF] Executed DbCommand ("3"ms) [Parameters=["@__currentUser_Id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `o`.`Id`, `o`.`DateTimeCreated`, `o`.`OrderNumber`, `o`.`TotalPrice`, `o`.`UserId`, `a`.`Id`, `a`.`AccessFailedCount`, `a`.`ConcurrencyStamp`, `a`.`Email`, `a`.`EmailConfirmed`, `a`.`FirstName`, `a`.`LastName`, `a`.`LockoutEnabled`, `a`.`LockoutEnd`, `a`.`NormalizedEmail`, `a`.`NormalizedUserName`, `a`.`PasswordHash`, `a`.`PhoneNumber`, `a`.`PhoneNumberConfirmed`, `a`.`SecurityStamp`, `a`.`TwoFactorEnabled`, `a`.`UserName`, `t`.`Id`, `t`.`Amount`, `t`.`OrderId`, `t`.`Price`, `t`.`ProductId`, `t`.`ID0`, `t`.`ImageAlt`, `t`.`ImageSource`, `t`.`Info`, `t`.`Name`, `t`.`Price0`
+FROM `Order` AS `o`
+INNER JOIN `AspNetUsers` AS `a` ON `o`.`UserId` = `a`.`Id`
+LEFT JOIN (
+    SELECT `o0`.`Id`, `o0`.`Amount`, `o0`.`OrderId`, `o0`.`Price`, `o0`.`ProductId`, `p`.`ID` AS `ID0`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Info`, `p`.`Name`, `p`.`Price` AS `Price0`
+    FROM `OrderItem` AS `o0`
+    INNER JOIN `Product` AS `p` ON `o0`.`ProductId` = `p`.`ID`
+) AS `t` ON `o`.`Id` = `t`.`OrderId`
+WHERE `o`.`UserId` = @__currentUser_Id_0
+ORDER BY `o`.`Id`, `a`.`Id`, `t`.`Id`, `t`.`ID0`" (0723d8ff)
+2022-01-11T21:06:04.6437239+01:00 0HMEL7HDRB1SF:00000003 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2022-01-11T21:06:04.6447417+01:00 0HMEL7HDRB1SF:00000003 [INF] Executed ViewResult - view "Index" executed in 1.0639ms. (f66409e9)
+2022-01-11T21:06:04.6447744+01:00 0HMEL7HDRB1SF:00000003 [INF] Executed action "Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrdersController.Index (Zenzinger_Eshop_Web)" in 21.0344ms (afa2e885)
+2022-01-11T21:06:04.6447919+01:00 0HMEL7HDRB1SF:00000003 [INF] Executed endpoint '"Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrdersController.Index (Zenzinger_Eshop_Web)"' (99874f2b)
+2022-01-11T21:06:04.6448728+01:00 0HMEL7HDRB1SF:00000003 [INF] Request finished HTTP/2 GET https://localhost:5001/Customer/CustomerOrders - - - 200 - text/html;+charset=utf-8 21.7205ms (791a596a)
+2022-01-11T21:17:38.9279187+01:00 0HMEL7HDRB1SG:00000001 [INF] Request starting HTTP/2 GET https://localhost:5001/ - - (ca22a1cb)
+2022-01-11T21:17:38.9286577+01:00 0HMEL7HDRB1SG:00000001 [INF] Executing endpoint '"Zenzinger_Eshop_Web.Controllers.HomeController.Index (Zenzinger_Eshop_Web)"' (500cc934)
+2022-01-11T21:17:38.9287757+01:00 0HMEL7HDRB1SG:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Zenzinger_Eshop_Web.Controllers.HomeController" ("Zenzinger_Eshop_Web"). (122b2fdf)
+2022-01-11T21:17:38.9288548+01:00 0HMEL7HDRB1SG:00000001 [INF] Loading Home Index (432c29eb)
+2022-01-11T21:17:38.9291463+01:00 0HMEL7HDRB1SG:00000001 [INF] Entity Framework Core "5.0.11" initialized '"EshopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.27-mysql " (9958f5bb)
+2022-01-11T21:17:38.9394640+01:00 0HMEL7HDRB1SG:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `c`.`id`, `c`.`ImageAlt`, `c`.`ImageSource`
+FROM `CarouselItem` AS `c`" (0723d8ff)
+2022-01-11T21:17:38.9416267+01:00 0HMEL7HDRB1SG:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `p`.`ID`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Info`, `p`.`Name`, `p`.`Price`
+FROM `Product` AS `p`" (0723d8ff)
+2022-01-11T21:17:38.9418797+01:00 0HMEL7HDRB1SG:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2022-01-11T21:17:38.9425466+01:00 0HMEL7HDRB1SG:00000001 [INF] Executed ViewResult - view "Index" executed in 0.6995ms. (f66409e9)
+2022-01-11T21:17:38.9425730+01:00 0HMEL7HDRB1SG:00000001 [INF] Executed action "Zenzinger_Eshop_Web.Controllers.HomeController.Index (Zenzinger_Eshop_Web)" in 13.7829ms (afa2e885)
+2022-01-11T21:17:38.9425857+01:00 0HMEL7HDRB1SG:00000001 [INF] Executed endpoint '"Zenzinger_Eshop_Web.Controllers.HomeController.Index (Zenzinger_Eshop_Web)"' (99874f2b)
+2022-01-11T21:17:38.9426658+01:00 0HMEL7HDRB1SG:00000001 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - text/html;+charset=utf-8 14.8279ms (791a596a)
+2022-01-11T21:19:14.1671657+01:00 0HMEL7HDRB1SG:00000003 [INF] Request starting HTTP/2 GET https://localhost:5001/Customer/CustomerOrders - - (ca22a1cb)
+2022-01-11T21:19:14.1683194+01:00 0HMEL7HDRB1SG:00000003 [INF] Authorization was successful. (0d575a54)
+2022-01-11T21:19:14.1683739+01:00 0HMEL7HDRB1SG:00000003 [INF] Executing endpoint '"Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrdersController.Index (Zenzinger_Eshop_Web)"' (500cc934)
+2022-01-11T21:19:14.1685076+01:00 0HMEL7HDRB1SG:00000003 [INF] Route matched with "{area = \"Customer\", action = \"Index\", controller = \"CustomerOrders\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrdersController" ("Zenzinger_Eshop_Web"). (122b2fdf)
+2022-01-11T21:19:14.1689361+01:00 0HMEL7HDRB1SG:00000003 [INF] Entity Framework Core "5.0.11" initialized '"EshopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.27-mysql " (9958f5bb)
+2022-01-11T21:19:14.1724429+01:00 0HMEL7HDRB1SG:00000003 [INF] Executed DbCommand ("1"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `a`.`Id`, `a`.`AccessFailedCount`, `a`.`ConcurrencyStamp`, `a`.`Email`, `a`.`EmailConfirmed`, `a`.`FirstName`, `a`.`LastName`, `a`.`LockoutEnabled`, `a`.`LockoutEnd`, `a`.`NormalizedEmail`, `a`.`NormalizedUserName`, `a`.`PasswordHash`, `a`.`PhoneNumber`, `a`.`PhoneNumberConfirmed`, `a`.`SecurityStamp`, `a`.`TwoFactorEnabled`, `a`.`UserName`
+FROM `AspNetUsers` AS `a`
+WHERE `a`.`Id` = @__p_0
+LIMIT 1" (0723d8ff)
+2022-01-11T21:19:14.1773031+01:00 0HMEL7HDRB1SG:00000003 [INF] Executed DbCommand ("2"ms) [Parameters=["@__currentUser_Id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `o`.`Id`, `o`.`DateTimeCreated`, `o`.`OrderNumber`, `o`.`TotalPrice`, `o`.`UserId`, `a`.`Id`, `a`.`AccessFailedCount`, `a`.`ConcurrencyStamp`, `a`.`Email`, `a`.`EmailConfirmed`, `a`.`FirstName`, `a`.`LastName`, `a`.`LockoutEnabled`, `a`.`LockoutEnd`, `a`.`NormalizedEmail`, `a`.`NormalizedUserName`, `a`.`PasswordHash`, `a`.`PhoneNumber`, `a`.`PhoneNumberConfirmed`, `a`.`SecurityStamp`, `a`.`TwoFactorEnabled`, `a`.`UserName`, `t`.`Id`, `t`.`Amount`, `t`.`OrderId`, `t`.`Price`, `t`.`ProductId`, `t`.`ID0`, `t`.`ImageAlt`, `t`.`ImageSource`, `t`.`Info`, `t`.`Name`, `t`.`Price0`
+FROM `Order` AS `o`
+INNER JOIN `AspNetUsers` AS `a` ON `o`.`UserId` = `a`.`Id`
+LEFT JOIN (
+    SELECT `o0`.`Id`, `o0`.`Amount`, `o0`.`OrderId`, `o0`.`Price`, `o0`.`ProductId`, `p`.`ID` AS `ID0`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Info`, `p`.`Name`, `p`.`Price` AS `Price0`
+    FROM `OrderItem` AS `o0`
+    INNER JOIN `Product` AS `p` ON `o0`.`ProductId` = `p`.`ID`
+) AS `t` ON `o`.`Id` = `t`.`OrderId`
+WHERE `o`.`UserId` = @__currentUser_Id_0
+ORDER BY `o`.`Id`, `a`.`Id`, `t`.`Id`, `t`.`ID0`" (0723d8ff)
+2022-01-11T21:19:14.1777772+01:00 0HMEL7HDRB1SG:00000003 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2022-01-11T21:19:14.1783452+01:00 0HMEL7HDRB1SG:00000003 [INF] Executed ViewResult - view "Index" executed in 0.6601ms. (f66409e9)
+2022-01-11T21:19:14.1783822+01:00 0HMEL7HDRB1SG:00000003 [INF] Executed action "Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrdersController.Index (Zenzinger_Eshop_Web)" in 9.8555ms (afa2e885)
+2022-01-11T21:19:14.1784381+01:00 0HMEL7HDRB1SG:00000003 [INF] Executed endpoint '"Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrdersController.Index (Zenzinger_Eshop_Web)"' (99874f2b)
+2022-01-11T21:19:14.1785640+01:00 0HMEL7HDRB1SG:00000003 [INF] Request finished HTTP/2 GET https://localhost:5001/Customer/CustomerOrders - - - 200 - text/html;+charset=utf-8 11.4135ms (791a596a)
+2022-01-11T21:19:40.4862973+01:00 0HMEL7HDRB1SG:00000005 [INF] Request starting HTTP/2 GET https://localhost:5001/ - - (ca22a1cb)
+2022-01-11T21:19:40.4878449+01:00 0HMEL7HDRB1SG:00000005 [INF] Executing endpoint '"Zenzinger_Eshop_Web.Controllers.HomeController.Index (Zenzinger_Eshop_Web)"' (500cc934)
+2022-01-11T21:19:40.4880486+01:00 0HMEL7HDRB1SG:00000005 [INF] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Zenzinger_Eshop_Web.Controllers.HomeController" ("Zenzinger_Eshop_Web"). (122b2fdf)
+2022-01-11T21:19:40.4883352+01:00 0HMEL7HDRB1SG:00000005 [INF] Loading Home Index (432c29eb)
+2022-01-11T21:19:40.4891399+01:00 0HMEL7HDRB1SG:00000005 [INF] Entity Framework Core "5.0.11" initialized '"EshopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.27-mysql " (9958f5bb)
+2022-01-11T21:19:40.4922307+01:00 0HMEL7HDRB1SG:00000005 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `c`.`id`, `c`.`ImageAlt`, `c`.`ImageSource`
+FROM `CarouselItem` AS `c`" (0723d8ff)
+2022-01-11T21:19:40.4945741+01:00 0HMEL7HDRB1SG:00000005 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `p`.`ID`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Info`, `p`.`Name`, `p`.`Price`
+FROM `Product` AS `p`" (0723d8ff)
+2022-01-11T21:19:40.4949125+01:00 0HMEL7HDRB1SG:00000005 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2022-01-11T21:19:40.4961263+01:00 0HMEL7HDRB1SG:00000005 [INF] Executed ViewResult - view "Index" executed in 1.2392ms. (f66409e9)
+2022-01-11T21:19:40.4962578+01:00 0HMEL7HDRB1SG:00000005 [INF] Executed action "Zenzinger_Eshop_Web.Controllers.HomeController.Index (Zenzinger_Eshop_Web)" in 8.1565ms (afa2e885)
+2022-01-11T21:19:40.4962817+01:00 0HMEL7HDRB1SG:00000005 [INF] Executed endpoint '"Zenzinger_Eshop_Web.Controllers.HomeController.Index (Zenzinger_Eshop_Web)"' (99874f2b)
+2022-01-11T21:19:40.4967052+01:00 0HMEL7HDRB1SG:00000005 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - text/html;+charset=utf-8 10.2857ms (791a596a)
+2022-01-11T21:19:49.3523075+01:00 0HMEL7HDRB1SG:00000007 [INF] Request starting HTTP/2 GET https://localhost:5001/Customer/CustomerOrders - - (ca22a1cb)
+2022-01-11T21:19:49.3529808+01:00 0HMEL7HDRB1SG:00000007 [INF] Authorization was successful. (0d575a54)
+2022-01-11T21:19:49.3530348+01:00 0HMEL7HDRB1SG:00000007 [INF] Executing endpoint '"Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrdersController.Index (Zenzinger_Eshop_Web)"' (500cc934)
+2022-01-11T21:19:49.3531217+01:00 0HMEL7HDRB1SG:00000007 [INF] Route matched with "{area = \"Customer\", action = \"Index\", controller = \"CustomerOrders\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrdersController" ("Zenzinger_Eshop_Web"). (122b2fdf)
+2022-01-11T21:19:49.3534964+01:00 0HMEL7HDRB1SG:00000007 [INF] Entity Framework Core "5.0.11" initialized '"EshopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.27-mysql " (9958f5bb)
+2022-01-11T21:19:49.3571476+01:00 0HMEL7HDRB1SG:00000007 [INF] Executed DbCommand ("1"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `a`.`Id`, `a`.`AccessFailedCount`, `a`.`ConcurrencyStamp`, `a`.`Email`, `a`.`EmailConfirmed`, `a`.`FirstName`, `a`.`LastName`, `a`.`LockoutEnabled`, `a`.`LockoutEnd`, `a`.`NormalizedEmail`, `a`.`NormalizedUserName`, `a`.`PasswordHash`, `a`.`PhoneNumber`, `a`.`PhoneNumberConfirmed`, `a`.`SecurityStamp`, `a`.`TwoFactorEnabled`, `a`.`UserName`
+FROM `AspNetUsers` AS `a`
+WHERE `a`.`Id` = @__p_0
+LIMIT 1" (0723d8ff)
+2022-01-11T21:19:49.3611663+01:00 0HMEL7HDRB1SG:00000007 [INF] Executed DbCommand ("1"ms) [Parameters=["@__currentUser_Id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `o`.`Id`, `o`.`DateTimeCreated`, `o`.`OrderNumber`, `o`.`TotalPrice`, `o`.`UserId`, `a`.`Id`, `a`.`AccessFailedCount`, `a`.`ConcurrencyStamp`, `a`.`Email`, `a`.`EmailConfirmed`, `a`.`FirstName`, `a`.`LastName`, `a`.`LockoutEnabled`, `a`.`LockoutEnd`, `a`.`NormalizedEmail`, `a`.`NormalizedUserName`, `a`.`PasswordHash`, `a`.`PhoneNumber`, `a`.`PhoneNumberConfirmed`, `a`.`SecurityStamp`, `a`.`TwoFactorEnabled`, `a`.`UserName`, `t`.`Id`, `t`.`Amount`, `t`.`OrderId`, `t`.`Price`, `t`.`ProductId`, `t`.`ID0`, `t`.`ImageAlt`, `t`.`ImageSource`, `t`.`Info`, `t`.`Name`, `t`.`Price0`
+FROM `Order` AS `o`
+INNER JOIN `AspNetUsers` AS `a` ON `o`.`UserId` = `a`.`Id`
+LEFT JOIN (
+    SELECT `o0`.`Id`, `o0`.`Amount`, `o0`.`OrderId`, `o0`.`Price`, `o0`.`ProductId`, `p`.`ID` AS `ID0`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Info`, `p`.`Name`, `p`.`Price` AS `Price0`
+    FROM `OrderItem` AS `o0`
+    INNER JOIN `Product` AS `p` ON `o0`.`ProductId` = `p`.`ID`
+) AS `t` ON `o`.`Id` = `t`.`OrderId`
+WHERE `o`.`UserId` = @__currentUser_Id_0
+ORDER BY `o`.`Id`, `a`.`Id`, `t`.`Id`, `t`.`ID0`" (0723d8ff)
+2022-01-11T21:19:49.3616290+01:00 0HMEL7HDRB1SG:00000007 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2022-01-11T21:19:49.3621660+01:00 0HMEL7HDRB1SG:00000007 [INF] Executed ViewResult - view "Index" executed in 0.5627ms. (f66409e9)
+2022-01-11T21:19:49.3622127+01:00 0HMEL7HDRB1SG:00000007 [INF] Executed action "Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrdersController.Index (Zenzinger_Eshop_Web)" in 9.0634ms (afa2e885)
+2022-01-11T21:19:49.3622340+01:00 0HMEL7HDRB1SG:00000007 [INF] Executed endpoint '"Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrdersController.Index (Zenzinger_Eshop_Web)"' (99874f2b)
+2022-01-11T21:19:49.3623570+01:00 0HMEL7HDRB1SG:00000007 [INF] Request finished HTTP/2 GET https://localhost:5001/Customer/CustomerOrders - - - 200 - text/html;+charset=utf-8 10.0855ms (791a596a)
+2022-01-11T21:20:01.0456740+01:00  [INF] Application is shutting down... (90f52c38)
+2022-01-11T22:06:16.6459024+01:00  [INF] Entity Framework Core "5.0.11" initialized '"EshopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.27-mysql " (9958f5bb)
+2022-01-11T22:06:17.0303902+01:00  [INF] Executed DbCommand ("30"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM information_schema.tables
+WHERE table_type = 'BASE TABLE' AND table_schema = 'Zenzinger_Eshop'" (0723d8ff)
+2022-01-11T22:06:17.2460378+01:00  [INF] Executed DbCommand ("7"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM `CarouselItem` AS `c`" (0723d8ff)
+2022-01-11T22:06:17.2539039+01:00  [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM `Product` AS `p`" (0723d8ff)
+2022-01-11T22:06:17.2730081+01:00  [INF] User profile is available. Using '"C:\Users\nxf77256\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2022-01-11T22:06:17.4445790+01:00  [INF] Executed DbCommand ("35"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `a`.`Id`, `a`.`ConcurrencyStamp`, `a`.`Name`, `a`.`NormalizedName`
+FROM `AspNetRoles` AS `a`
+WHERE `a`.`NormalizedName` = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2022-01-11T22:06:17.5332817+01:00  [WRN] Role "(null)" validation failed: "DuplicateRoleName". (60d773c7)
+2022-01-11T22:06:17.5624470+01:00  [INF] Executed DbCommand ("7"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `a`.`Id`, `a`.`ConcurrencyStamp`, `a`.`Name`, `a`.`NormalizedName`
+FROM `AspNetRoles` AS `a`
+WHERE `a`.`NormalizedName` = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2022-01-11T22:06:17.5703643+01:00  [WRN] Role "(null)" validation failed: "DuplicateRoleName". (60d773c7)
+2022-01-11T22:06:17.5768078+01:00  [INF] Executed DbCommand ("2"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `a`.`Id`, `a`.`ConcurrencyStamp`, `a`.`Name`, `a`.`NormalizedName`
+FROM `AspNetRoles` AS `a`
+WHERE `a`.`NormalizedName` = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2022-01-11T22:06:17.5771584+01:00  [WRN] Role "(null)" validation failed: "DuplicateRoleName". (60d773c7)
+2022-01-11T22:06:17.6066022+01:00  [INF] Executed DbCommand ("12"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `a`.`Id`, `a`.`AccessFailedCount`, `a`.`ConcurrencyStamp`, `a`.`Email`, `a`.`EmailConfirmed`, `a`.`FirstName`, `a`.`LastName`, `a`.`LockoutEnabled`, `a`.`LockoutEnd`, `a`.`NormalizedEmail`, `a`.`NormalizedUserName`, `a`.`PasswordHash`, `a`.`PhoneNumber`, `a`.`PhoneNumberConfirmed`, `a`.`SecurityStamp`, `a`.`TwoFactorEnabled`, `a`.`UserName`
+FROM `AspNetUsers` AS `a`
+WHERE `a`.`NormalizedUserName` = @__normalizedUserName_0
+LIMIT 1" (0723d8ff)
+2022-01-11T22:06:17.7091897+01:00  [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `a`.`Id`, `a`.`AccessFailedCount`, `a`.`ConcurrencyStamp`, `a`.`Email`, `a`.`EmailConfirmed`, `a`.`FirstName`, `a`.`LastName`, `a`.`LockoutEnabled`, `a`.`LockoutEnd`, `a`.`NormalizedEmail`, `a`.`NormalizedUserName`, `a`.`PasswordHash`, `a`.`PhoneNumber`, `a`.`PhoneNumberConfirmed`, `a`.`SecurityStamp`, `a`.`TwoFactorEnabled`, `a`.`UserName`
+FROM `AspNetUsers` AS `a`
+WHERE `a`.`NormalizedUserName` = @__normalizedUserName_0
+LIMIT 1" (0723d8ff)
+2022-01-11T22:06:17.9059735+01:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2022-01-11T22:06:17.9060160+01:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2022-01-11T22:06:17.9062505+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-01-11T22:06:17.9062915+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-01-11T22:06:17.9063117+01:00  [INF] Content root path: "C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web" (b5d60022)
+2022-01-11T22:06:18.5730212+01:00 0HMEL8OR2JQRB:00000001 [INF] Request starting HTTP/2 GET https://localhost:5001/ - - (ca22a1cb)
+2022-01-11T22:06:18.6476562+01:00 0HMEL8OR2JQRB:00000001 [INF] "Identity.Application" was not authenticated. Failure message: "Ticket expired" (48071232)
+2022-01-11T22:06:18.6498601+01:00 0HMEL8OR2JQRB:00000001 [INF] Executing endpoint '"Zenzinger_Eshop_Web.Controllers.HomeController.Index (Zenzinger_Eshop_Web)"' (500cc934)
+2022-01-11T22:06:18.6671942+01:00 0HMEL8OR2JQRB:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Zenzinger_Eshop_Web.Controllers.HomeController" ("Zenzinger_Eshop_Web"). (122b2fdf)
+2022-01-11T22:06:18.6692769+01:00 0HMEL8OR2JQRB:00000001 [INF] Loading Home Index (432c29eb)
+2022-01-11T22:06:18.6709721+01:00 0HMEL8OR2JQRB:00000001 [INF] Entity Framework Core "5.0.11" initialized '"EshopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.27-mysql " (9958f5bb)
+2022-01-11T22:06:18.6808377+01:00 0HMEL8OR2JQRB:00000001 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `c`.`id`, `c`.`ImageAlt`, `c`.`ImageSource`
+FROM `CarouselItem` AS `c`" (0723d8ff)
+2022-01-11T22:06:18.6947494+01:00 0HMEL8OR2JQRB:00000001 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `p`.`ID`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Info`, `p`.`Name`, `p`.`Price`
+FROM `Product` AS `p`" (0723d8ff)
+2022-01-11T22:06:18.7345410+01:00 0HMEL8OR2JQRB:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2022-01-11T22:06:18.8292924+01:00 0HMEL8OR2JQRB:00000001 [INF] Accessing expired session, Key:"6d39dd20-7025-82be-104f-ce4bb44e3c58" (08c5a9e7)
+2022-01-11T22:06:18.8656727+01:00 0HMEL8OR2JQRB:00000001 [INF] Executed ViewResult - view "Index" executed in 129.7043ms. (f66409e9)
+2022-01-11T22:06:18.8668076+01:00 0HMEL8OR2JQRB:00000001 [INF] Executed action "Zenzinger_Eshop_Web.Controllers.HomeController.Index (Zenzinger_Eshop_Web)" in 198.6592ms (afa2e885)
+2022-01-11T22:06:18.8673378+01:00 0HMEL8OR2JQRB:00000001 [INF] Executed endpoint '"Zenzinger_Eshop_Web.Controllers.HomeController.Index (Zenzinger_Eshop_Web)"' (99874f2b)
+2022-01-11T22:06:18.8775779+01:00 0HMEL8OR2JQRB:00000001 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - text/html;+charset=utf-8 307.8000ms (791a596a)
+2022-01-11T22:06:21.3675725+01:00 0HMEL8OR2JQRB:00000003 [INF] Request starting HTTP/2 GET https://localhost:5001/Security/Account/Login - - (ca22a1cb)
+2022-01-11T22:06:21.3757928+01:00 0HMEL8OR2JQRB:00000003 [INF] "Identity.Application" was not authenticated. Failure message: "Ticket expired" (48071232)
+2022-01-11T22:06:21.3759519+01:00 0HMEL8OR2JQRB:00000003 [INF] Executing endpoint '"Zenzinger_Eshop_Web.Areas.Security.Controllers.AccountController.Login (Zenzinger_Eshop_Web)"' (500cc934)
+2022-01-11T22:06:21.3778171+01:00 0HMEL8OR2JQRB:00000003 [INF] Route matched with "{area = \"Security\", action = \"Login\", controller = \"Account\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login()" on controller "Zenzinger_Eshop_Web.Areas.Security.Controllers.AccountController" ("Zenzinger_Eshop_Web"). (122b2fdf)
+2022-01-11T22:06:21.3808151+01:00 0HMEL8OR2JQRB:00000003 [INF] Executing ViewResult, running view "Login". (c83d0e25)
+2022-01-11T22:06:21.4103948+01:00 0HMEL8OR2JQRB:00000003 [INF] Accessing expired session, Key:"6d39dd20-7025-82be-104f-ce4bb44e3c58" (08c5a9e7)
+2022-01-11T22:06:21.4133521+01:00 0HMEL8OR2JQRB:00000003 [INF] Executed ViewResult - view "Login" executed in 33.5102ms. (f66409e9)
+2022-01-11T22:06:21.4134230+01:00 0HMEL8OR2JQRB:00000003 [INF] Executed action "Zenzinger_Eshop_Web.Areas.Security.Controllers.AccountController.Login (Zenzinger_Eshop_Web)" in 35.5607ms (afa2e885)
+2022-01-11T22:06:21.4134508+01:00 0HMEL8OR2JQRB:00000003 [INF] Executed endpoint '"Zenzinger_Eshop_Web.Areas.Security.Controllers.AccountController.Login (Zenzinger_Eshop_Web)"' (99874f2b)
+2022-01-11T22:06:21.4137531+01:00 0HMEL8OR2JQRB:00000003 [INF] Request finished HTTP/2 GET https://localhost:5001/Security/Account/Login - - - 200 - text/html;+charset=utf-8 46.2733ms (791a596a)
+2022-01-11T22:06:31.9577786+01:00 0HMEL8OR2JQRB:00000005 [INF] Request starting HTTP/2 POST https://localhost:5001/Security/Account/Login application/x-www-form-urlencoded 220 (ca22a1cb)
+2022-01-11T22:06:31.9621143+01:00 0HMEL8OR2JQRB:00000005 [INF] "Identity.Application" was not authenticated. Failure message: "Ticket expired" (48071232)
+2022-01-11T22:06:31.9621749+01:00 0HMEL8OR2JQRB:00000005 [INF] Executing endpoint '"Zenzinger_Eshop_Web.Areas.Security.Controllers.AccountController.Login (Zenzinger_Eshop_Web)"' (500cc934)
+2022-01-11T22:06:31.9782026+01:00 0HMEL8OR2JQRB:00000005 [INF] Route matched with "{area = \"Security\", action = \"Login\", controller = \"Account\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Zenzinger_Eshop_Web.Models.ViewModels.LoginViewModel)" on controller "Zenzinger_Eshop_Web.Areas.Security.Controllers.AccountController" ("Zenzinger_Eshop_Web"). (122b2fdf)
+2022-01-11T22:06:32.0449565+01:00 0HMEL8OR2JQRB:00000005 [INF] Entity Framework Core "5.0.11" initialized '"EshopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.27-mysql " (9958f5bb)
+2022-01-11T22:06:32.0487223+01:00 0HMEL8OR2JQRB:00000005 [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `a`.`Id`, `a`.`AccessFailedCount`, `a`.`ConcurrencyStamp`, `a`.`Email`, `a`.`EmailConfirmed`, `a`.`FirstName`, `a`.`LastName`, `a`.`LockoutEnabled`, `a`.`LockoutEnd`, `a`.`NormalizedEmail`, `a`.`NormalizedUserName`, `a`.`PasswordHash`, `a`.`PhoneNumber`, `a`.`PhoneNumberConfirmed`, `a`.`SecurityStamp`, `a`.`TwoFactorEnabled`, `a`.`UserName`
+FROM `AspNetUsers` AS `a`
+WHERE `a`.`NormalizedUserName` = @__normalizedUserName_0
+LIMIT 1" (0723d8ff)
+2022-01-11T22:06:32.1651824+01:00 0HMEL8OR2JQRB:00000005 [INF] Executed DbCommand ("14"ms) [Parameters=["@__user_Id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `a`.`Id`, `a`.`ClaimType`, `a`.`ClaimValue`, `a`.`UserId`
+FROM `AspNetUserClaims` AS `a`
+WHERE `a`.`UserId` = @__user_Id_0" (0723d8ff)
+2022-01-11T22:06:32.1976934+01:00 0HMEL8OR2JQRB:00000005 [INF] Executed DbCommand ("2"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `a0`.`Name`
+FROM `AspNetUserRoles` AS `a`
+INNER JOIN `AspNetRoles` AS `a0` ON `a`.`RoleId` = `a0`.`Id`
+WHERE `a`.`UserId` = @__userId_0" (0723d8ff)
+2022-01-11T22:06:32.2012396+01:00 0HMEL8OR2JQRB:00000005 [INF] Executed DbCommand ("0"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `a`.`Id`, `a`.`ConcurrencyStamp`, `a`.`Name`, `a`.`NormalizedName`
+FROM `AspNetRoles` AS `a`
+WHERE `a`.`NormalizedName` = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2022-01-11T22:06:32.2092655+01:00 0HMEL8OR2JQRB:00000005 [INF] Executed DbCommand ("1"ms) [Parameters=["@__role_Id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `a`.`ClaimType`, `a`.`ClaimValue`
+FROM `AspNetRoleClaims` AS `a`
+WHERE `a`.`RoleId` = @__role_Id_0" (0723d8ff)
+2022-01-11T22:06:32.2211541+01:00 0HMEL8OR2JQRB:00000005 [INF] AuthenticationScheme: "Identity.Application" signed in. (c66dd7e7)
+2022-01-11T22:06:32.2300406+01:00 0HMEL8OR2JQRB:00000005 [INF] Executing RedirectResult, redirecting to "/". (d98d540e)
+2022-01-11T22:06:32.2315772+01:00 0HMEL8OR2JQRB:00000005 [INF] Executed action "Zenzinger_Eshop_Web.Areas.Security.Controllers.AccountController.Login (Zenzinger_Eshop_Web)" in 253.3176ms (afa2e885)
+2022-01-11T22:06:32.2323575+01:00 0HMEL8OR2JQRB:00000005 [INF] Executed endpoint '"Zenzinger_Eshop_Web.Areas.Security.Controllers.AccountController.Login (Zenzinger_Eshop_Web)"' (99874f2b)
+2022-01-11T22:06:32.2360063+01:00 0HMEL8OR2JQRB:00000005 [INF] Request finished HTTP/2 POST https://localhost:5001/Security/Account/Login application/x-www-form-urlencoded 220 - 302 0 - 278.2933ms (791a596a)
+2022-01-11T22:06:32.2384583+01:00 0HMEL8OR2JQRB:00000007 [INF] Request starting HTTP/2 GET https://localhost:5001/ - - (ca22a1cb)
+2022-01-11T22:06:32.2413291+01:00 0HMEL8OR2JQRB:00000007 [INF] Executing endpoint '"Zenzinger_Eshop_Web.Controllers.HomeController.Index (Zenzinger_Eshop_Web)"' (500cc934)
+2022-01-11T22:06:32.2414467+01:00 0HMEL8OR2JQRB:00000007 [INF] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Zenzinger_Eshop_Web.Controllers.HomeController" ("Zenzinger_Eshop_Web"). (122b2fdf)
+2022-01-11T22:06:32.2419828+01:00 0HMEL8OR2JQRB:00000007 [INF] Loading Home Index (432c29eb)
+2022-01-11T22:06:32.2422166+01:00 0HMEL8OR2JQRB:00000007 [INF] Entity Framework Core "5.0.11" initialized '"EshopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.27-mysql " (9958f5bb)
+2022-01-11T22:06:32.2435851+01:00 0HMEL8OR2JQRB:00000007 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `c`.`id`, `c`.`ImageAlt`, `c`.`ImageSource`
+FROM `CarouselItem` AS `c`" (0723d8ff)
+2022-01-11T22:06:32.2448262+01:00 0HMEL8OR2JQRB:00000007 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `p`.`ID`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Info`, `p`.`Name`, `p`.`Price`
+FROM `Product` AS `p`" (0723d8ff)
+2022-01-11T22:06:32.2450973+01:00 0HMEL8OR2JQRB:00000007 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2022-01-11T22:06:32.2472135+01:00 0HMEL8OR2JQRB:00000007 [INF] Accessing expired session, Key:"6d39dd20-7025-82be-104f-ce4bb44e3c58" (08c5a9e7)
+2022-01-11T22:06:32.2481507+01:00 0HMEL8OR2JQRB:00000007 [INF] Executed ViewResult - view "Index" executed in 3.0869ms. (f66409e9)
+2022-01-11T22:06:32.2482143+01:00 0HMEL8OR2JQRB:00000007 [INF] Executed action "Zenzinger_Eshop_Web.Controllers.HomeController.Index (Zenzinger_Eshop_Web)" in 6.7481ms (afa2e885)
+2022-01-11T22:06:32.2482396+01:00 0HMEL8OR2JQRB:00000007 [INF] Executed endpoint '"Zenzinger_Eshop_Web.Controllers.HomeController.Index (Zenzinger_Eshop_Web)"' (99874f2b)
+2022-01-11T22:06:32.2483509+01:00 0HMEL8OR2JQRB:00000007 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - text/html;+charset=utf-8 9.9187ms (791a596a)
+2022-01-11T22:06:36.0848104+01:00 0HMEL8OR2JQRB:00000009 [INF] Request starting HTTP/2 GET https://localhost:5001/Customer/CustomerOrders - - (ca22a1cb)
+2022-01-11T22:06:36.0924851+01:00 0HMEL8OR2JQRB:00000009 [INF] Authorization was successful. (0d575a54)
+2022-01-11T22:06:36.0929845+01:00 0HMEL8OR2JQRB:00000009 [INF] Executing endpoint '"Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrdersController.Index (Zenzinger_Eshop_Web)"' (500cc934)
+2022-01-11T22:06:36.0962688+01:00 0HMEL8OR2JQRB:00000009 [INF] Route matched with "{area = \"Customer\", action = \"Index\", controller = \"CustomerOrders\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrdersController" ("Zenzinger_Eshop_Web"). (122b2fdf)
+2022-01-11T22:06:36.1045745+01:00 0HMEL8OR2JQRB:00000009 [INF] Entity Framework Core "5.0.11" initialized '"EshopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.27-mysql " (9958f5bb)
+2022-01-11T22:06:36.1186643+01:00 0HMEL8OR2JQRB:00000009 [INF] Executed DbCommand ("1"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `a`.`Id`, `a`.`AccessFailedCount`, `a`.`ConcurrencyStamp`, `a`.`Email`, `a`.`EmailConfirmed`, `a`.`FirstName`, `a`.`LastName`, `a`.`LockoutEnabled`, `a`.`LockoutEnd`, `a`.`NormalizedEmail`, `a`.`NormalizedUserName`, `a`.`PasswordHash`, `a`.`PhoneNumber`, `a`.`PhoneNumberConfirmed`, `a`.`SecurityStamp`, `a`.`TwoFactorEnabled`, `a`.`UserName`
+FROM `AspNetUsers` AS `a`
+WHERE `a`.`Id` = @__p_0
+LIMIT 1" (0723d8ff)
+2022-01-11T22:06:36.1966625+01:00 0HMEL8OR2JQRB:00000009 [INF] Executed DbCommand ("1"ms) [Parameters=["@__currentUser_Id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `o`.`Id`, `o`.`DateTimeCreated`, `o`.`OrderNumber`, `o`.`TotalPrice`, `o`.`UserId`, `a`.`Id`, `a`.`AccessFailedCount`, `a`.`ConcurrencyStamp`, `a`.`Email`, `a`.`EmailConfirmed`, `a`.`FirstName`, `a`.`LastName`, `a`.`LockoutEnabled`, `a`.`LockoutEnd`, `a`.`NormalizedEmail`, `a`.`NormalizedUserName`, `a`.`PasswordHash`, `a`.`PhoneNumber`, `a`.`PhoneNumberConfirmed`, `a`.`SecurityStamp`, `a`.`TwoFactorEnabled`, `a`.`UserName`, `t`.`Id`, `t`.`Amount`, `t`.`OrderId`, `t`.`Price`, `t`.`ProductId`, `t`.`ID0`, `t`.`ImageAlt`, `t`.`ImageSource`, `t`.`Info`, `t`.`Name`, `t`.`Price0`
+FROM `Order` AS `o`
+INNER JOIN `AspNetUsers` AS `a` ON `o`.`UserId` = `a`.`Id`
+LEFT JOIN (
+    SELECT `o0`.`Id`, `o0`.`Amount`, `o0`.`OrderId`, `o0`.`Price`, `o0`.`ProductId`, `p`.`ID` AS `ID0`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Info`, `p`.`Name`, `p`.`Price` AS `Price0`
+    FROM `OrderItem` AS `o0`
+    INNER JOIN `Product` AS `p` ON `o0`.`ProductId` = `p`.`ID`
+) AS `t` ON `o`.`Id` = `t`.`OrderId`
+WHERE `o`.`UserId` = @__currentUser_Id_0
+ORDER BY `o`.`Id`, `a`.`Id`, `t`.`Id`, `t`.`ID0`" (0723d8ff)
+2022-01-11T22:06:36.2424403+01:00 0HMEL8OR2JQRB:00000009 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2022-01-11T22:06:36.2518665+01:00 0HMEL8OR2JQRB:00000009 [INF] Accessing expired session, Key:"6d39dd20-7025-82be-104f-ce4bb44e3c58" (08c5a9e7)
+2022-01-11T22:06:36.2522950+01:00 0HMEL8OR2JQRB:00000009 [INF] Executed ViewResult - view "Index" executed in 10.6346ms. (f66409e9)
+2022-01-11T22:06:36.2524045+01:00 0HMEL8OR2JQRB:00000009 [INF] Executed action "Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrdersController.Index (Zenzinger_Eshop_Web)" in 156.0942ms (afa2e885)
+2022-01-11T22:06:36.2524440+01:00 0HMEL8OR2JQRB:00000009 [INF] Executed endpoint '"Zenzinger_Eshop_Web.Areas.Customer.Controllers.CustomerOrdersController.Index (Zenzinger_Eshop_Web)"' (99874f2b)
+2022-01-11T22:06:36.2536184+01:00 0HMEL8OR2JQRB:00000009 [INF] Request finished HTTP/2 GET https://localhost:5001/Customer/CustomerOrders - - - 200 - text/html;+charset=utf-8 168.8103ms (791a596a)
+2022-01-11T22:07:10.6985983+01:00  [INF] Application is shutting down... (90f52c38)

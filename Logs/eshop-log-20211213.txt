@@ -1,0 +1,368 @@
+2021-12-13T08:48:03.2762773+01:00  [INF] Entity Framework Core "5.0.11" initialized '"EshopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.27-mysql " (9958f5bb)
+2021-12-13T08:49:17.5268054+01:00  [INF] Entity Framework Core "5.0.11" initialized '"EshopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.27-mysql " (9958f5bb)
+2021-12-13T08:49:18.4341463+01:00  [INF] Executed DbCommand ("45"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='Zenzinger_Eshop' AND TABLE_NAME='__EFMigrationsHistory';" (0723d8ff)
+2021-12-13T08:49:18.4680413+01:00  [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='Zenzinger_Eshop' AND TABLE_NAME='__EFMigrationsHistory';" (0723d8ff)
+2021-12-13T08:49:18.5088475+01:00  [INF] Executed DbCommand ("24"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;" (0723d8ff)
+2021-12-13T08:49:18.5427378+01:00  [INF] Applying migration '"20211213074803_ProductName"'. (0e2ac64d)
+2021-12-13T08:49:18.7074047+01:00  [INF] Executed DbCommand ("34"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""ALTER TABLE `Product` ADD `Name` varchar(255) CHARACTER SET utf8mb4 NOT NULL DEFAULT '';" (0723d8ff)
+2021-12-13T08:49:18.7466466+01:00  [INF] Executed DbCommand ("39"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `Order` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `DateTimeCreated` datetime(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6) ON UPDATE CURRENT_TIMESTAMP(6),
+    `OrderNumber` varchar(25) CHARACTER SET utf8mb4 NOT NULL,
+    `TotalPrice` double NOT NULL,
+    `UserId` int NOT NULL,
+    CONSTRAINT `PK_Order` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_Order_AspNetUsers_UserId` FOREIGN KEY (`UserId`) REFERENCES `AspNetUsers` (`Id`) ON DELETE CASCADE
+) CHARACTER SET utf8mb4;" (0723d8ff)
+2021-12-13T08:49:18.7873427+01:00  [INF] Executed DbCommand ("41"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `OrderItem` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `OrderId` int NOT NULL,
+    `ProductId` int NOT NULL,
+    `Amount` int NOT NULL,
+    `Price` double NOT NULL,
+    CONSTRAINT `PK_OrderItem` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_OrderItem_Order_OrderId` FOREIGN KEY (`OrderId`) REFERENCES `Order` (`Id`) ON DELETE CASCADE,
+    CONSTRAINT `FK_OrderItem_Product_ProductId` FOREIGN KEY (`ProductId`) REFERENCES `Product` (`ID`) ON DELETE CASCADE
+) CHARACTER SET utf8mb4;" (0723d8ff)
+2021-12-13T08:49:18.8216492+01:00  [INF] Executed DbCommand ("34"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE INDEX `IX_Order_UserId` ON `Order` (`UserId`);" (0723d8ff)
+2021-12-13T08:49:18.8529419+01:00  [INF] Executed DbCommand ("31"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE INDEX `IX_OrderItem_OrderId` ON `OrderItem` (`OrderId`);" (0723d8ff)
+2021-12-13T08:49:18.8868941+01:00  [INF] Executed DbCommand ("28"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE INDEX `IX_OrderItem_ProductId` ON `OrderItem` (`ProductId`);" (0723d8ff)
+2021-12-13T08:49:18.8917269+01:00  [INF] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO `__EFMigrationsHistory` (`MigrationId`, `ProductVersion`)
+VALUES ('20211213074803_ProductName', '5.0.11');" (0723d8ff)
+2021-12-13T08:49:47.5641482+01:00  [INF] Entity Framework Core "5.0.11" initialized '"EshopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.27-mysql " (9958f5bb)
+2021-12-13T08:49:48.1218118+01:00  [INF] Executed DbCommand ("21"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM information_schema.tables
+WHERE table_type = 'BASE TABLE' AND table_schema = 'Zenzinger_Eshop'" (0723d8ff)
+2021-12-13T08:49:48.4163872+01:00  [INF] Executed DbCommand ("19"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM `CarouselItem` AS `c`" (0723d8ff)
+2021-12-13T08:49:48.4801334+01:00  [INF] User profile is available. Using '"C:\Users\nxf77256\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2021-12-13T08:49:48.9501790+01:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2021-12-13T08:49:48.9503612+01:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2021-12-13T08:49:48.9505982+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-12-13T08:49:48.9506930+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-12-13T08:49:48.9507330+01:00  [INF] Content root path: "C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web" (b5d60022)
+2021-12-13T08:49:50.1032026+01:00 0HMDU1KHQREG7:00000001 [INF] Request starting HTTP/2 GET https://localhost:5001/ - - (ca22a1cb)
+2021-12-13T08:49:50.1730800+01:00 0HMDU1KHQREG7:00000001 [INF] Executing endpoint '"Zenzinger_Eshop_Web.Controllers.HomeController.Index (Zenzinger_Eshop_Web)"' (500cc934)
+2021-12-13T08:49:50.1964671+01:00 0HMDU1KHQREG7:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Zenzinger_Eshop_Web.Controllers.HomeController" ("Zenzinger_Eshop_Web"). (122b2fdf)
+2021-12-13T08:49:50.2015636+01:00 0HMDU1KHQREG7:00000001 [INF] Entity Framework Core "5.0.11" initialized '"EshopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.27-mysql " (9958f5bb)
+2021-12-13T08:49:50.2556777+01:00 0HMDU1KHQREG7:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `c`.`id`, `c`.`ImageAlt`, `c`.`ImageSource`
+FROM `CarouselItem` AS `c`" (0723d8ff)
+2021-12-13T08:49:50.3183477+01:00 0HMDU1KHQREG7:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `p`.`ID`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Info`, `p`.`Name`, `p`.`Price`
+FROM `Product` AS `p`" (0723d8ff)
+2021-12-13T08:49:50.3628005+01:00 0HMDU1KHQREG7:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2021-12-13T08:49:50.6907840+01:00 0HMDU1KHQREG7:00000001 [INF] Executed ViewResult - view "Index" executed in 315.5188ms. (f66409e9)
+2021-12-13T08:49:50.6923642+01:00 0HMDU1KHQREG7:00000001 [INF] Executed action "Zenzinger_Eshop_Web.Controllers.HomeController.Index (Zenzinger_Eshop_Web)" in 494.5781ms (afa2e885)
+2021-12-13T08:49:50.6926452+01:00 0HMDU1KHQREG7:00000001 [INF] Executed endpoint '"Zenzinger_Eshop_Web.Controllers.HomeController.Index (Zenzinger_Eshop_Web)"' (99874f2b)
+2021-12-13T08:49:50.7159322+01:00 0HMDU1KHQREG7:00000001 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - text/html;+charset=utf-8 614.7902ms (791a596a)
+2021-12-13T08:49:50.7810215+01:00 0HMDU1KHQREG7:00000005 [INF] Request starting HTTP/2 GET https://localhost:5001/css/site.css - - (ca22a1cb)
+2021-12-13T08:49:50.7812302+01:00 0HMDU1KHQREG7:00000003 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css - - (ca22a1cb)
+2021-12-13T08:49:50.7821532+01:00 0HMDU1KHQREG7:00000007 [INF] Request starting HTTP/2 GET https://localhost:5001/css/styles_homepage.css - - (ca22a1cb)
+2021-12-13T08:49:50.7826904+01:00 0HMDU1KHQREG7:00000009 [INF] Request starting HTTP/2 GET https://localhost:5001/css/styles_shopItem.css - - (ca22a1cb)
+2021-12-13T08:49:50.7827676+01:00 0HMDU1KHQREG7:0000000B [INF] Request starting HTTP/2 GET https://localhost:5001/lib/jquery/dist/jquery.min.js - - (ca22a1cb)
+2021-12-13T08:49:50.7828164+01:00 0HMDU1KHQREG7:0000000D [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - (ca22a1cb)
+2021-12-13T08:49:50.7849490+01:00 0HMDU1KHQREG7:0000000F [INF] Request starting HTTP/2 GET https://localhost:5001/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - (ca22a1cb)
+2021-12-13T08:49:50.7852945+01:00 0HMDU1KHQREG7:00000011 [INF] Request starting HTTP/2 GET https://localhost:5001/img/2-code.jpg - - (ca22a1cb)
+2021-12-13T08:49:50.7942194+01:00 0HMDU1KHQREG7:00000013 [INF] Request starting HTTP/2 GET https://localhost:5001/img/3-code.jpg - - (ca22a1cb)
+2021-12-13T08:49:50.8027958+01:00 0HMDU1KHQREG7:00000005 [INF] The file "/css/site.css" was not modified (f1f8d725)
+2021-12-13T08:49:50.8027910+01:00 0HMDU1KHQREG7:00000007 [INF] The file "/css/styles_homepage.css" was not modified (f1f8d725)
+2021-12-13T08:49:50.8027912+01:00 0HMDU1KHQREG7:0000000B [INF] The file "/lib/jquery/dist/jquery.min.js" was not modified (f1f8d725)
+2021-12-13T08:49:50.8027904+01:00 0HMDU1KHQREG7:00000013 [INF] The file "/img/3-code.jpg" was not modified (f1f8d725)
+2021-12-13T08:49:50.8027904+01:00 0HMDU1KHQREG7:00000011 [INF] The file "/img/2-code.jpg" was not modified (f1f8d725)
+2021-12-13T08:49:50.8029007+01:00 0HMDU1KHQREG7:0000000F [INF] The file "/js/site.js" was not modified (f1f8d725)
+2021-12-13T08:49:50.8033414+01:00 0HMDU1KHQREG7:0000000D [INF] The file "/lib/bootstrap/dist/js/bootstrap.bundle.min.js" was not modified (f1f8d725)
+2021-12-13T08:49:50.8035421+01:00 0HMDU1KHQREG7:00000009 [INF] The file "/css/styles_shopItem.css" was not modified (f1f8d725)
+2021-12-13T08:49:50.8037828+01:00 0HMDU1KHQREG7:00000003 [INF] The file "/lib/bootstrap/dist/css/bootstrap.min.css" was not modified (f1f8d725)
+2021-12-13T08:49:50.8063525+01:00 0HMDU1KHQREG7:00000005 [INF] Request finished HTTP/2 GET https://localhost:5001/css/site.css - - - 304 - text/css 25.3513ms (791a596a)
+2021-12-13T08:49:50.8063544+01:00 0HMDU1KHQREG7:00000009 [INF] Request finished HTTP/2 GET https://localhost:5001/css/styles_shopItem.css - - - 304 - text/css 23.5598ms (791a596a)
+2021-12-13T08:49:50.8064379+01:00 0HMDU1KHQREG7:00000011 [INF] Request finished HTTP/2 GET https://localhost:5001/img/2-code.jpg - - - 304 - image/jpeg 21.1345ms (791a596a)
+2021-12-13T08:49:50.8063986+01:00 0HMDU1KHQREG7:0000000D [INF] Request finished HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 304 - application/javascript 23.5474ms (791a596a)
+2021-12-13T08:49:50.8065385+01:00 0HMDU1KHQREG7:0000000F [INF] Request finished HTTP/2 GET https://localhost:5001/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 304 - application/javascript 23.0248ms (791a596a)
+2021-12-13T08:49:50.8065910+01:00 0HMDU1KHQREG7:00000003 [INF] Request finished HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css - - - 304 - text/css 25.4507ms (791a596a)
+2021-12-13T08:49:50.8068180+01:00 0HMDU1KHQREG7:0000000B [INF] Request finished HTTP/2 GET https://localhost:5001/lib/jquery/dist/jquery.min.js - - - 304 - application/javascript 24.0239ms (791a596a)
+2021-12-13T08:49:50.8069308+01:00 0HMDU1KHQREG7:00000015 [INF] Request starting HTTP/2 GET https://localhost:5001/img/Products/p-1.png - - (ca22a1cb)
+2021-12-13T08:49:50.8069511+01:00 0HMDU1KHQREG7:00000017 [INF] Request starting HTTP/2 GET https://localhost:5001/img/1-code.jpg - - (ca22a1cb)
+2021-12-13T08:49:50.8070707+01:00 0HMDU1KHQREG7:00000007 [INF] Request finished HTTP/2 GET https://localhost:5001/css/styles_homepage.css - - - 304 - text/css 24.9276ms (791a596a)
+2021-12-13T08:49:50.8072074+01:00 0HMDU1KHQREG7:00000013 [INF] Request finished HTTP/2 GET https://localhost:5001/img/3-code.jpg - - - 304 - image/jpeg 13.2643ms (791a596a)
+2021-12-13T08:49:50.8084307+01:00 0HMDU1KHQREG7:00000017 [INF] The file "/img/1-code.jpg" was not modified (f1f8d725)
+2021-12-13T08:49:50.8091128+01:00 0HMDU1KHQREG7:00000017 [INF] Request finished HTTP/2 GET https://localhost:5001/img/1-code.jpg - - - 304 - image/jpeg 2.0507ms (791a596a)
+2021-12-13T08:49:50.8791639+01:00 0HMDU1KHQREG7:00000015 [INF] Sending file. Request path: '"/img/Products/p-1.png"'. Physical path: '"C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\wwwroot\img\Products\p-1.png"' (27b0a520)
+2021-12-13T08:49:50.8808805+01:00 0HMDU1KHQREG7:00000015 [INF] Request finished HTTP/2 GET https://localhost:5001/img/Products/p-1.png - - - 200 473699 image/png 73.9396ms (791a596a)
+2021-12-13T08:49:51.2169992+01:00 0HMDU1KHQREG7:00000019 [INF] Request starting HTTP/2 GET https://localhost:5001/img/4-code.jpg - - (ca22a1cb)
+2021-12-13T08:49:51.2185982+01:00 0HMDU1KHQREG7:00000019 [INF] The file "/img/4-code.jpg" was not modified (f1f8d725)
+2021-12-13T08:49:51.2192224+01:00 0HMDU1KHQREG7:00000019 [INF] Request finished HTTP/2 GET https://localhost:5001/img/4-code.jpg - - - 304 - image/jpeg 2.2644ms (791a596a)
+2021-12-13T08:49:51.9239272+01:00 0HMDU1KHQREG7:0000001B [INF] Request starting HTTP/2 GET https://localhost:5001/favicon.ico - - (ca22a1cb)
+2021-12-13T08:49:51.9287427+01:00 0HMDU1KHQREG7:0000001B [INF] Sending file. Request path: '"/favicon.ico"'. Physical path: '"C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\wwwroot\favicon.ico"' (27b0a520)
+2021-12-13T08:49:51.9290263+01:00 0HMDU1KHQREG7:0000001B [INF] Request finished HTTP/2 GET https://localhost:5001/favicon.ico - - - 200 5430 image/x-icon 5.1523ms (791a596a)
+2021-12-13T08:51:35.0187710+01:00 0HMDU1KHQREG7:0000001D [INF] Request starting HTTP/2 GET https://localhost:5001/Admin/Carousel/Select - - (ca22a1cb)
+2021-12-13T08:51:35.0258718+01:00 0HMDU1KHQREG7:0000001D [INF] Executing endpoint '"Zenzinger_Eshop_Web.Areas.Admin.Controllers.CarouselController.Select (Zenzinger_Eshop_Web)"' (500cc934)
+2021-12-13T08:51:35.0319542+01:00 0HMDU1KHQREG7:0000001D [INF] Route matched with "{area = \"Admin\", action = \"Select\", controller = \"Carousel\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Select()" on controller "Zenzinger_Eshop_Web.Areas.Admin.Controllers.CarouselController" ("Zenzinger_Eshop_Web"). (122b2fdf)
+2021-12-13T08:51:35.1392694+01:00 0HMDU1KHQREG7:0000001D [INF] Entity Framework Core "5.0.11" initialized '"EshopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.27-mysql " (9958f5bb)
+2021-12-13T08:51:35.1470775+01:00 0HMDU1KHQREG7:0000001D [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `c`.`id`, `c`.`ImageAlt`, `c`.`ImageSource`
+FROM `CarouselItem` AS `c`" (0723d8ff)
+2021-12-13T08:51:35.1507436+01:00 0HMDU1KHQREG7:0000001D [INF] Executing ViewResult, running view "Select". (c83d0e25)
+2021-12-13T08:51:35.1847067+01:00 0HMDU1KHQREG7:0000001D [INF] Executed ViewResult - view "Select" executed in 36.2771ms. (f66409e9)
+2021-12-13T08:51:35.1849121+01:00 0HMDU1KHQREG7:0000001D [INF] Executed action "Zenzinger_Eshop_Web.Areas.Admin.Controllers.CarouselController.Select (Zenzinger_Eshop_Web)" in 152.8513ms (afa2e885)
+2021-12-13T08:51:35.1849856+01:00 0HMDU1KHQREG7:0000001D [INF] Executed endpoint '"Zenzinger_Eshop_Web.Areas.Admin.Controllers.CarouselController.Select (Zenzinger_Eshop_Web)"' (99874f2b)
+2021-12-13T08:51:35.1856362+01:00 0HMDU1KHQREG7:0000001D [INF] Request finished HTTP/2 GET https://localhost:5001/Admin/Carousel/Select - - - 200 - text/html;+charset=utf-8 166.8466ms (791a596a)
+2021-12-13T08:51:35.2170359+01:00 0HMDU1KHQREG7:0000001F [INF] Request starting HTTP/2 GET https://localhost:5001/js/alerts.js - - (ca22a1cb)
+2021-12-13T08:51:35.2322242+01:00 0HMDU1KHQREG7:0000001F [INF] Sending file. Request path: '"/js/alerts.js"'. Physical path: '"C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\wwwroot\js\alerts.js"' (27b0a520)
+2021-12-13T08:51:35.2324375+01:00 0HMDU1KHQREG7:0000001F [INF] Request finished HTTP/2 GET https://localhost:5001/js/alerts.js - - - 200 89 application/javascript 15.3669ms (791a596a)
+2021-12-13T08:51:51.5613469+01:00 0HMDU1KHQREG7:00000021 [INF] Request starting HTTP/2 GET https://localhost:5001/Admin/Carousel/Edit/3 - - (ca22a1cb)
+2021-12-13T08:51:51.5751603+01:00 0HMDU1KHQREG7:00000021 [INF] Executing endpoint '"Zenzinger_Eshop_Web.Areas.Admin.Controllers.CarouselController.Edit (Zenzinger_Eshop_Web)"' (500cc934)
+2021-12-13T08:51:51.6053176+01:00 0HMDU1KHQREG7:00000021 [INF] Route matched with "{area = \"Admin\", action = \"Edit\", controller = \"Carousel\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Edit(Int32)" on controller "Zenzinger_Eshop_Web.Areas.Admin.Controllers.CarouselController" ("Zenzinger_Eshop_Web"). (122b2fdf)
+2021-12-13T08:51:51.6208629+01:00 0HMDU1KHQREG7:00000021 [INF] Entity Framework Core "5.0.11" initialized '"EshopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.27-mysql " (9958f5bb)
+2021-12-13T08:51:51.8012113+01:00 0HMDU1KHQREG7:00000021 [INF] Executed DbCommand ("50"ms) [Parameters=["@__ID_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `c`.`id`, `c`.`ImageAlt`, `c`.`ImageSource`
+FROM `CarouselItem` AS `c`
+WHERE `c`.`id` = @__ID_0
+LIMIT 1" (0723d8ff)
+2021-12-13T08:51:51.8033175+01:00 0HMDU1KHQREG7:00000021 [INF] Executing ViewResult, running view "Edit". (c83d0e25)
+2021-12-13T08:51:52.1012018+01:00 0HMDU1KHQREG7:00000021 [INF] Executed ViewResult - view "Edit" executed in 299.3118ms. (f66409e9)
+2021-12-13T08:51:52.1013602+01:00 0HMDU1KHQREG7:00000021 [INF] Executed action "Zenzinger_Eshop_Web.Areas.Admin.Controllers.CarouselController.Edit (Zenzinger_Eshop_Web)" in 495.9775ms (afa2e885)
+2021-12-13T08:51:52.1014322+01:00 0HMDU1KHQREG7:00000021 [INF] Executed endpoint '"Zenzinger_Eshop_Web.Areas.Admin.Controllers.CarouselController.Edit (Zenzinger_Eshop_Web)"' (99874f2b)
+2021-12-13T08:51:52.1017121+01:00 0HMDU1KHQREG7:00000021 [INF] Request finished HTTP/2 GET https://localhost:5001/Admin/Carousel/Edit/3 - - - 200 - text/html;+charset=utf-8 540.6663ms (791a596a)
+2021-12-13T08:51:52.1478322+01:00 0HMDU1KHQREG7:00000023 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/jquery-validation/dist/jquery.validate.js - - (ca22a1cb)
+2021-12-13T08:51:52.1483318+01:00 0HMDU1KHQREG7:00000027 [INF] Request starting HTTP/2 GET https://localhost:5001/Admin/Carousel/Edit/js/FileContentTypeValidation.js - - (ca22a1cb)
+2021-12-13T08:51:52.1485711+01:00 0HMDU1KHQREG7:00000025 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js - - (ca22a1cb)
+2021-12-13T08:51:52.1495564+01:00 0HMDU1KHQREG7:00000027 [INF] Request finished HTTP/2 GET https://localhost:5001/Admin/Carousel/Edit/js/FileContentTypeValidation.js - - - 404 0 - 1.1629ms (791a596a)
+2021-12-13T08:51:52.1823123+01:00 0HMDU1KHQREG7:00000025 [INF] Sending file. Request path: '"/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"'. Physical path: '"C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js"' (27b0a520)
+2021-12-13T08:51:52.1826309+01:00 0HMDU1KHQREG7:00000025 [INF] Request finished HTTP/2 GET https://localhost:5001/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js - - - 200 19366 application/javascript 34.3203ms (791a596a)
+2021-12-13T08:51:52.1987655+01:00 0HMDU1KHQREG7:00000023 [INF] Sending file. Request path: '"/lib/jquery-validation/dist/jquery.validate.js"'. Physical path: '"C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\wwwroot\lib\jquery-validation\dist\jquery.validate.js"' (27b0a520)
+2021-12-13T08:51:52.1989877+01:00 0HMDU1KHQREG7:00000023 [INF] Request finished HTTP/2 GET https://localhost:5001/lib/jquery-validation/dist/jquery.validate.js - - - 200 48676 application/javascript 51.1442ms (791a596a)
+2021-12-13T08:51:52.2312134+01:00 0HMDU1KHQREG7:00000029 [INF] Request starting HTTP/2 GET https://localhost:5001/Admin/Carousel/Edit/js/FileContentTypeValidation.js - - (ca22a1cb)
+2021-12-13T08:51:52.2321728+01:00 0HMDU1KHQREG7:00000029 [INF] Request finished HTTP/2 GET https://localhost:5001/Admin/Carousel/Edit/js/FileContentTypeValidation.js - - - 404 0 - 0.9539ms (791a596a)
+2021-12-13T08:52:00.6164370+01:00 0HMDU1KHQREG7:0000002B [INF] Request starting HTTP/2 POST https://localhost:5001/Admin/Carousel/Edit/3 multipart/form-data;+boundary=----WebKitFormBoundaryBg5JEKOAbTqDyEYI 651 (ca22a1cb)
+2021-12-13T08:52:00.6170739+01:00 0HMDU1KHQREG7:0000002B [INF] Executing endpoint '"Zenzinger_Eshop_Web.Areas.Admin.Controllers.CarouselController.Edit (Zenzinger_Eshop_Web)"' (500cc934)
+2021-12-13T08:52:00.6344582+01:00 0HMDU1KHQREG7:0000002B [INF] Route matched with "{area = \"Admin\", action = \"Edit\", controller = \"Carousel\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Edit(Zenzinger_Eshop_Web.Models.Entity.CarouselItem)" on controller "Zenzinger_Eshop_Web.Areas.Admin.Controllers.CarouselController" ("Zenzinger_Eshop_Web"). (122b2fdf)
+2021-12-13T08:52:00.7007534+01:00 0HMDU1KHQREG7:0000002B [INF] Entity Framework Core "5.0.11" initialized '"EshopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.27-mysql " (9958f5bb)
+2021-12-13T08:52:00.7117672+01:00 0HMDU1KHQREG7:0000002B [INF] Executed DbCommand ("1"ms) [Parameters=["@__cItem_id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `c`.`id`, `c`.`ImageAlt`, `c`.`ImageSource`
+FROM `CarouselItem` AS `c`
+WHERE `c`.`id` = @__cItem_id_0
+LIMIT 1" (0723d8ff)
+2021-12-13T08:52:00.7130776+01:00 0HMDU1KHQREG7:0000002B [INF] Executing ViewResult, running view "Edit". (c83d0e25)
+2021-12-13T08:52:00.7227535+01:00 0HMDU1KHQREG7:0000002B [INF] Executed ViewResult - view "Edit" executed in 9.7607ms. (f66409e9)
+2021-12-13T08:52:00.7228532+01:00 0HMDU1KHQREG7:0000002B [INF] Executed action "Zenzinger_Eshop_Web.Areas.Admin.Controllers.CarouselController.Edit (Zenzinger_Eshop_Web)" in 88.3102ms (afa2e885)
+2021-12-13T08:52:00.7229216+01:00 0HMDU1KHQREG7:0000002B [INF] Executed endpoint '"Zenzinger_Eshop_Web.Areas.Admin.Controllers.CarouselController.Edit (Zenzinger_Eshop_Web)"' (99874f2b)
+2021-12-13T08:52:00.7232633+01:00 0HMDU1KHQREG7:0000002B [INF] Request finished HTTP/2 POST https://localhost:5001/Admin/Carousel/Edit/3 multipart/form-data;+boundary=----WebKitFormBoundaryBg5JEKOAbTqDyEYI 651 - 200 - text/html;+charset=utf-8 106.8248ms (791a596a)
+2021-12-13T08:52:00.7540411+01:00 0HMDU1KHQREG7:0000002D [INF] Request starting HTTP/2 GET https://localhost:5001/Admin/Carousel/Edit/js/FileContentTypeValidation.js - - (ca22a1cb)
+2021-12-13T08:52:00.7549981+01:00 0HMDU1KHQREG7:0000002D [INF] Request finished HTTP/2 GET https://localhost:5001/Admin/Carousel/Edit/js/FileContentTypeValidation.js - - - 404 0 - 0.9280ms (791a596a)
+2021-12-13T08:52:00.7975324+01:00 0HMDU1KHQREG7:0000002F [INF] Request starting HTTP/2 GET https://localhost:5001/Admin/Carousel/Edit/js/FileContentTypeValidation.js - - (ca22a1cb)
+2021-12-13T08:52:00.7985598+01:00 0HMDU1KHQREG7:0000002F [INF] Request finished HTTP/2 GET https://localhost:5001/Admin/Carousel/Edit/js/FileContentTypeValidation.js - - - 404 0 - 0.9695ms (791a596a)
+2021-12-13T08:52:04.0847590+01:00 0HMDU1KHQREG7:00000031 [INF] Request starting HTTP/2 GET https://localhost:5001/Admin/Carousel/Edit/3 - - (ca22a1cb)
+2021-12-13T08:52:04.0853240+01:00 0HMDU1KHQREG7:00000031 [INF] Executing endpoint '"Zenzinger_Eshop_Web.Areas.Admin.Controllers.CarouselController.Edit (Zenzinger_Eshop_Web)"' (500cc934)
+2021-12-13T08:52:04.0856622+01:00 0HMDU1KHQREG7:00000031 [INF] Route matched with "{area = \"Admin\", action = \"Edit\", controller = \"Carousel\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Edit(Int32)" on controller "Zenzinger_Eshop_Web.Areas.Admin.Controllers.CarouselController" ("Zenzinger_Eshop_Web"). (122b2fdf)
+2021-12-13T08:52:04.0868310+01:00 0HMDU1KHQREG7:00000031 [INF] Entity Framework Core "5.0.11" initialized '"EshopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.27-mysql " (9958f5bb)
+2021-12-13T08:52:04.0965428+01:00 0HMDU1KHQREG7:00000031 [INF] Executed DbCommand ("2"ms) [Parameters=["@__ID_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `c`.`id`, `c`.`ImageAlt`, `c`.`ImageSource`
+FROM `CarouselItem` AS `c`
+WHERE `c`.`id` = @__ID_0
+LIMIT 1" (0723d8ff)
+2021-12-13T08:52:04.0970805+01:00 0HMDU1KHQREG7:00000031 [INF] Executing ViewResult, running view "Edit". (c83d0e25)
+2021-12-13T08:52:04.1009914+01:00 0HMDU1KHQREG7:00000031 [INF] Executed ViewResult - view "Edit" executed in 3.922ms. (f66409e9)
+2021-12-13T08:52:04.1011333+01:00 0HMDU1KHQREG7:00000031 [INF] Executed action "Zenzinger_Eshop_Web.Areas.Admin.Controllers.CarouselController.Edit (Zenzinger_Eshop_Web)" in 15.404ms (afa2e885)
+2021-12-13T08:52:04.1012205+01:00 0HMDU1KHQREG7:00000031 [INF] Executed endpoint '"Zenzinger_Eshop_Web.Areas.Admin.Controllers.CarouselController.Edit (Zenzinger_Eshop_Web)"' (99874f2b)
+2021-12-13T08:52:04.1014538+01:00 0HMDU1KHQREG7:00000031 [INF] Request finished HTTP/2 GET https://localhost:5001/Admin/Carousel/Edit/3 - - - 200 - text/html;+charset=utf-8 16.6768ms (791a596a)
+2021-12-13T08:53:08.6829612+01:00 0HMDU1KHQREG7:00000033 [INF] Request starting HTTP/2 POST https://localhost:5001/Admin/Carousel/Edit/3 multipart/form-data;+boundary=----WebKitFormBoundaryHdOgPimnETaZpxMb 417947 (ca22a1cb)
+2021-12-13T08:53:08.6842732+01:00 0HMDU1KHQREG7:00000033 [INF] Executing endpoint '"Zenzinger_Eshop_Web.Areas.Admin.Controllers.CarouselController.Edit (Zenzinger_Eshop_Web)"' (500cc934)
+2021-12-13T08:53:08.6848116+01:00 0HMDU1KHQREG7:00000033 [INF] Route matched with "{area = \"Admin\", action = \"Edit\", controller = \"Carousel\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Edit(Zenzinger_Eshop_Web.Models.Entity.CarouselItem)" on controller "Zenzinger_Eshop_Web.Areas.Admin.Controllers.CarouselController" ("Zenzinger_Eshop_Web"). (122b2fdf)
+2021-12-13T08:53:08.7864659+01:00 0HMDU1KHQREG7:00000033 [INF] Executed action "Zenzinger_Eshop_Web.Areas.Admin.Controllers.CarouselController.Edit (Zenzinger_Eshop_Web)" in 101.5016ms (afa2e885)
+2021-12-13T08:53:08.7889435+01:00 0HMDU1KHQREG7:00000033 [INF] Executed endpoint '"Zenzinger_Eshop_Web.Areas.Admin.Controllers.CarouselController.Edit (Zenzinger_Eshop_Web)"' (99874f2b)
+2021-12-13T08:53:08.9213947+01:00 0HMDU1KHQREG7:00000033 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Zenzinger_Eshop_Web.Models.Validation.FileContentValidationAttribute.IsValid(Object value, ValidationContext validationContext) in C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Models\Validation\FileContentValidationAttribute.cs:line 26
+   at System.ComponentModel.DataAnnotations.ValidationAttribute.GetValidationResult(Object value, ValidationContext validationContext)
+   at Microsoft.AspNetCore.Mvc.DataAnnotations.DataAnnotationsModelValidator.Validate(ModelValidationContext validationContext)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.ValidateNode()
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitComplexType(IValidationStrategy defaultStrategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitImplementation(ModelMetadata& metadata, String& key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.Visit(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitChildren(IValidationStrategy strategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitComplexType(IValidationStrategy defaultStrategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitImplementation(ModelMetadata& metadata, String& key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.Visit(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.Validate(ModelMetadata metadata, String key, Object model, Boolean alwaysValidateAtTopLevel, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ObjectModelValidator.Validate(ActionContext actionContext, ValidationStateDictionary validationState, String prefix, Object model, ModelMetadata metadata, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.EnforceBindRequiredAndValidate(ObjectModelValidator baseObjectValidator, ActionContext actionContext, ParameterDescriptor parameter, ModelMetadata metadata, ModelBindingContext modelBindingContext, ModelBindingResult modelBindingResult, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-12-13T08:53:09.0035035+01:00 0HMDU1KHQREG7:00000033 [INF] Request finished HTTP/2 POST https://localhost:5001/Admin/Carousel/Edit/3 multipart/form-data;+boundary=----WebKitFormBoundaryHdOgPimnETaZpxMb 417947 - 500 - text/html;+charset=utf-8 320.6079ms (791a596a)
+2021-12-13T08:53:23.8044379+01:00 0HMDU1KHQREG7:00000035 [INF] Request starting HTTP/2 GET https://localhost:5001/Admin/Carousel/Edit/3 - - (ca22a1cb)
+2021-12-13T08:53:23.8049186+01:00 0HMDU1KHQREG7:00000035 [INF] Executing endpoint '"Zenzinger_Eshop_Web.Areas.Admin.Controllers.CarouselController.Edit (Zenzinger_Eshop_Web)"' (500cc934)
+2021-12-13T08:53:23.8051266+01:00 0HMDU1KHQREG7:00000035 [INF] Route matched with "{area = \"Admin\", action = \"Edit\", controller = \"Carousel\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Edit(Int32)" on controller "Zenzinger_Eshop_Web.Areas.Admin.Controllers.CarouselController" ("Zenzinger_Eshop_Web"). (122b2fdf)
+2021-12-13T08:53:23.8062959+01:00 0HMDU1KHQREG7:00000035 [INF] Entity Framework Core "5.0.11" initialized '"EshopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.27-mysql " (9958f5bb)
+2021-12-13T08:53:23.8103903+01:00 0HMDU1KHQREG7:00000035 [INF] Executed DbCommand ("1"ms) [Parameters=["@__ID_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `c`.`id`, `c`.`ImageAlt`, `c`.`ImageSource`
+FROM `CarouselItem` AS `c`
+WHERE `c`.`id` = @__ID_0
+LIMIT 1" (0723d8ff)
+2021-12-13T08:53:23.8109077+01:00 0HMDU1KHQREG7:00000035 [INF] Executing ViewResult, running view "Edit". (c83d0e25)
+2021-12-13T08:53:23.8140785+01:00 0HMDU1KHQREG7:00000035 [INF] Executed ViewResult - view "Edit" executed in 3.2224ms. (f66409e9)
+2021-12-13T08:53:23.8141805+01:00 0HMDU1KHQREG7:00000035 [INF] Executed action "Zenzinger_Eshop_Web.Areas.Admin.Controllers.CarouselController.Edit (Zenzinger_Eshop_Web)" in 8.9905ms (afa2e885)
+2021-12-13T08:53:23.8142511+01:00 0HMDU1KHQREG7:00000035 [INF] Executed endpoint '"Zenzinger_Eshop_Web.Areas.Admin.Controllers.CarouselController.Edit (Zenzinger_Eshop_Web)"' (99874f2b)
+2021-12-13T08:53:23.8145257+01:00 0HMDU1KHQREG7:00000035 [INF] Request finished HTTP/2 GET https://localhost:5001/Admin/Carousel/Edit/3 - - - 200 - text/html;+charset=utf-8 10.0831ms (791a596a)
+2021-12-13T08:53:27.4954278+01:00 0HMDU1KHQREG7:00000037 [INF] Request starting HTTP/2 GET https://localhost:5001/Home/Privacy - - (ca22a1cb)
+2021-12-13T08:53:27.4960653+01:00 0HMDU1KHQREG7:00000037 [INF] Executing endpoint '"Zenzinger_Eshop_Web.Controllers.HomeController.Privacy (Zenzinger_Eshop_Web)"' (500cc934)
+2021-12-13T08:53:27.4997239+01:00 0HMDU1KHQREG7:00000037 [INF] Route matched with "{action = \"Privacy\", controller = \"Home\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Privacy()" on controller "Zenzinger_Eshop_Web.Controllers.HomeController" ("Zenzinger_Eshop_Web"). (122b2fdf)
+2021-12-13T08:53:27.5030611+01:00 0HMDU1KHQREG7:00000037 [INF] Executing ViewResult, running view "Privacy". (c83d0e25)
+2021-12-13T08:53:27.5110530+01:00 0HMDU1KHQREG7:00000037 [INF] Executed ViewResult - view "Privacy" executed in 9.965ms. (f66409e9)
+2021-12-13T08:53:27.5113497+01:00 0HMDU1KHQREG7:00000037 [INF] Executed action "Zenzinger_Eshop_Web.Controllers.HomeController.Privacy (Zenzinger_Eshop_Web)" in 11.4827ms (afa2e885)
+2021-12-13T08:53:27.5114541+01:00 0HMDU1KHQREG7:00000037 [INF] Executed endpoint '"Zenzinger_Eshop_Web.Controllers.HomeController.Privacy (Zenzinger_Eshop_Web)"' (99874f2b)
+2021-12-13T08:53:27.5117850+01:00 0HMDU1KHQREG7:00000037 [INF] Request finished HTTP/2 GET https://localhost:5001/Home/Privacy - - - 200 - text/html;+charset=utf-8 16.3683ms (791a596a)
+2021-12-13T08:53:28.9527880+01:00 0HMDU1KHQREG7:00000039 [INF] Request starting HTTP/2 GET https://localhost:5001/ - - (ca22a1cb)
+2021-12-13T08:53:28.9533726+01:00 0HMDU1KHQREG7:00000039 [INF] Executing endpoint '"Zenzinger_Eshop_Web.Controllers.HomeController.Index (Zenzinger_Eshop_Web)"' (500cc934)
+2021-12-13T08:53:28.9535751+01:00 0HMDU1KHQREG7:00000039 [INF] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Zenzinger_Eshop_Web.Controllers.HomeController" ("Zenzinger_Eshop_Web"). (122b2fdf)
+2021-12-13T08:53:28.9546526+01:00 0HMDU1KHQREG7:00000039 [INF] Entity Framework Core "5.0.11" initialized '"EshopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.27-mysql " (9958f5bb)
+2021-12-13T08:53:28.9594472+01:00 0HMDU1KHQREG7:00000039 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `c`.`id`, `c`.`ImageAlt`, `c`.`ImageSource`
+FROM `CarouselItem` AS `c`" (0723d8ff)
+2021-12-13T08:53:28.9655583+01:00 0HMDU1KHQREG7:00000039 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `p`.`ID`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Info`, `p`.`Name`, `p`.`Price`
+FROM `Product` AS `p`" (0723d8ff)
+2021-12-13T08:53:28.9662899+01:00 0HMDU1KHQREG7:00000039 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2021-12-13T08:53:28.9698862+01:00 0HMDU1KHQREG7:00000039 [INF] Executed ViewResult - view "Index" executed in 3.6088ms. (f66409e9)
+2021-12-13T08:53:28.9700037+01:00 0HMDU1KHQREG7:00000039 [INF] Executed action "Zenzinger_Eshop_Web.Controllers.HomeController.Index (Zenzinger_Eshop_Web)" in 16.2851ms (afa2e885)
+2021-12-13T08:53:28.9700644+01:00 0HMDU1KHQREG7:00000039 [INF] Executed endpoint '"Zenzinger_Eshop_Web.Controllers.HomeController.Index (Zenzinger_Eshop_Web)"' (99874f2b)
+2021-12-13T08:53:28.9703607+01:00 0HMDU1KHQREG7:00000039 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - text/html;+charset=utf-8 17.5475ms (791a596a)
+2021-12-13T08:53:31.9517431+01:00 0HMDU1KHQREG7:0000003B [INF] Request starting HTTP/2 GET https://localhost:5001/Security/Account/Register - - (ca22a1cb)
+2021-12-13T08:53:31.9524030+01:00 0HMDU1KHQREG7:0000003B [INF] Executing endpoint '"Zenzinger_Eshop_Web.Areas.Security.Controllers.AccountController.Register (Zenzinger_Eshop_Web)"' (500cc934)
+2021-12-13T08:53:31.9541871+01:00 0HMDU1KHQREG7:0000003B [INF] Route matched with "{area = \"Security\", action = \"Register\", controller = \"Account\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Register()" on controller "Zenzinger_Eshop_Web.Areas.Security.Controllers.AccountController" ("Zenzinger_Eshop_Web"). (122b2fdf)
+2021-12-13T08:53:31.9565094+01:00 0HMDU1KHQREG7:0000003B [INF] Executing ViewResult, running view "Register". (c83d0e25)
+2021-12-13T08:53:32.0069241+01:00 0HMDU1KHQREG7:0000003B [INF] Executed ViewResult - view "Register" executed in 52.1365ms. (f66409e9)
+2021-12-13T08:53:32.0070868+01:00 0HMDU1KHQREG7:0000003B [INF] Executed action "Zenzinger_Eshop_Web.Areas.Security.Controllers.AccountController.Register (Zenzinger_Eshop_Web)" in 52.8271ms (afa2e885)
+2021-12-13T08:53:32.0071453+01:00 0HMDU1KHQREG7:0000003B [INF] Executed endpoint '"Zenzinger_Eshop_Web.Areas.Security.Controllers.AccountController.Register (Zenzinger_Eshop_Web)"' (99874f2b)
+2021-12-13T08:53:32.0073397+01:00 0HMDU1KHQREG7:0000003B [INF] Request finished HTTP/2 GET https://localhost:5001/Security/Account/Register - - - 200 - text/html;+charset=utf-8 55.6149ms (791a596a)
+2021-12-13T08:53:32.0361785+01:00 0HMDU1KHQREG7:0000003D [INF] Request starting HTTP/2 GET https://localhost:5001/css/login.css - - (ca22a1cb)
+2021-12-13T08:53:32.0525808+01:00 0HMDU1KHQREG7:0000003D [INF] Sending file. Request path: '"/css/login.css"'. Physical path: '"C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\wwwroot\css\login.css"' (27b0a520)
+2021-12-13T08:53:32.0527841+01:00 0HMDU1KHQREG7:0000003D [INF] Request finished HTTP/2 GET https://localhost:5001/css/login.css - - - 200 2739 text/css 16.6339ms (791a596a)
+2021-12-13T08:53:36.1801903+01:00 0HMDU1KHQREG7:0000003F [INF] Request starting HTTP/2 POST https://localhost:5001/Security/Account/Register application/x-www-form-urlencoded 255 (ca22a1cb)
+2021-12-13T08:53:36.1826124+01:00 0HMDU1KHQREG7:0000003F [INF] Executing endpoint '"Zenzinger_Eshop_Web.Areas.Security.Controllers.AccountController.Register (Zenzinger_Eshop_Web)"' (500cc934)
+2021-12-13T08:53:36.1927524+01:00 0HMDU1KHQREG7:0000003F [INF] Route matched with "{area = \"Security\", action = \"Register\", controller = \"Account\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Register(Zenzinger_Eshop_Web.Models.ViewModels.RegisterViewModel)" on controller "Zenzinger_Eshop_Web.Areas.Security.Controllers.AccountController" ("Zenzinger_Eshop_Web"). (122b2fdf)
+2021-12-13T08:53:36.1997207+01:00 0HMDU1KHQREG7:0000003F [INF] Executing ViewResult, running view "Register". (c83d0e25)
+2021-12-13T08:53:36.2027775+01:00 0HMDU1KHQREG7:0000003F [INF] Executed ViewResult - view "Register" executed in 3.2799ms. (f66409e9)
+2021-12-13T08:53:36.2028927+01:00 0HMDU1KHQREG7:0000003F [INF] Executed action "Zenzinger_Eshop_Web.Areas.Security.Controllers.AccountController.Register (Zenzinger_Eshop_Web)" in 10.0599ms (afa2e885)
+2021-12-13T08:53:36.2029517+01:00 0HMDU1KHQREG7:0000003F [INF] Executed endpoint '"Zenzinger_Eshop_Web.Areas.Security.Controllers.AccountController.Register (Zenzinger_Eshop_Web)"' (99874f2b)
+2021-12-13T08:53:36.2031438+01:00 0HMDU1KHQREG7:0000003F [INF] Request finished HTTP/2 POST https://localhost:5001/Security/Account/Register application/x-www-form-urlencoded 255 - 200 - text/html;+charset=utf-8 22.9700ms (791a596a)
+2021-12-13T08:53:39.8715606+01:00 0HMDU1KHQREG7:00000041 [INF] Request starting HTTP/2 GET https://localhost:5001/Security/Account/Login - - (ca22a1cb)
+2021-12-13T08:53:39.8720595+01:00 0HMDU1KHQREG7:00000041 [INF] Executing endpoint '"Zenzinger_Eshop_Web.Areas.Security.Controllers.AccountController.Login (Zenzinger_Eshop_Web)"' (500cc934)
+2021-12-13T08:53:39.8742048+01:00 0HMDU1KHQREG7:00000041 [INF] Route matched with "{area = \"Security\", action = \"Login\", controller = \"Account\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login()" on controller "Zenzinger_Eshop_Web.Areas.Security.Controllers.AccountController" ("Zenzinger_Eshop_Web"). (122b2fdf)
+2021-12-13T08:53:39.8762379+01:00 0HMDU1KHQREG7:00000041 [INF] Executing ViewResult, running view "Login". (c83d0e25)
+2021-12-13T08:53:39.9147927+01:00 0HMDU1KHQREG7:00000041 [INF] Executed ViewResult - view "Login" executed in 39.9933ms. (f66409e9)
+2021-12-13T08:53:39.9151393+01:00 0HMDU1KHQREG7:00000041 [INF] Executed action "Zenzinger_Eshop_Web.Areas.Security.Controllers.AccountController.Login (Zenzinger_Eshop_Web)" in 40.7777ms (afa2e885)
+2021-12-13T08:53:39.9153572+01:00 0HMDU1KHQREG7:00000041 [INF] Executed endpoint '"Zenzinger_Eshop_Web.Areas.Security.Controllers.AccountController.Login (Zenzinger_Eshop_Web)"' (99874f2b)
+2021-12-13T08:53:39.9156914+01:00 0HMDU1KHQREG7:00000041 [INF] Request finished HTTP/2 GET https://localhost:5001/Security/Account/Login - - - 200 - text/html;+charset=utf-8 44.1472ms (791a596a)
+2021-12-13T08:53:44.0294681+01:00 0HMDU1KHQREG7:00000043 [INF] Request starting HTTP/2 POST https://localhost:5001/Security/Account/Login application/x-www-form-urlencoded 202 (ca22a1cb)
+2021-12-13T08:53:44.0302559+01:00 0HMDU1KHQREG7:00000043 [INF] Executing endpoint '"Zenzinger_Eshop_Web.Areas.Security.Controllers.AccountController.Login (Zenzinger_Eshop_Web)"' (500cc934)
+2021-12-13T08:53:44.0347080+01:00 0HMDU1KHQREG7:00000043 [INF] Route matched with "{area = \"Security\", action = \"Login\", controller = \"Account\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login(Zenzinger_Eshop_Web.Models.ViewModels.LoginViewModel)" on controller "Zenzinger_Eshop_Web.Areas.Security.Controllers.AccountController" ("Zenzinger_Eshop_Web"). (122b2fdf)
+2021-12-13T08:53:44.0503216+01:00 0HMDU1KHQREG7:00000043 [INF] Executing ViewResult, running view "Login". (c83d0e25)
+2021-12-13T08:53:44.0534456+01:00 0HMDU1KHQREG7:00000043 [INF] Executed ViewResult - view "Login" executed in 3.275ms. (f66409e9)
+2021-12-13T08:53:44.0535869+01:00 0HMDU1KHQREG7:00000043 [INF] Executed action "Zenzinger_Eshop_Web.Areas.Security.Controllers.AccountController.Login (Zenzinger_Eshop_Web)" in 18.7265ms (afa2e885)
+2021-12-13T08:53:44.0536448+01:00 0HMDU1KHQREG7:00000043 [INF] Executed endpoint '"Zenzinger_Eshop_Web.Areas.Security.Controllers.AccountController.Login (Zenzinger_Eshop_Web)"' (99874f2b)
+2021-12-13T08:53:44.0538986+01:00 0HMDU1KHQREG7:00000043 [INF] Request finished HTTP/2 POST https://localhost:5001/Security/Account/Login application/x-www-form-urlencoded 202 - 200 - text/html;+charset=utf-8 24.4892ms (791a596a)
+2021-12-13T08:53:49.3057872+01:00 0HMDU1KHQREG7:00000045 [INF] Request starting HTTP/2 GET https://localhost:5001/Security/Account/Login - - (ca22a1cb)
+2021-12-13T08:53:49.3062722+01:00 0HMDU1KHQREG7:00000045 [INF] Executing endpoint '"Zenzinger_Eshop_Web.Areas.Security.Controllers.AccountController.Login (Zenzinger_Eshop_Web)"' (500cc934)
+2021-12-13T08:53:49.3064737+01:00 0HMDU1KHQREG7:00000045 [INF] Route matched with "{area = \"Security\", action = \"Login\", controller = \"Account\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login()" on controller "Zenzinger_Eshop_Web.Areas.Security.Controllers.AccountController" ("Zenzinger_Eshop_Web"). (122b2fdf)
+2021-12-13T08:53:49.3068764+01:00 0HMDU1KHQREG7:00000045 [INF] Executing ViewResult, running view "Login". (c83d0e25)
+2021-12-13T08:53:49.3108263+01:00 0HMDU1KHQREG7:00000045 [INF] Executed ViewResult - view "Login" executed in 3.9837ms. (f66409e9)
+2021-12-13T08:53:49.3109528+01:00 0HMDU1KHQREG7:00000045 [INF] Executed action "Zenzinger_Eshop_Web.Areas.Security.Controllers.AccountController.Login (Zenzinger_Eshop_Web)" in 4.2762ms (afa2e885)
+2021-12-13T08:53:49.3110530+01:00 0HMDU1KHQREG7:00000045 [INF] Executed endpoint '"Zenzinger_Eshop_Web.Areas.Security.Controllers.AccountController.Login (Zenzinger_Eshop_Web)"' (99874f2b)
+2021-12-13T08:53:49.3118700+01:00 0HMDU1KHQREG7:00000045 [INF] Request finished HTTP/2 GET https://localhost:5001/Security/Account/Login - - - 200 - text/html;+charset=utf-8 5.7789ms (791a596a)
+2021-12-13T08:53:56.6242005+01:00 0HMDU1KHQREG7:00000047 [INF] Request starting HTTP/2 POST https://localhost:5001/Security/Account/Login application/x-www-form-urlencoded 214 (ca22a1cb)
+2021-12-13T08:53:56.6247358+01:00 0HMDU1KHQREG7:00000047 [INF] Executing endpoint '"Zenzinger_Eshop_Web.Areas.Security.Controllers.AccountController.Login (Zenzinger_Eshop_Web)"' (500cc934)
+2021-12-13T08:53:56.6249953+01:00 0HMDU1KHQREG7:00000047 [INF] Route matched with "{area = \"Security\", action = \"Login\", controller = \"Account\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login(Zenzinger_Eshop_Web.Models.ViewModels.LoginViewModel)" on controller "Zenzinger_Eshop_Web.Areas.Security.Controllers.AccountController" ("Zenzinger_Eshop_Web"). (122b2fdf)
+2021-12-13T08:53:56.6299874+01:00 0HMDU1KHQREG7:00000047 [INF] Executing RedirectResult, redirecting to "/". (d98d540e)
+2021-12-13T08:53:56.6303445+01:00 0HMDU1KHQREG7:00000047 [INF] Executed action "Zenzinger_Eshop_Web.Areas.Security.Controllers.AccountController.Login (Zenzinger_Eshop_Web)" in 5.2584ms (afa2e885)
+2021-12-13T08:53:56.6304067+01:00 0HMDU1KHQREG7:00000047 [INF] Executed endpoint '"Zenzinger_Eshop_Web.Areas.Security.Controllers.AccountController.Login (Zenzinger_Eshop_Web)"' (99874f2b)
+2021-12-13T08:53:56.6308614+01:00 0HMDU1KHQREG7:00000047 [INF] Request finished HTTP/2 POST https://localhost:5001/Security/Account/Login application/x-www-form-urlencoded 214 - 302 0 - 6.6405ms (791a596a)
+2021-12-13T08:53:56.6357337+01:00 0HMDU1KHQREG7:00000049 [INF] Request starting HTTP/2 GET https://localhost:5001/ - - (ca22a1cb)
+2021-12-13T08:53:56.6359904+01:00 0HMDU1KHQREG7:00000049 [INF] Executing endpoint '"Zenzinger_Eshop_Web.Controllers.HomeController.Index (Zenzinger_Eshop_Web)"' (500cc934)
+2021-12-13T08:53:56.6361175+01:00 0HMDU1KHQREG7:00000049 [INF] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Zenzinger_Eshop_Web.Controllers.HomeController" ("Zenzinger_Eshop_Web"). (122b2fdf)
+2021-12-13T08:53:56.6368247+01:00 0HMDU1KHQREG7:00000049 [INF] Entity Framework Core "5.0.11" initialized '"EshopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.27-mysql " (9958f5bb)
+2021-12-13T08:53:56.6397880+01:00 0HMDU1KHQREG7:00000049 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `c`.`id`, `c`.`ImageAlt`, `c`.`ImageSource`
+FROM `CarouselItem` AS `c`" (0723d8ff)
+2021-12-13T08:53:56.6430654+01:00 0HMDU1KHQREG7:00000049 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `p`.`ID`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Info`, `p`.`Name`, `p`.`Price`
+FROM `Product` AS `p`" (0723d8ff)
+2021-12-13T08:53:56.6434202+01:00 0HMDU1KHQREG7:00000049 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2021-12-13T08:53:56.6442837+01:00 0HMDU1KHQREG7:00000049 [INF] Executed ViewResult - view "Index" executed in 0.8919ms. (f66409e9)
+2021-12-13T08:53:56.6443502+01:00 0HMDU1KHQREG7:00000049 [INF] Executed action "Zenzinger_Eshop_Web.Controllers.HomeController.Index (Zenzinger_Eshop_Web)" in 8.1947ms (afa2e885)
+2021-12-13T08:53:56.6443752+01:00 0HMDU1KHQREG7:00000049 [INF] Executed endpoint '"Zenzinger_Eshop_Web.Controllers.HomeController.Index (Zenzinger_Eshop_Web)"' (99874f2b)
+2021-12-13T08:53:56.6445755+01:00 0HMDU1KHQREG7:00000049 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - text/html;+charset=utf-8 8.8284ms (791a596a)
+2021-12-13T08:54:05.4327341+01:00 0HMDU1KHQREG7:0000004B [INF] Request starting HTTP/2 GET https://localhost:5001/Product/Detail/1 - - (ca22a1cb)
+2021-12-13T08:54:05.4331937+01:00 0HMDU1KHQREG7:0000004B [INF] Executing endpoint '"Zenzinger_Eshop_Web.Controllers.ProductController.Detail (Zenzinger_Eshop_Web)"' (500cc934)
+2021-12-13T08:54:05.4363293+01:00 0HMDU1KHQREG7:0000004B [INF] Route matched with "{action = \"Detail\", controller = \"Product\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Detail(Int32)" on controller "Zenzinger_Eshop_Web.Controllers.ProductController" ("Zenzinger_Eshop_Web"). (122b2fdf)
+2021-12-13T08:54:05.4394921+01:00 0HMDU1KHQREG7:0000004B [INF] Entity Framework Core "5.0.11" initialized '"EshopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.27-mysql " (9958f5bb)
+2021-12-13T08:54:05.4531448+01:00 0HMDU1KHQREG7:0000004B [INF] Executed DbCommand ("1"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `p`.`ID`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Info`, `p`.`Name`, `p`.`Price`
+FROM `Product` AS `p`
+WHERE `p`.`ID` = @__id_0
+LIMIT 1" (0723d8ff)
+2021-12-13T08:54:05.4548195+01:00 0HMDU1KHQREG7:0000004B [INF] Executing ViewResult, running view "Detail". (c83d0e25)
+2021-12-13T08:54:05.4850097+01:00 0HMDU1KHQREG7:0000004B [INF] Executed ViewResult - view "Detail" executed in 31.3147ms. (f66409e9)
+2021-12-13T08:54:05.4851527+01:00 0HMDU1KHQREG7:0000004B [INF] Executed action "Zenzinger_Eshop_Web.Controllers.ProductController.Detail (Zenzinger_Eshop_Web)" in 48.7287ms (afa2e885)
+2021-12-13T08:54:05.4852041+01:00 0HMDU1KHQREG7:0000004B [INF] Executed endpoint '"Zenzinger_Eshop_Web.Controllers.ProductController.Detail (Zenzinger_Eshop_Web)"' (99874f2b)
+2021-12-13T08:54:05.4854285+01:00 0HMDU1KHQREG7:0000004B [INF] Request finished HTTP/2 GET https://localhost:5001/Product/Detail/1 - - - 200 - text/html;+charset=utf-8 52.7013ms (791a596a)
+2021-12-13T08:54:05.5243124+01:00 0HMDU1KHQREG7:0000004D [INF] Request starting HTTP/2 GET https://localhost:5001/Product/Detail/img/Products/p-1.png - - (ca22a1cb)
+2021-12-13T08:54:05.5246745+01:00 0HMDU1KHQREG7:0000004F [INF] Request starting HTTP/2 GET https://localhost:5001/js/Product.js - - (ca22a1cb)
+2021-12-13T08:54:05.5253095+01:00 0HMDU1KHQREG7:0000004D [INF] Request finished HTTP/2 GET https://localhost:5001/Product/Detail/img/Products/p-1.png - - - 404 0 - 1.0154ms (791a596a)
+2021-12-13T08:54:05.5339922+01:00 0HMDU1KHQREG7:00000051 [INF] Request starting HTTP/2 GET https://localhost:5001/js/Product.min.js - - (ca22a1cb)
+2021-12-13T08:54:05.5513998+01:00 0HMDU1KHQREG7:0000004F [INF] Sending file. Request path: '"/js/Product.js"'. Physical path: '"C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\wwwroot\js\Product.js"' (27b0a520)
+2021-12-13T08:54:05.5515879+01:00 0HMDU1KHQREG7:0000004F [INF] Request finished HTTP/2 GET https://localhost:5001/js/Product.js - - - 200 766 application/javascript 26.8949ms (791a596a)
+2021-12-13T08:54:05.5531238+01:00 0HMDU1KHQREG7:00000051 [INF] Sending file. Request path: '"/js/Product.min.js"'. Physical path: '"C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\wwwroot\js\Product.min.js"' (27b0a520)
+2021-12-13T08:54:05.5533236+01:00 0HMDU1KHQREG7:00000051 [INF] Request finished HTTP/2 GET https://localhost:5001/js/Product.min.js - - - 200 367 application/javascript 19.4229ms (791a596a)
+2021-12-13T08:54:18.1379706+01:00 0HMDU1KHQREG7:00000053 [INF] Request starting HTTP/2 POST https://localhost:5001/Customer/CustomerOrderNotCart/AddOrderItemsToSession application/x-www-form-urlencoded;+charset=UTF-8 11 (ca22a1cb)
+2021-12-13T08:54:18.1538795+01:00 0HMDU1KHQREG7:00000053 [INF] Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Customer)" (d3883ae7)
+2021-12-13T08:54:18.1609528+01:00 0HMDU1KHQREG7:00000053 [INF] AuthenticationScheme: "Identity.Application" was challenged. (d45f1f38)
+2021-12-13T08:54:18.1614571+01:00 0HMDU1KHQREG7:00000053 [INF] Request finished HTTP/2 POST https://localhost:5001/Customer/CustomerOrderNotCart/AddOrderItemsToSession application/x-www-form-urlencoded;+charset=UTF-8 11 - 401 0 - 23.4464ms (791a596a)
+2021-12-13T08:54:20.4747519+01:00 0HMDU1KHQREG7:00000055 [INF] Request starting HTTP/2 POST https://localhost:5001/Customer/CustomerOrderNotCart/AddOrderItemsToSession application/x-www-form-urlencoded;+charset=UTF-8 11 (ca22a1cb)
+2021-12-13T08:54:20.4830173+01:00 0HMDU1KHQREG7:00000055 [INF] Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Customer)" (d3883ae7)
+2021-12-13T08:54:20.4838873+01:00 0HMDU1KHQREG7:00000055 [INF] AuthenticationScheme: "Identity.Application" was challenged. (d45f1f38)
+2021-12-13T08:54:20.4844542+01:00 0HMDU1KHQREG7:00000055 [INF] Request finished HTTP/2 POST https://localhost:5001/Customer/CustomerOrderNotCart/AddOrderItemsToSession application/x-www-form-urlencoded;+charset=UTF-8 11 - 401 0 - 9.7069ms (791a596a)
+2021-12-13T08:54:43.0597488+01:00 0HMDU1KHQREG7:00000057 [INF] Request starting HTTP/2 GET https://localhost:5001/ - - (ca22a1cb)
+2021-12-13T08:54:43.0601853+01:00 0HMDU1KHQREG7:00000057 [INF] Executing endpoint '"Zenzinger_Eshop_Web.Controllers.HomeController.Index (Zenzinger_Eshop_Web)"' (500cc934)
+2021-12-13T08:54:43.0608035+01:00 0HMDU1KHQREG7:00000057 [INF] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Zenzinger_Eshop_Web.Controllers.HomeController" ("Zenzinger_Eshop_Web"). (122b2fdf)
+2021-12-13T08:54:43.0639676+01:00 0HMDU1KHQREG7:00000057 [INF] Entity Framework Core "5.0.11" initialized '"EshopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.27-mysql " (9958f5bb)
+2021-12-13T08:54:43.0709009+01:00 0HMDU1KHQREG7:00000057 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `c`.`id`, `c`.`ImageAlt`, `c`.`ImageSource`
+FROM `CarouselItem` AS `c`" (0723d8ff)
+2021-12-13T08:54:43.0757267+01:00 0HMDU1KHQREG7:00000057 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `p`.`ID`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Info`, `p`.`Name`, `p`.`Price`
+FROM `Product` AS `p`" (0723d8ff)
+2021-12-13T08:54:43.0765844+01:00 0HMDU1KHQREG7:00000057 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2021-12-13T08:54:43.0793214+01:00 0HMDU1KHQREG7:00000057 [INF] Executed ViewResult - view "Index" executed in 2.832ms. (f66409e9)
+2021-12-13T08:54:43.0795733+01:00 0HMDU1KHQREG7:00000057 [INF] Executed action "Zenzinger_Eshop_Web.Controllers.HomeController.Index (Zenzinger_Eshop_Web)" in 18.6483ms (afa2e885)
+2021-12-13T08:54:43.0796540+01:00 0HMDU1KHQREG7:00000057 [INF] Executed endpoint '"Zenzinger_Eshop_Web.Controllers.HomeController.Index (Zenzinger_Eshop_Web)"' (99874f2b)
+2021-12-13T08:54:43.0806693+01:00 0HMDU1KHQREG7:00000057 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - text/html;+charset=utf-8 20.8100ms (791a596a)

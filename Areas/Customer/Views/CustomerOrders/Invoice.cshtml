@@ -1,0 +1,103 @@
+﻿@using Zenzinger_Eshop_Web.Models.Extensions
+@model Zenzinger_Eshop_Web.Models.Entity.Order
+
+@{
+    ViewData["Title"] = "Invoice";
+    var filename = $"Invoice-{Model.Id}";
+}
+<h2>@ViewData["Title"]</h2>
+@{
+    <div class="container-fluid">
+        <div id="ui-view" data-select2-id="ui-view">
+            <div>
+                <div class="card">
+                    <div class="card-header">Invoice
+                        <strong>@Model.Id</strong>
+                        <a class="btn btn-sm btn-secondary float-right mr-1 d-print-none" href="#" onclick="window.print();" data-abc="true">
+                            <i class="fa fa-print"></i> Print</a>
+                        <a class="btn btn-sm btn-info float-right mr-1 d-print-none" href="#" data-abc="true">
+                            <i class="fa fa-save"></i> Send to email</a>
+                    </div>
+                    <div class="card-body">
+                        <div class="row mb-4">
+                            <div class="col-sm-4">
+                                <h6 class="mb-3">From:</h6>
+                                <div>
+                                    <strong>Zenzinger_Eshop_Web</strong>
+                                </div>
+                                <div>42, Awesome Enclave</div>
+                                <div>New York City, New york, 10394</div>
+                                <div>Email: admin@zenzinger-eshop.com</div>
+                                <div>Phone: +48 123 456 789</div>
+                            </div>
+                            <div class="col-sm-4">
+                                <h6 class="mb-3">To:</h6>
+                                <div>
+                                    <strong>@nameof(Order.User.FirstName) @nameof(Order.User.LastName)</strong>
+                                </div>
+                                <div>42, Awesome Enclave</div>
+                                <div>New York City, New york, 10394</div>
+                                <div>Email: @nameof(Order.User.Email)</div>
+                                <div>Phone: @nameof(Order.User.PhoneNumber)</div>
+                            </div>
+                            <div class="col-sm-4">
+                                <h6 class="mb-3">Details:</h6>
+                                <div>Invoice
+                                    <strong>@nameof(Order.Id)</strong>
+                                </div>
+                                <div>@nameof(Order.DateTimeCreated)</div>
+                                <div>Account Name: @nameof(Order.User.UserName)</div>
+                                <div>
+                                    <strong>SWIFT code: 99 8888 7777 6666 5555</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="table-responsive-sm">
+                            <table class="table table-striped">
+                                <thead>
+                                <tr>
+                                    <th class="center">#</th>
+                                    <th>Product name</th>
+                                    <th>Description</th>
+                                    <th class="center">Quantity</th>
+                                    <th class="right">Unit Cost</th>
+                                    <th class="right">Total Cost</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td class="center">@nameof(Order.OrderNumber)</td>
+                                    <td class="left">@nameof(Product.Info)</td>
+                                    <td class="left">@nameof(Product.Name)</td>
+                                    <td class="center">@Model.OrderItems</td>
+                                    <td class="right">@nameof(Product.Price)</td>
+                                    <td class="right">@Model.TotalPrice</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4 col-sm-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>
+                            <div class="col-lg-4 col-sm-5 ml-auto">
+                                <table class="table table-clear">
+                                    <tbody>
+                                    <tr>
+                                        <td class="left">
+                                            <strong>Total</strong>
+                                        </td>
+                                        <td class="right">
+                                            <strong>$7.477,36</strong>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                                <a class="btn btn-success" href="#" data-abc="true">
+                                    <i class="fa fa-usd"></i>Send invoice to my email</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}

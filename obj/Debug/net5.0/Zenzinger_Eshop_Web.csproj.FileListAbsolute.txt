@@ -1,0 +1,419 @@
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\appsettings.json
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Zenzinger_Eshop_Web.exe
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Zenzinger_Eshop_Web.deps.json
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Zenzinger_Eshop_Web.runtimeconfig.json
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Zenzinger_Eshop_Web.runtimeconfig.dev.json
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Zenzinger_Eshop_Web.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\ref\Zenzinger_Eshop_Web.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Zenzinger_Eshop_Web.pdb
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Zenzinger_Eshop_Web.Views.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Zenzinger_Eshop_Web.Views.pdb
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Zenzinger_Eshop_Web.csproj.AssemblyReference.cache
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Zenzinger_Eshop_Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Zenzinger_Eshop_Web.AssemblyInfoInputs.cache
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Zenzinger_Eshop_Web.AssemblyInfo.cs
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Zenzinger_Eshop_Web.csproj.CoreCompileInputs.cache
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Zenzinger_Eshop_Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Zenzinger_Eshop_Web.RazorAssemblyInfo.cache
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Zenzinger_Eshop_Web.RazorAssemblyInfo.cs
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\staticwebassets\Zenzinger_Eshop_Web.StaticWebAssets.Manifest.cache
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\staticwebassets\Zenzinger_Eshop_Web.StaticWebAssets.xml
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\scopedcss\bundle\Zenzinger_Eshop_Web.styles.css
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Zenzinger_Eshop_Web.TagHelpers.input.cache
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Zenzinger_Eshop_Web.TagHelpers.output.cache
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Zenzinger_Eshop_Web.RazorCoreGenerate.cache
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Zenzinger_Eshop_Web.RazorTargetAssemblyInfo.cache
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Zenzinger_Eshop_Web.RazorTargetAssemblyInfo.cs
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Zenzinger_Eshop_Web.Views.pdb
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Zenzinger_Eshop_Web.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\ref\Zenzinger_Eshop_Web.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Zenzinger_Eshop_Web.pdb
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Zenzinger_Eshop_Web.genruntimeconfig.cache
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Zenzinger_Eshop_Web.csproj.CopyComplete
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Humanizer.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\System.Composition.Convention.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\System.Composition.Hosting.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\System.Composition.Runtime.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\System.Composition.TypedParts.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Razor\Areas\Admin\Views\Home\Index.cshtml.g.cs
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
+C:\Users\j_zenzinger\source\repos\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\appsettings.json
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Zenzinger_Eshop_Web.exe
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Zenzinger_Eshop_Web.deps.json
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Zenzinger_Eshop_Web.runtimeconfig.json
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Zenzinger_Eshop_Web.runtimeconfig.dev.json
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Zenzinger_Eshop_Web.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\ref\Zenzinger_Eshop_Web.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Zenzinger_Eshop_Web.pdb
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Zenzinger_Eshop_Web.Views.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Zenzinger_Eshop_Web.Views.pdb
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Humanizer.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\System.Composition.Convention.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\System.Composition.Hosting.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\System.Composition.Runtime.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\System.Composition.TypedParts.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Zenzinger_Eshop_Web.csproj.AssemblyReference.cache
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Zenzinger_Eshop_Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Zenzinger_Eshop_Web.AssemblyInfoInputs.cache
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Zenzinger_Eshop_Web.AssemblyInfo.cs
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Zenzinger_Eshop_Web.csproj.CoreCompileInputs.cache
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Zenzinger_Eshop_Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Zenzinger_Eshop_Web.RazorAssemblyInfo.cache
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Zenzinger_Eshop_Web.RazorAssemblyInfo.cs
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\staticwebassets\Zenzinger_Eshop_Web.StaticWebAssets.Manifest.cache
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\staticwebassets\Zenzinger_Eshop_Web.StaticWebAssets.xml
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\scopedcss\bundle\Zenzinger_Eshop_Web.styles.css
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Zenzinger_Eshop_Web.TagHelpers.input.cache
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Zenzinger_Eshop_Web.TagHelpers.output.cache
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Zenzinger_Eshop_Web.RazorCoreGenerate.cache
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Razor\Areas\Admin\Views\Home\Index.cshtml.g.cs
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Zenzinger_Eshop_Web.RazorTargetAssemblyInfo.cache
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Zenzinger_Eshop_Web.RazorTargetAssemblyInfo.cs
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Zenzinger_Eshop_Web.Views.pdb
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Zenzinger_Eshop_Web.csproj.CopyComplete
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Zenzinger_Eshop_Web.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\ref\Zenzinger_Eshop_Web.dll
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Zenzinger_Eshop_Web.pdb
+C:\Users\nxf77256\Downloads\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Zenzinger_Eshop_Web.genruntimeconfig.cache
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\appsettings.json
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Zenzinger_Eshop_Web.exe
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Zenzinger_Eshop_Web.deps.json
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Zenzinger_Eshop_Web.runtimeconfig.json
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Zenzinger_Eshop_Web.runtimeconfig.dev.json
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Zenzinger_Eshop_Web.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\ref\Zenzinger_Eshop_Web.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Zenzinger_Eshop_Web.pdb
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Zenzinger_Eshop_Web.Views.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Zenzinger_Eshop_Web.Views.pdb
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Humanizer.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\System.Composition.Convention.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\System.Composition.Hosting.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\System.Composition.Runtime.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\System.Composition.TypedParts.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Zenzinger_Eshop_Web.csproj.AssemblyReference.cache
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Zenzinger_Eshop_Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Zenzinger_Eshop_Web.AssemblyInfoInputs.cache
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Zenzinger_Eshop_Web.AssemblyInfo.cs
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Zenzinger_Eshop_Web.csproj.CoreCompileInputs.cache
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Zenzinger_Eshop_Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Zenzinger_Eshop_Web.RazorAssemblyInfo.cache
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Zenzinger_Eshop_Web.RazorAssemblyInfo.cs
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\staticwebassets\Zenzinger_Eshop_Web.StaticWebAssets.Manifest.cache
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\scopedcss\bundle\Zenzinger_Eshop_Web.styles.css
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Zenzinger_Eshop_Web.TagHelpers.input.cache
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Zenzinger_Eshop_Web.TagHelpers.output.cache
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Zenzinger_Eshop_Web.RazorCoreGenerate.cache
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Razor\Areas\Admin\Views\Home\Index.cshtml.g.cs
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Zenzinger_Eshop_Web.RazorTargetAssemblyInfo.cache
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Zenzinger_Eshop_Web.RazorTargetAssemblyInfo.cs
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Zenzinger_Eshop_Web.Views.pdb
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Zenzinger_Eshop_Web.csproj.CopyComplete
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Zenzinger_Eshop_Web.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\ref\Zenzinger_Eshop_Web.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Zenzinger_Eshop_Web.pdb
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Zenzinger_Eshop_Web.genruntimeconfig.cache
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Razor\Areas\Admin\Views\Carousel\Create.cshtml.g.cs
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Razor\Areas\Admin\Views\Carousel\Edit.cshtml.g.cs
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Razor\Areas\Admin\Views\Carousel\Select.cshtml.g.cs
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Razor\Areas\Admin\Views\Carousel\CreateEditForm.cshtml.g.cs
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\MySqlConnector.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Razor\Views\Product\Detail.cshtml.g.cs
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\EntityFramework.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Razor\Areas\Security\Views\Account\Login.cshtml.g.cs
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Razor\Areas\Security\Views\Account\Register.cshtml.g.cs
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Razor\Areas\Security\Views\_ViewImports.cshtml.g.cs
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Razor\Areas\Security\Views\_ViewStart.cshtml.g.cs
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Razor\Areas\Admin\Views\Product\Create.cshtml.g.cs
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Razor\Areas\Admin\Views\Product\CreateEditForm.cshtml.g.cs
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Razor\Areas\Admin\Views\Product\Edit.cshtml.g.cs
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Razor\Areas\Admin\Views\Product\Select.cshtml.g.cs
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Castle.Core.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Moq.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Serilog.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Serilog.Extensions.Logging.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Serilog.Extensions.Logging.File.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Serilog.Formatting.Compact.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Serilog.Sinks.Async.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Serilog.Sinks.File.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\Serilog.Sinks.RollingFile.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Razor\Areas\Customer\Views\CustomerOrders\Index.cshtml.g.cs
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Razor\Areas\Customer\Views\_ViewImports.cshtml.g.cs
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Razor\Areas\Customer\Views\_ViewStart.cshtml.g.cs
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Razor\Areas\Admin\Views\Order\Create.cshtml.g.cs
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Razor\Areas\Admin\Views\Order\Delete.cshtml.g.cs
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Razor\Areas\Admin\Views\Order\Detail.cshtml.g.cs
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Razor\Areas\Admin\Views\Order\Edit.cshtml.g.cs
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Razor\Areas\Admin\Views\Order\Index.cshtml.g.cs
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Razor\Areas\Admin\Views\OrderItem\Create.cshtml.g.cs
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Razor\Areas\Admin\Views\OrderItem\Delete.cshtml.g.cs
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Razor\Areas\Admin\Views\OrderItem\Detail.cshtml.g.cs
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Razor\Areas\Admin\Views\OrderItem\Edit.cshtml.g.cs
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Razor\Areas\Admin\Views\OrderItem\Index.cshtml.g.cs
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Razor\Areas\Admin\Views\Users\Create.cshtml.g.cs
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Razor\Areas\Admin\Views\Users\Delete.cshtml.g.cs
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Razor\Areas\Admin\Views\Users\Details.cshtml.g.cs
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Razor\Areas\Admin\Views\Users\Edit.cshtml.g.cs
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Razor\Areas\Admin\Views\Users\Index.cshtml.g.cs
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\PdfSharp.Charting.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\PdfSharp.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\System.Drawing.Common.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\de\PdfSharp.Charting.resources.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\de\PdfSharp.resources.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\nxf77256\OneDrive - NXP\Documents\SCHOOL\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\Zenzinger_Eshop_Web\obj\Debug\net5.0\Razor\Areas\Customer\Views\CustomerOrders\Invoice.cshtml.g.cs
