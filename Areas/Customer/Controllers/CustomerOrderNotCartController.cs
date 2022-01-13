@@ -109,7 +109,7 @@ namespace Zenzinger_Eshop_Web.Areas.Customer.Controllers
                     await EshopDbContext.AddAsync(order);
                     await EshopDbContext.SaveChangesAsync();
 
-
+                    await CustomerInvoiceController.MailSender(order);
 
                     HttpContext.Session.Remove(orderItemsString);
                     HttpContext.Session.Remove(totalPriceString);

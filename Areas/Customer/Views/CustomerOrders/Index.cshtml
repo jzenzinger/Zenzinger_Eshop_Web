@@ -27,7 +27,7 @@
                     <td class="col-sm-3">@item.TotalPrice.ToString("C2")</td>
                     <td class="col-sm-3">@item.DateTimeCreated</td>
                     <td class="col-sm-3">@item.User.UserName</td>
-                    <td class="col-sm-3"><a type="button" class="btn btn-secondary" asp-controller="CustomerOrders" asp-action="Invoice" asp-route-Id="@item.Id">Generate</a></td>
+                    <td class="col-sm-3"><a type="button" class="btn btn-secondary" asp-controller="CustomerInvoice" asp-action="Invoice" asp-route-Id="@item.Id">Generate</a></td>
                 </tr>
 
 

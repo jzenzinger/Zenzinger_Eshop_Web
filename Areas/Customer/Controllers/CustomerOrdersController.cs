@@ -45,22 +45,5 @@ namespace Zenzinger_Eshop_Web.Areas.Customer.Controllers
 
             return NotFound();
         }
-
-        public IActionResult Invoice(int id)
-        {
-            var foundItem =  EshopDbContext.Orders
-                .Include(o=>o.User)
-                .Include(o=>o.OrderItems)
-                .ThenInclude(oi => oi.Product)
-                .FirstOrDefault(o => o.Id == id);
-            if (foundItem != null)
-            {
-                return View(foundItem);
-            }
-            else
-            {
-                return NotFound();
-            }    
-        }
     }
 }
