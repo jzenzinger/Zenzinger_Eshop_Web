@@ -42,6 +42,10 @@
               "target": "Package",
               "version": "[5.0.0, )"
             },
+            "IronPdf": {
+              "target": "Package",
+              "version": "[2022.1.4599, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.11, )"
@@ -68,13 +72,13 @@
               "target": "Package",
               "version": "[4.16.1, )"
             },
-            "PdfSharp": {
-              "target": "Package",
-              "version": "[1.50.5147, )"
-            },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
               "version": "[5.0.2, )"
+            },
+            "Select.HtmlToPdf.NetCore": {
+              "target": "Package",
+              "version": "[21.2.0, )"
             },
             "Serilog.Extensions.Logging.File": {
               "target": "Package",
