@@ -30,7 +30,7 @@ namespace Zenzinger_Eshop_Web.Areas.Customer.Controllers
             eshopDbContext = EshopDbContext;
         }
         // TO-DO: Create version with adding attachments in pdf format
-        public static async Task MailSender(Order order)
+        /*public static async Task MailSender(Order order)
         {
             var currentUser = order.User;
             var emailAddress = "zenzinger.eshop@gmail.com";
@@ -84,7 +84,7 @@ namespace Zenzinger_Eshop_Web.Areas.Customer.Controllers
             {
                 Console.WriteLine(e.ToString());
             }
-        }
+        }*/
 
         // GET
         public async Task<IActionResult> Invoice(int id)
@@ -97,7 +97,7 @@ namespace Zenzinger_Eshop_Web.Areas.Customer.Controllers
             return await (foundItem != null ? Task.FromResult<IActionResult>(View(foundItem)) : Task.FromResult<IActionResult>(NotFound())); 
         }
 
-        private static MemoryStream CreatePdf(Order order)
+        /*private static MemoryStream CreatePdf(Order order)
         {
             //<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
             var stringBuilder = new StringBuilder();
@@ -197,6 +197,6 @@ namespace Zenzinger_Eshop_Web.Areas.Customer.Controllers
             var memoryStream = render.RenderHtmlAsPdf(stringBuilder.ToString()).Stream;
 
             return memoryStream;
-        }
+        }*/
     }
 }
