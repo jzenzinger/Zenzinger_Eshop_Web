@@ -1,4 +1,5 @@
 # Zenzinger_Eshop
+We have 3 type of users **- Admin, Manager, User -**, only admin and manager **CRUD** products, carousels background. Which type of user is signed in Eshop recognize after Authentication. Admin on more than **CRUD** Orders, which manager can't. User after Authentication cant only see products and their orders. Approved and current. After creating and approving order, user get invoice of that order sent by an e-mail and of course, user can generate manually invoice and print it in **My Orders** section.
 ## Technologies
 * Bootstrap
 * C#
