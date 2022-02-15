@@ -15,6 +15,7 @@ We have 3 type of users **- Admin, Manager, User -**, only admin and manager **C
 Create your own invoice generator with 2 actions. Generating automatically
 by Order ID or user can generate invoice manually in form by entering own informations
 about itself. User can print invoice in PDF format or send it by email.
+##### DONE
 ***
 ### Database migration
 ``` 
