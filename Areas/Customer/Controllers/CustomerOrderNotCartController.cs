@@ -222,8 +222,8 @@ namespace Zenzinger_Eshop_Web.Areas.Customer.Controllers
                     
                     // Sending EMAIL with pdf attachments
                     var emailUser = order.User;
-                    var emailAddress = "zenzinger.eshop@gmail.com";
-                    var emailAddressPassword = "hovnokleslo";
+                    var emailAddress = "";
+                    var emailAddressPassword = "";
 
                     var subject = $"Order: {order.OrderNumber}";
 
